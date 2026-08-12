@@ -1,4 +1,4 @@
-"""Workspace persistence for queues and measurement results."""
+"""Workspace persistence for queues, measurement results, and probe captures."""
 
 from __future__ import annotations
 
@@ -9,6 +9,7 @@ from typing import Any
 
 from ..domain import HomingPolicy, QueuePlan, QueueStep
 from ..infrastructure import atomic_write_json
+from ..infrastructure.probe import ProbeCapture
 
 
 class WorkspaceRepository:
@@ -75,3 +76,14 @@ class WorkspaceRepository:
             writer.writeheader()
             writer.writerows(results)
         temporary.replace(self.results_path)
+
+    def save_probe_capture(self, capture: ProbeCapture) -> Path:
+        """Persist one probe capture as JSON under ``probes/`` in the workspace."""
+        if not isinstance(capture, ProbeCapture):
+            raise TypeError("capture must be a ProbeCapture")
+        probes = self.directory / "probes"
+        probes.mkdir(parents=True, exist_ok=True)
+        stamp = capture.started_at.replace(":", "-").replace("+00:00", "Z")
+        target = probes / f"{stamp}_{capture.subsystem}.json"
+        atomic_write_json(target, capture.to_dict())
+        return target

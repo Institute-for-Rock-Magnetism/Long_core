@@ -180,6 +180,8 @@ class ApplicationConfig:
     version: int = APPLICATION_CONFIG_VERSION
     application_name: str = "Long Core Control"
     simulation_mode: bool = True
+    #: Explicit operator consent is required before any serial port can open.
+    hardware_enabled: bool = False
     data_directory: str = "data"
     log_directory: str = "logs"
     log_level: str = "INFO"
@@ -197,6 +199,8 @@ class ApplicationConfig:
             raise ConfigValidationError("application_name must be non-empty")
         if not isinstance(self.simulation_mode, bool):
             raise ConfigValidationError("simulation_mode must be boolean")
+        if not isinstance(self.hardware_enabled, bool):
+            raise ConfigValidationError("hardware_enabled must be boolean")
         for name in ("data_directory", "log_directory"):
             value = getattr(self, name)
             if not isinstance(value, str) or not value.strip() or "\x00" in value:
@@ -216,6 +220,7 @@ class ApplicationConfig:
             "version": self.version,
             "application_name": self.application_name,
             "simulation_mode": self.simulation_mode,
+            "hardware_enabled": self.hardware_enabled,
             "data_directory": self.data_directory,
             "log_directory": self.log_directory,
             "log_level": self.log_level.upper(),
