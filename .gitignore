@@ -15,5 +15,11 @@ reconstructions/**/*.bin
 reconstructions/**/*.map
 reconstructions/**/ICON.png
 reconstructions/**/icl*.png
+
+# Removed during repo slim-down; re-export the prints from LabVIEW before
+# regenerating any reconstruction artifact.
+vi_prints/
+reconstructions/setup_file/
+
 .DS_Store
 .shots/

@@ -2,29 +2,35 @@
 
 ## Evidence retained
 
-The print export is useful and sufficient for reconstructing the application
+The printed LabVIEW export (`vi_prints/`) was the initial source for the
+reverse engineering and is sufficient to reconstruct the application
 architecture, operator workflow, data structures, calculations, queue builder,
-and semantic action engine. The aggregate reports and project-specific diagram
-assets remain under `vi_prints`, and the machine-readable extraction evidence
+and semantic action engine. The machine-readable extraction evidence lives
 under `reconstructions/` (module reports, per-VI pylabview XML dumps, and OCR
-text of every printed diagram; regenerable via `tools/extract_vi.py`). Only
-the generated National Instruments `dependencies/vi.lib` documentation was
-removed from the active repository; it can be regenerated from a matching
-LabVIEW installation.
+text of every printed diagram). The original VIs, controls, and queue files
+under `Labview_source/` are retained as the ground-truth reference; the
+printed export itself, generated National Instruments documentation, and all
+installers/executables were removed during the repo slim-down. The printed
+pages can be re-exported from a LabVIEW installation to regenerate any
+missing artifact with `tools/extract_vi.py`.
 
-Primary reports:
+Primary reports (see `reconstructions/README.md` for the full index):
 
-- `vi_prints/Long_Core_Control.html`: top-level interface and event loop.
-- `vi_prints/dependencies/Case_Control.html`: state dispatch and queue actions.
-- `vi_prints/dependencies/File_Pathsgbl.html`: engine, serial, motion, and math.
-- `vi_prints/dependencies/SPHCAR.html`: SQUID, MS, DG, ARM, and IRM drivers.
-- `vi_prints/dependencies/Full_Intialize_System.html`: setup and verification.
-- `vi_prints/dependencies/Save_Yes-No.html`: logging, plotting, and aborts.
-- `vi_prints/dependencies/Extract_Input_Data.html`: sample and metadata input.
-
-Module-level reverse-engineering reports live under `reconstructions/`
-(SQUID, error codes, globals, serial, MS, sample handler, treatment drivers,
-measurement queue).
+- `reconstructions/SQUID_REVERSE_ENGINEERING.md`: top-level interface, SQUID
+  driver, event loop, and DAQ math.
+- `reconstructions/ERROR_CODES_REVERSE_ENGINEERING.md`: state dispatch and the
+  complete legacy error catalog.
+- `reconstructions/GLOBALS_REVERSE_ENGINEERING.md`: engine, serial, motion,
+  and math configuration schema with historical defaults.
+- `reconstructions/SERIAL_REVERSE_ENGINEERING.md`: serial layer (VISA,
+  dispatch, defaults).
+- `reconstructions/MS_REVERSE_ENGINEERING.md`: MS meter (M/Z/C, enums).
+- `reconstructions/SAMPLE_HANDLER_REVERSE_ENGINEERING.md`: 2G SMC25 track
+  command dictionary.
+- `reconstructions/TREATMENT_DRIVERS_REVERSE_ENGINEERING.md`: degauss, ARM,
+  IRM, and furnace drivers.
+- `reconstructions/QUEUE_REVERSE_ENGINEERING.md`: measurement queue layout and
+  sample/metadata handling.
 
 ## Recovered behavior
 
@@ -56,6 +62,9 @@ hardware adapter can be enabled, supply and independently verify:
 7. Known-good input files and expected output files for regression comparison.
 8. A supervised commissioning procedure with emergency-stop validation.
 
-Until those items are available, simulation is the only enabled execution
-mode. Protocol builders and pyserial transports are isolated for later adapter
-work but are never opened by the GUI.
+Until those items are available, simulation is the only execution mode that
+runs automatically. The **Commissioning** page provides an operator-gated
+probe workflow: with `LONG_CORE_HARDWARE=1` it opens real serial ports only
+for strictly read-only ID/status/poll commands from the recovered command
+tables, and records raw hex/text captures for verifying parsers and framing.
+No motion, treatment, or high-power command is ever sent by a probe.

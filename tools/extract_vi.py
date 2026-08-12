@@ -27,6 +27,16 @@ ROOT = Path(__file__).resolve().parent.parent
 DEPENDENCIES = ROOT / "vi_prints" / "dependencies"
 PYTHON = sys.executable
 
+if not DEPENDENCIES.is_dir():
+    # The printed block-diagram export was removed from the repo during the
+    # slim-down; the evidence in reconstructions/ is already committed, and
+    # regeneration requires re-exporting the module's diagrams from LabVIEW.
+    raise SystemExit(
+        f"missing printed diagram export: {DEPENDENCIES}\n"
+        "re-export the block diagrams from LabVIEW (or restore vi_prints/) "
+        "before regenerating artifacts."
+    )
+
 # Diagram pages are exported as <name>d.png, <name>d1.png, ... and the front
 # panel as <name>c.png. LabVIEW names with spaces are printed with
 # underscores; ampersands and other punctuation are preserved.

@@ -3,8 +3,10 @@
 This folder holds the machine-readable reconstruction evidence for the
 LabVIEW → PySide6 migration. Everything here was produced with the open
 toolchain in `tools/extract_vi.py` (pylabview XML extraction + tesseract OCR
-of the printed diagram/panel exports) and the retained
-`vi_prints/` HTML/PNG exports.
+of the printed diagram/panel exports). The printed exports themselves
+(`vi_prints/`) were removed during the repo slim-down; the VIs under
+`Labview_source/` remain the ground-truth reference, and the printed pages
+can be re-exported from LabVIEW to regenerate any artifact.
 
 ## Module reports
 
@@ -29,7 +31,7 @@ of the printed diagram/panel exports) and the retained
     default data, diagram string constants)
   - `diagram_pageN.txt` — OCR text of each exported block-diagram page
   - `front_panel.txt` — OCR text of the front panel
-- `html_reports/` — text conversion of the six retained LabVIEW HTML exports
+- `html_reports/` — text conversion of the six LabVIEW HTML exports
   (top-level, case dispatch, SPHCAR, full initialize, save/yes-no,
   extract input data, file paths).
 
@@ -39,8 +41,10 @@ of the printed diagram/panel exports) and the retained
 python tools/extract_vi.py "Labview_source/<Module>" reconstructions/<module>
 ```
 
-Requires `pylabview` and `tesseract` (see `pyproject.toml` optional deps).
-The script is idempotent; it skips artifacts that already exist.
+Requires `pylabview` and `tesseract` (see `pyproject.toml` optional deps),
+plus a fresh `vi_prints/dependencies` export of the module's block diagrams
+(the shipped prints were removed from the repo). The script is idempotent; it
+skips artifacts that already exist.
 
 ## Caveats
 

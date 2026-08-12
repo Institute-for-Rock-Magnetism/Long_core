@@ -16,6 +16,17 @@ port. Runtime configuration, queue recovery, results, and rotating JSON logs
 are stored in the platform application-data directory. Set `LONG_CORE_HOME` to
 use a specific runtime directory.
 
+## Hardware bring-up
+
+Live hardware is operator-gated. Set `LONG_CORE_HARDWARE=1` when starting the
+application (or set `hardware_enabled: true` in the application config) to
+unlock the **Commissioning** page. It runs strictly read-only probe commands —
+ID, status, and poll queries from the recovered per-subsystem command tables;
+never motion, treatment, or high-power commands — and records raw hex/text
+captures to `probes/`. See
+[LABVIEW_MIGRATION.md](LABVIEW_MIGRATION.md) for what must be independently
+verified before enabling hardware mode.
+
 ## Architecture
 
 - `long_core_gui/domain`: validated queue, sample, action, and vector models.
@@ -27,7 +38,9 @@ use a specific runtime directory.
 - `long_core_gui/ui`: navigation, queue editor, run console, plots, instruments,
   diagnostics, and the visual system.
 - `tests`: domain and infrastructure unit tests.
-- `vi_prints`: retained project-specific LabVIEW HTML/PNG source export.
+- `Labview_source`: retained 2G LabVIEW source (VIs, controls, queue files) as
+  the ground-truth reference. Installers, executables, LLB archives, driver
+  sources, and runtime INI files were removed during the repo slim-down.
 - `reconstructions`: machine-readable reverse-engineering evidence — module
   reports (`*_REVERSE_ENGINEERING.md`), per-VI extraction notes, and OCR text
   of every printed diagram, produced by `tools/extract_vi.py`.
