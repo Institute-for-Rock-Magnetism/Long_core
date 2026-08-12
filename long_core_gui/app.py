@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+from dataclasses import replace
 import logging
 import os
 from pathlib import Path
@@ -55,6 +56,9 @@ def create_application(argv: list[str] | None = None) -> tuple[QApplication, Mai
     except ConfigCorruptionError as exc:
         config = ApplicationConfig()
         startup_warning = str(exc)
+    # Explicit operator consent: LONG_CORE_HARDWARE=1 enables port opening.
+    if os.environ.get("LONG_CORE_HARDWARE", "").strip() in {"1", "true", "TRUE"}:
+        config = replace(config, hardware_enabled=True)
     if not config_path.exists():
         save_application_config(config_path, config)
 

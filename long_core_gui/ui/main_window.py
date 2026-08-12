@@ -15,6 +15,7 @@ from PySide6.QtWidgets import (
 from ..domain import Action, ActionBuilder, HomingPolicy, QueuePlan, QueueStep
 from ..infrastructure import ApplicationConfig
 from ..services import RunEngine, WorkspaceRepository
+from .commissioning import CommissioningPage
 from .pages import InstrumentsPage, LogsPage, OverviewPage, PlotsPage, QueuePage, RunPage
 
 
@@ -50,7 +51,8 @@ class MainWindow(QMainWindow):
         self.stack = QStackedWidget()
         self.pages = {
             "Overview": OverviewPage(self), "Queue": QueuePage(self), "Run": RunPage(self),
-            "Plots": PlotsPage(self), "Instruments": InstrumentsPage(self), "Logs": LogsPage(self),
+            "Plots": PlotsPage(self), "Instruments": InstrumentsPage(self),
+            "Commissioning": CommissioningPage(self), "Logs": LogsPage(self),
         }
         self.nav_buttons: dict[str, QPushButton] = {}
         for name, page in self.pages.items():
