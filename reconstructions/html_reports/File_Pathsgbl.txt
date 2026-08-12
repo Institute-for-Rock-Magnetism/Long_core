@@ -1,0 +1,3096 @@
+ 
+ File Paths.vi 
+ File Paths.vi 
+ [img] 
+ [img] 
+ [img] 
+ Meas Queue File Path 
+ [img] 
+ Local Hard Drive File Path 
+ [img] 
+ Application Folder File Path 
+ [img] 
+ Meas Queue File Name 
+ [img] 
+ Data File Path 
+ [img] 
+ Backup Data File Path 
+ [img] 
+ Data File Name 
+ [img] 
+ Backup Data File? 
+ [img] 
+ Sample Input File Path 
+ [img] 
+ Sample Input File Name 
+ [img] 
+ User's Data File Path 
+ [img] 
+ User's Data File Name 
+ [img] 
+ Use Sample ID 
+ [img] 
+ Datalog File Names #1 
+ [img] 
+ [img] 
+ Datalog File Names #2 
+ [img] 
+ [img] 
+ Datalog File Names #3 
+ [img] 
+ [img] 
+ Datalog Path 
+ [img] 
+ Application Name 
+ &quot;File Paths.vi History&quot; 
+ Current Revision: 33 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Error List.vi 
+ [img] 
+ [img] 
+ [img] 
+ Error List 
+ [img] 
+ [user-defined codes] 
+ [img] 
+ [img] 
+ [user-defined descriptions] 
+ [img] 
+ [img] 
+ [user-defined dialog type] 
+ [img] 
+ type of dialog (OK msg:1) 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Error List.vi History&quot; 
+ Current Revision: 10 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ User Error Codes.vi 
+ [img] 
+ [img] 
+ [img] 
+ Sample Handler 810 Errors 
+ [img] 
+ [img] 
+ Code 
+ [img] 
+ Description 
+ [img] 
+ type of dialog (OK msg:1) type of dialog determines what type dialog box will be displayed, if any. Regardless of its value, the VI outputs error information and message describing the error. 
+ 0: displays no dialog box. This is useful if you want to have programmatic control over how the error is handled. 
+ 1: (the default value) displays a dialog box with a single OK button. After the user responds, the VI returns control to the main VI. 
+ 2: displays a dialog box with buttons allowing the user to either continue or stop. If the user cancels, the VI calls the Stop function to halt execution. 
+ [img] 
+ Application Errors 
+ [img] 
+ [img] 
+ Code 
+ [img] 
+ Description 
+ [img] 
+ type of dialog (OK msg:1) type of dialog determines what type dialog box will be displayed, if any. Regardless of its value, the VI outputs error information and message describing the error. 
+ 0: displays no dialog box. This is useful if you want to have programmatic control over how the error is handled. 
+ 1: (the default value) displays a dialog box with a single OK button. After the user responds, the VI returns control to the main VI. 
+ 2: displays a dialog box with buttons allowing the user to either continue or stop. If the user cancels, the VI calls the Stop function to halt execution. 
+ [img] 
+ Degauss 600 Errors 
+ [img] 
+ [img] 
+ Code 
+ [img] 
+ Description 
+ [img] 
+ type of dialog (OK msg:1) type of dialog determines what type dialog box will be displayed, if any. Regardless of its value, the VI outputs error information and message describing the error. 
+ 0: displays no dialog box. This is useful if you want to have programmatic control over how the error is handled. 
+ 1: (the default value) displays a dialog box with a single OK button. After the user responds, the VI returns control to the main VI. 
+ 2: displays a dialog box with buttons allowing the user to either continue or stop. If the user cancels, the VI calls the Stop function to halt execution. 
+ [img] 
+ IRM 670 Errors 
+ [img] 
+ [img] 
+ Code 
+ [img] 
+ Description 
+ [img] 
+ type of dialog (OK msg:1) type of dialog determines what type dialog box will be displayed, if any. Regardless of its value, the VI outputs error information and message describing the error. 
+ 0: displays no dialog box. This is useful if you want to have programmatic control over how the error is handled. 
+ 1: (the default value) displays a dialog box with a single OK button. After the user responds, the VI returns control to the main VI. 
+ 2: displays a dialog box with buttons allowing the user to either continue or stop. If the user cancels, the VI calls the Stop function to halt execution. 
+ [img] 
+ ARM 615 Errors 
+ [img] 
+ [img] 
+ Code 
+ [img] 
+ Description 
+ [img] 
+ type of dialog (OK msg:1) type of dialog determines what type dialog box will be displayed, if any. Regardless of its value, the VI outputs error information and message describing the error. 
+ 0: displays no dialog box. This is useful if you want to have programmatic control over how the error is handled. 
+ 1: (the default value) displays a dialog box with a single OK button. After the user responds, the VI returns control to the main VI. 
+ 2: displays a dialog box with buttons allowing the user to either continue or stop. If the user cancels, the VI calls the Stop function to halt execution. 
+ [img] 
+ CN76000 Errors 
+ [img] 
+ [img] 
+ Code 
+ [img] 
+ Description 
+ [img] 
+ type of dialog (OK msg:1) type of dialog determines what type dialog box will be displayed, if any. Regardless of its value, the VI outputs error information and message describing the error. 
+ 0: displays no dialog box. This is useful if you want to have programmatic control over how the error is handled. 
+ 1: (the default value) displays a dialog box with a single OK button. After the user responds, the VI returns control to the main VI. 
+ 2: displays a dialog box with buttons allowing the user to either continue or stop. If the user cancels, the VI calls the Stop function to halt execution. 
+ [img] 
+ DC SQUIDs Errors 
+ [img] 
+ [img] 
+ Code 
+ [img] 
+ Description 
+ [img] 
+ type of dialog (OK msg:1) type of dialog determines what type dialog box will be displayed, if any. Regardless of its value, the VI outputs error information and message describing the error. 
+ 0: displays no dialog box. This is useful if you want to have programmatic control over how the error is handled. 
+ 1: (the default value) displays a dialog box with a single OK button. After the user responds, the VI returns control to the main VI. 
+ 2: displays a dialog box with buttons allowing the user to either continue or stop. If the user cancels, the VI calls the Stop function to halt execution. 
+ [img] 
+ MS Errors 
+ [img] 
+ [img] 
+ Code 
+ [img] 
+ Description 
+ [img] 
+ type of dialog (OK msg:1) type of dialog determines what type dialog box will be displayed, if any. Regardless of its value, the VI outputs error information and message describing the error. 
+ 0: displays no dialog box. This is useful if you want to have programmatic control over how the error is handled. 
+ 1: (the default value) displays a dialog box with a single OK button. After the user responds, the VI returns control to the main VI. 
+ 2: displays a dialog box with buttons allowing the user to either continue or stop. If the user cancels, the VI calls the Stop function to halt execution. 
+ &quot;User Error Codes.vi History&quot; 
+ Current Revision: 60 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Error Reporter.vi 
+ This error handler is used primarily to inform the user if an input error exists, to describe the error, and to identify where it occurred. The information for this is derived from the inputs error in, error code, and error source, and from an internal error description table. The table describes all errors that can be created by LabVIEW or its associated I/O operations. The handler has provisions to take alternative actions, such as to cancel or set an error status, and to test for and describe user-defined errors. See instruction on the front panel. 
+ [img] 
+ [img] 
+ [img] 
+ type of dialog (OK msg:1) type of dialog determines what type dialog box will be displayed, if any. Regardless of its value, the VI outputs error information and message describing the error. 
+ 0: displays no dialog box. This is useful if you want to have programmatic control over how the error is handled. 
+ 1: (the default value) displays a dialog box with a single OK button. After the user responds, the VI returns control to the main VI. 
+ 2: displays a dialog box with buttons allowing the user to either continue or stop. If the user cancels, the VI calls the Stop function to halt execution. 
+ [img] 
+ [exception code] exception code is the error code that you want to treat as an exception. By default, it is 0. 
+ [img] 
+ [exception source] exception source is the error message that you want to use to test for an exception. By default, it is an empty string. 
+ [img] 
+ [error source] (&quot; &quot;) error source is an optional string you can use to describe the source of error code. The VI uses the string in message if there is an error. 
+ [img] 
+ [error code] (0) error code is a numeric error code. If error in indicates an error, the VI ignores error code. If not, the VI tests it. A non-zero value signifies an error. 
+ [img] 
+ [exception action] (none:0) exception action is a way for you to create exceptions to error handling. You can treat what is normally an error as no error, or treat a no error condition as an error using this parameter. 
+ 0: (the default value) performs no error exception handling. 
+ 1: cancels error under the following conditions: 
+ If the VI detects an error, as described in the status and error code parameters, and if that error code value matches exception code and the error source value matches exception source, the VI sets status out to FALSE, code out to 0, and source out to an empty string. An empty exception source string matches any error source string. 
+ 2: sets error under the following conditions: 
+ If the VI detects no error, as described in the status and error code parameters, but the code value of error in matches exception code and the error source value matches exception source, the VI sets status out to TRUE, code out to the code value from error in, and source out to the source value from error in. 
+ [img] 
+ error in (no error) error in describes an error that you want to check. If unwired, this VI checks error code for errors. 
+ [img] 
+ status status is TRUE if an error occurred. If this value is FALSE, then the error handler assumes that no error occurred according to the error in, and then checks the error code. 
+ [img] 
+ code code is the error code associated with an error. 
+ [img] 
+ source source. In case of an error, most VIs that use the error in and error out clusters set source to the name of the VI or function that produced the error. 
+ [img] 
+ [user-defined codes] user-defined codes is an array of the numeric error codes you define in your VIs. The VI searches this array after searching the internal list of error codes. Codes in the range of 5000 to 9999 are reserved for users. 
+ [img] 
+ [img] 
+ [user-defined descriptions] user-defined descriptions is an array of descriptions of user-defined codes. If an incoming error matches one in user-defined codes, the VI uses the corresponding description from user-defined descriptions in message. 
+ [img] 
+ [img] 
+ error descriptions (hidden) 
+ [img] 
+ Description 
+ [img] 
+ error codes (hidden) 
+ [img] 
+ Code 
+ [img] 
+ GetCommErr 
+ [img] 
+ [user-defined dialog type] 
+ [img] 
+ type of dialog (OK msg:1) type of dialog determines what type dialog box will be displayed, if any. Regardless of its value, the VI outputs error information and message describing the error. 
+ 0: displays no dialog box. This is useful if you want to have programmatic control over how the error is handled. 
+ 1: (the default value) displays a dialog box with a single OK button. After the user responds, the VI returns control to the main VI. 
+ 2: displays a dialog box with buttons allowing the user to either continue or stop. If the user cancels, the VI calls the Stop function to halt execution. 
+ [img] 
+ code out code out is the error code indicated by the error in or error code. 
+ [img] 
+ source out source out indicates the source of the error. 
+ [img] 
+ error? 
+ [img] 
+ error out error out contains the same information as status out, code out, and source out. It has the same structure as error in. 
+ [img] 
+ status status is TRUE if an error occurred. If this value is FALSE, then the error handler assumes that no error occurred according to the error in, and then checks the error code. 
+ [img] 
+ code code is the error code associated with an error. 
+ [img] 
+ source source. In case of an error, most VIs that use the error in and error out clusters set source to the name of the VI or function that produced the error. 
+ [img] 
+ message message describes the error code that occurred, the source of the error, and a description of the error. 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Error Reporter.vi History&quot; 
+ Current Revision: 6 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ System Globals.vi 
+ [img] 
+ [img] 
+ [img] 
+ Missing Top 
+ [img] 
+ Password 
+ [img] 
+ NRM units 
+ [img] 
+ Track Configured? (T) 
+ [img] 
+ Vaild Parameters? 
+ [img] 
+ Auto Save Mode? (T) 
+ [img] 
+ Vaild Data File Path? 
+ [img] 
+ Vaild Back Up Data File Path? 
+ [img] 
+ Abort In Progress? (T) 
+ [img] 
+ CW - &amp; CCW+ (T) 
+ [img] 
+ Abort Save Data? (T) 
+ [img] 
+ Vaild Sample Input File? 
+ [img] 
+ Disable Password? (T) 
+ [img] 
+ Furnance Configured? (T) 
+ [img] 
+ task ID (u32) task ID: uniquely identifies the group. You use this value as the task ID to refer to this group in subsequent digital port VI calls. 
+ [img] 
+ Discrete Info 
+ [img] 
+ [img] 
+ Abort(T) 
+ &quot;System Globals.vi History&quot; 
+ Current Revision: 34 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Meas Queue Save Data.VI 
+ [img] 
+ [img] 
+ [img] 
+ Measurement Parameters 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ Measurement Queue IN 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ length 
+ [img] 
+ [img] 
+ &quot;Meas Queue Save Data.VI History&quot; 
+ Current Revision: 98 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Write File.vi 
+ [img] 
+ [img] 
+ [img] 
+ Path (IN) 
+ [img] 
+ Data 
+ [img] 
+ File Not Found 
+ [img] 
+ File (IN) 
+ [img] 
+ Open File Dialog 
+ [img] 
+ File Dialog Prompt 
+ [img] 
+ Pattern 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Write Mode 
+ [img] 
+ Operation Mode 
+ [img] 
+ Minimum Space 
+ [img] 
+ Path (OUT) 
+ [img] 
+ Write Fail (T) 
+ [img] 
+ User Abort (T) 
+ [img] 
+ File Error (T) 
+ [img] 
+ File (OUT) 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ File Refnum 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Write File.vi History&quot; 
+ Current Revision: 95 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Old File Dialog.vi 
+ [img] 
+ [img] 
+ [img] 
+ File Name IN 
+ [img] 
+ File Path 
+ [img] 
+ New File 
+ [img] 
+ Overwrite 
+ [img] 
+ Cancel 
+ [img] 
+ File Name OUT 
+ [img] 
+ Action 
+ [img] 
+ This File Already Exists 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Old File Dialog.vi History&quot; 
+ Current Revision: 18 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Get File Name.vi 
+ [img] 
+ [img] 
+ [img] 
+ Enter File Name 
+ [img] 
+ OK 
+ [img] 
+ File Name Out 
+ [img] 
+ &quot;Get File Name.vi History&quot; 
+ Current Revision: 11 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Pad-Truncate String.vi 
+ [img] 
+ [img] 
+ [img] 
+ String In 
+ [img] 
+ length 
+ [img] 
+ Pad Character 
+ [img] 
+ String Out 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Pad-Truncate String.vi History&quot; 
+ Current Revision: 4 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Check Disk Space.vi 
+ [img] 
+ [img] 
+ [img] 
+ path 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Minimum Space 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ path OUT 
+ [img] 
+ Cancelled T) 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Check Disk Space.vi History&quot; 
+ Current Revision: 20 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ MS Subsystem.ctl 
+ [img] 
+ [img] 
+ [img] 
+ MS Data 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ &quot;MS Subsystem.ctl History&quot; 
+ Current Revision: 7 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Degauss Subsystem.ctl 
+ [img] 
+ [img] 
+ [img] 
+ Degauss Data 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Delay Parameter 
+ [img] 
+ Status 
+ [img] 
+ Amplitude 
+ [img] 
+ Active Coil 
+ [img] 
+ Min 
+ [img] 
+ Max 
+ [img] 
+ X Cal 
+ [img] 
+ Y Cal 
+ [img] 
+ Z Cal 
+ &quot;Degauss Subsystem.ctl History&quot; 
+ Current Revision: 18 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Furnace Globals.vi 
+ [img] 
+ [img] 
+ [img] 
+ Furnace Cooling Temp (DegC) 
+ [img] 
+ Furnace Hold Time (Min) 
+ [img] 
+ Furnace Fan Temp (Deg C) 
+ &quot;Furnace Globals.vi History&quot; 
+ Current Revision: 5 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Bkgnd.vi 
+ [img] 
+ [img] 
+ [img] 
+ NRM Bkg #1 X 
+ [img] 
+ NRM Bkg #2 X 
+ [img] 
+ NRM Bkg #1 Y 
+ [img] 
+ NRM Bkg #2 Y 
+ [img] 
+ NRM Bkg #1 Z 
+ [img] 
+ NRM Bkg #2 Z 
+ [img] 
+ NRM Bkg #1 time 
+ [img] 
+ NRM Bkg #2 time 
+ [img] 
+ MS Bkg #1 
+ [img] 
+ MS Bkg #2 
+ [img] 
+ MSBkg #1 time 
+ [img] 
+ MS Bkg #2 time 
+ [img] 
+ NRM X meter 
+ [img] 
+ NRM Y meter 
+ [img] 
+ NRM Z meter 
+ [img] 
+ Drift tol (%) 
+ [img] 
+ N Remeas 
+ [img] 
+ Save/Abort 
+ [img] 
+ i Remeas 
+ [img] 
+ Drift tol abs 
+ [img] 
+ Drift tol type 
+ &quot;Bkgnd.vi History&quot; 
+ Current Revision: 14 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Tray Clean.vi 
+ [img] 
+ [img] 
+ [img] 
+ Set Degaussing Level 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Ok 
+ [img] 
+ Cancel 
+ [img] 
+ Translation Data 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ Clean 
+ [img] 
+ Measurement Parameters 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ Degauss Data 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Delay Parameter 
+ [img] 
+ Status 
+ [img] 
+ Amplitude 
+ [img] 
+ Active Coil 
+ [img] 
+ Min 
+ [img] 
+ Max 
+ [img] 
+ X Cal 
+ [img] 
+ Y Cal 
+ [img] 
+ Z Cal 
+ [img] 
+ Sample in 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ Canceled (T) 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Sample out 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Tray Clean.vi History&quot; 
+ Current Revision: 181 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Sample Input.ctl 
+ [img] 
+ [img] 
+ [img] 
+ Sample Input 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ &quot;Sample Input.ctl History&quot; 
+ Current Revision: 10 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Temp Sample Input Data.vi 
+ [img] 
+ [img] 
+ [img] 
+ Temp Sample Input Data 
+ [img] 
+ &quot;Temp Sample Input Data.vi History&quot; 
+ Current Revision: 1 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Long Core Engine.vi 
+ [img] 
+ [img] 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Measurement Parameters 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ Translation Data 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ Action Array IN 
+ [img] 
+ Action Cluster 
+ [img] 
+ Action Type 
+ [img] 
+ Action 
+ [img] 
+ Move To 
+ [img] 
+ Axis 
+ [img] 
+ DAQ Type 
+ [img] 
+ # DAQs 
+ [img] 
+ Amplitude 
+ [img] 
+ Temp 
+ [img] 
+ Queue Index 
+ [img] 
+ Furnace Action 
+ [img] 
+ Current Tray # 
+ [img] 
+ MS Data 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ SQUID Data 
+ [img] 
+ SQUID-X Responce 
+ [img] 
+ SQUID-Y Responce 
+ [img] 
+ SQUID-Z Responce 
+ [img] 
+ SQUID-X Calib 
+ [img] 
+ SQUID-Y Calib 
+ [img] 
+ SQUID-Z Calib 
+ [img] 
+ SQUID-X filter data 
+ [img] 
+ SQUID-Y filter data 
+ [img] 
+ SQUID-Z filter data 
+ [img] 
+ SQUID-X range data 
+ [img] 
+ SQUID-Y range data 
+ [img] 
+ SQUID-Z range data 
+ [img] 
+ SQUID-X slew data 
+ [img] 
+ SQUID-Y slew data 
+ [img] 
+ SQUID-Z slew data 
+ [img] 
+ SQUID-X feedback data 
+ [img] 
+ SQUID-Y feedback data 
+ [img] 
+ SQUID-Z feedback data 
+ [img] 
+ Data Array IN 
+ [img] 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Long Core Engine Data IN 
+ [img] 
+ Action Index 
+ [img] 
+ Data Index 
+ [img] 
+ Track Position 
+ [img] 
+ Motion Stopped (T) 
+ [img] 
+ Start Time 
+ [img] 
+ IRM Status 
+ [img] 
+ IRM Oe 
+ [img] 
+ DG Status 
+ [img] 
+ DGCoil 
+ [img] 
+ DG mT 
+ [img] 
+ ARM Gauss 
+ [img] 
+ ARM Status 
+ [img] 
+ SQUID Status 
+ [img] 
+ SQUID X 
+ [img] 
+ SQUID Y 
+ [img] 
+ SQUID Z 
+ [img] 
+ MS Status 
+ [img] 
+ MS Data 
+ [img] 
+ SQUID Position 
+ [img] 
+ MS Position 
+ [img] 
+ Direction 
+ [img] 
+ Program State 
+ [img] 
+ Measurment Queue Array 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ File Format Data 
+ [img] 
+ Save Leader/Trailer Data? 
+ [img] 
+ File Format Array 
+ [img] 
+ Data Types 
+ [img] 
+ Data Array Size 
+ [img] 
+ Data Array Size 
+ [img] 
+ Sample Input 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ Degauss Data 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Delay Parameter 
+ [img] 
+ Status 
+ [img] 
+ Amplitude 
+ [img] 
+ Active Coil 
+ [img] 
+ Min 
+ [img] 
+ Max 
+ [img] 
+ X Cal 
+ [img] 
+ Y Cal 
+ [img] 
+ Z Cal 
+ [img] 
+ Action Array OUT 
+ [img] 
+ Action Cluster 
+ [img] 
+ Action Type 
+ [img] 
+ Action 
+ [img] 
+ Move To 
+ [img] 
+ Axis 
+ [img] 
+ DAQ Type 
+ [img] 
+ # DAQs 
+ [img] 
+ Amplitude 
+ [img] 
+ Temp 
+ [img] 
+ Queue Index 
+ [img] 
+ Furnace Action 
+ [img] 
+ Current Tray # 
+ [img] 
+ Data Array OUT 
+ [img] 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Stop DAQ (F) 
+ [img] 
+ Long Core Engine Data Out 
+ [img] 
+ Action Index 
+ [img] 
+ Data Index 
+ [img] 
+ Track Position 
+ [img] 
+ Motion Stopped (T) 
+ [img] 
+ Start Time 
+ [img] 
+ IRM Status 
+ [img] 
+ IRM Oe 
+ [img] 
+ DG Status 
+ [img] 
+ DGCoil 
+ [img] 
+ DG mT 
+ [img] 
+ ARM Gauss 
+ [img] 
+ ARM Status 
+ [img] 
+ SQUID Status 
+ [img] 
+ SQUID X 
+ [img] 
+ SQUID Y 
+ [img] 
+ SQUID Z 
+ [img] 
+ MS Status 
+ [img] 
+ MS Data 
+ [img] 
+ SQUID Position 
+ [img] 
+ MS Position 
+ [img] 
+ Direction 
+ [img] 
+ Program State 
+ [img] 
+ Run # 
+ [img] 
+ Treatment? 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Long Core Engine.vi History&quot; 
+ Current Revision: 196 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Abort.vi 
+ [img] 
+ [img] 
+ [img] 
+ Unload 
+ [img] 
+ Nothing 
+ [img] 
+ Error(T) User(F) 
+ [img] 
+ Info 
+ [img] 
+ Unload (T) 
+ [img] 
+ [img] 
+ &quot;Abort.vi History&quot; 
+ Current Revision: 9 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ 2G Sample Handler Go Home.vi 
+ [img] 
+ [img] 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Home Switch Type 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ User stop (t) 
+ [img] 
+ Errort (T) 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;2G Sample Handler Go Home.vi History&quot; 
+ Current Revision: 90 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ 2G Sample Handler Go Home Limit.vi 
+ [img] 
+ [img] 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Home Switch Type 
+ [img] 
+ Still running 
+ [img] 
+ stop 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Error(T) 
+ [img] 
+ Info 
+ [img] 
+ user stop (t) 
+ [img] 
+ Busy 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;2G Sample Handler Go Home Limit.vi History&quot; 
+ Current Revision: 135 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ 2G Sample Handler Driver.vi 
+ [img] 
+ [img] 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Command 
+ [img] 
+ Parameters 
+ [img] 
+ Direction 
+ [img] 
+ Value 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Data 
+ [img] 
+ Error (T) 
+ [img] 
+ Verify Failed (T) 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;2G Sample Handler Driver.vi History&quot; 
+ Current Revision: 119 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Serial Communication.vi 
+ [img] 
+ [img] 
+ [img] 
+ Read/Write Mode 
+ [img] 
+ Write: Buffer Mode 
+ [img] 
+ Read: Buffer Mode 
+ [img] 
+ Read: Termination Mode 
+ [img] 
+ Timeout (ms) 
+ [img] 
+ Termination String 
+ [img] 
+ String IN 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Read/Write: Buffer Mode 
+ [img] 
+ Bytes To Read 
+ [img] 
+ Get # of Bytes Delay (ms) 
+ [img] 
+ Character Delay 
+ [img] 
+ Port Number 
+ [img] 
+ Time 
+ [img] 
+ String OUT 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Truncated String OUT 
+ [img] 
+ Error (t) 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Serial Communication.vi History&quot; 
+ Current Revision: 85 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Serial Port Data.vi 
+ [img] 
+ [img] 
+ [img] 
+ TRACK 
+ [img] 
+ Port Number When you use the serial port VIs under Windows, the port number parameter can have the following values: 
+ 0: COM1 5: COM6 10: LPT1 
+ 1: COM2 6: COM7 11: LPT2 
+ 2: COM3 7: COM8 12: LPT3 
+ 3: COM4 8: COM9 13: LPT4 
+ 4: COM5 
+ When you use the serial port VIs on a Sun SPARCstation, the port number parameter is 0 for /dev/ttya, 1 for /dev/ttyb, and so on. 
+ On the Macintosh, port 0 is the modem, using the drivers .ain and .aout. Port 1 is the printer, using the drivers.bin and .bout. To get more ports on a Macintosh, you must install other boards, with the accompanying drivers. 
+ [img] 
+ Baud Rate When you use the serial port VIs under Windows, the port number parameter can have the following values: 
+ 0: COM1 5: COM6 10: LPT1 
+ 1: COM2 6: COM7 11: LPT2 
+ 2: COM3 7: COM8 12: LPT3 
+ 3: COM4 8: COM9 13: LPT4 
+ 4: COM5 
+ When you use the serial port VIs on a Sun SPARCstation, the port number parameter is 0 for /dev/ttya, 1 for /dev/ttyb, and so on. 
+ On the Macintosh, port 0 is the modem, using the drivers .ain and .aout. Port 1 is the printer, using the drivers.bin and .bout. To get more ports on a Macintosh, you must install other boards, with the accompanying drivers. 
+ [img] 
+ Data Bits data bits is the number of bits in the incoming data. The value of data bits is between five and eight. 
+ [img] 
+ Stop Bits data bits is the number of bits in the incoming data. The value of data bits is between five and eight. 
+ [img] 
+ Parity data bits is the number of bits in the incoming data. The value of data bits is between five and eight. 
+ [img] 
+ SQUID 
+ [img] 
+ Port Number When you use the serial port VIs under Windows, the port number parameter can have the following values: 
+ 0: COM1 5: COM6 10: LPT1 
+ 1: COM2 6: COM7 11: LPT2 
+ 2: COM3 7: COM8 12: LPT3 
+ 3: COM4 8: COM9 13: LPT4 
+ 4: COM5 
+ When you use the serial port VIs on a Sun SPARCstation, the port number parameter is 0 for /dev/ttya, 1 for /dev/ttyb, and so on. 
+ On the Macintosh, port 0 is the modem, using the drivers .ain and .aout. Port 1 is the printer, using the drivers.bin and .bout. To get more ports on a Macintosh, you must install other boards, with the accompanying drivers. 
+ [img] 
+ Baud Rate When you use the serial port VIs under Windows, the port number parameter can have the following values: 
+ 0: COM1 5: COM6 10: LPT1 
+ 1: COM2 6: COM7 11: LPT2 
+ 2: COM3 7: COM8 12: LPT3 
+ 3: COM4 8: COM9 13: LPT4 
+ 4: COM5 
+ When you use the serial port VIs on a Sun SPARCstation, the port number parameter is 0 for /dev/ttya, 1 for /dev/ttyb, and so on. 
+ On the Macintosh, port 0 is the modem, using the drivers .ain and .aout. Port 1 is the printer, using the drivers.bin and .bout. To get more ports on a Macintosh, you must install other boards, with the accompanying drivers. 
+ [img] 
+ Data Bits data bits is the number of bits in the incoming data. The value of data bits is between five and eight. 
+ [img] 
+ Stop Bits data bits is the number of bits in the incoming data. The value of data bits is between five and eight. 
+ [img] 
+ Parity data bits is the number of bits in the incoming data. The value of data bits is between five and eight. 
+ [img] 
+ MS 
+ [img] 
+ Port Number When you use the serial port VIs under Windows, the port number parameter can have the following values: 
+ 0: COM1 5: COM6 10: LPT1 
+ 1: COM2 6: COM7 11: LPT2 
+ 2: COM3 7: COM8 12: LPT3 
+ 3: COM4 8: COM9 13: LPT4 
+ 4: COM5 
+ When you use the serial port VIs on a Sun SPARCstation, the port number parameter is 0 for /dev/ttya, 1 for /dev/ttyb, and so on. 
+ On the Macintosh, port 0 is the modem, using the drivers .ain and .aout. Port 1 is the printer, using the drivers.bin and .bout. To get more ports on a Macintosh, you must install other boards, with the accompanying drivers. 
+ [img] 
+ Baud Rate When you use the serial port VIs under Windows, the port number parameter can have the following values: 
+ 0: COM1 5: COM6 10: LPT1 
+ 1: COM2 6: COM7 11: LPT2 
+ 2: COM3 7: COM8 12: LPT3 
+ 3: COM4 8: COM9 13: LPT4 
+ 4: COM5 
+ When you use the serial port VIs on a Sun SPARCstation, the port number parameter is 0 for /dev/ttya, 1 for /dev/ttyb, and so on. 
+ On the Macintosh, port 0 is the modem, using the drivers .ain and .aout. Port 1 is the printer, using the drivers.bin and .bout. To get more ports on a Macintosh, you must install other boards, with the accompanying drivers. 
+ [img] 
+ Data Bits 2 data bits is the number of bits in the incoming data. The value of data bits is between five and eight. 
+ [img] 
+ Stop Bits data bits is the number of bits in the incoming data. The value of data bits is between five and eight. 
+ [img] 
+ Parity data bits is the number of bits in the incoming data. The value of data bits is between five and eight. 
+ [img] 
+ DG 
+ [img] 
+ Port Number When you use the serial port VIs under Windows, the port number parameter can have the following values: 
+ 0: COM1 5: COM6 10: LPT1 
+ 1: COM2 6: COM7 11: LPT2 
+ 2: COM3 7: COM8 12: LPT3 
+ 3: COM4 8: COM9 13: LPT4 
+ 4: COM5 
+ When you use the serial port VIs on a Sun SPARCstation, the port number parameter is 0 for /dev/ttya, 1 for /dev/ttyb, and so on. 
+ On the Macintosh, port 0 is the modem, using the drivers .ain and .aout. Port 1 is the printer, using the drivers.bin and .bout. To get more ports on a Macintosh, you must install other boards, with the accompanying drivers. 
+ [img] 
+ Baud Rate When you use the serial port VIs under Windows, the port number parameter can have the following values: 
+ 0: COM1 5: COM6 10: LPT1 
+ 1: COM2 6: COM7 11: LPT2 
+ 2: COM3 7: COM8 12: LPT3 
+ 3: COM4 8: COM9 13: LPT4 
+ 4: COM5 
+ When you use the serial port VIs on a Sun SPARCstation, the port number parameter is 0 for /dev/ttya, 1 for /dev/ttyb, and so on. 
+ On the Macintosh, port 0 is the modem, using the drivers .ain and .aout. Port 1 is the printer, using the drivers.bin and .bout. To get more ports on a Macintosh, you must install other boards, with the accompanying drivers. 
+ [img] 
+ Data Bits 2 data bits is the number of bits in the incoming data. The value of data bits is between five and eight. 
+ [img] 
+ Stop Bits data bits is the number of bits in the incoming data. The value of data bits is between five and eight. 
+ [img] 
+ Parity data bits is the number of bits in the incoming data. The value of data bits is between five and eight. 
+ [img] 
+ ARM 
+ [img] 
+ Port Number When you use the serial port VIs under Windows, the port number parameter can have the following values: 
+ 0: COM1 5: COM6 10: LPT1 
+ 1: COM2 6: COM7 11: LPT2 
+ 2: COM3 7: COM8 12: LPT3 
+ 3: COM4 8: COM9 13: LPT4 
+ 4: COM5 
+ When you use the serial port VIs on a Sun SPARCstation, the port number parameter is 0 for /dev/ttya, 1 for /dev/ttyb, and so on. 
+ On the Macintosh, port 0 is the modem, using the drivers .ain and .aout. Port 1 is the printer, using the drivers.bin and .bout. To get more ports on a Macintosh, you must install other boards, with the accompanying drivers. 
+ [img] 
+ Baud Rate When you use the serial port VIs under Windows, the port number parameter can have the following values: 
+ 0: COM1 5: COM6 10: LPT1 
+ 1: COM2 6: COM7 11: LPT2 
+ 2: COM3 7: COM8 12: LPT3 
+ 3: COM4 8: COM9 13: LPT4 
+ 4: COM5 
+ When you use the serial port VIs on a Sun SPARCstation, the port number parameter is 0 for /dev/ttya, 1 for /dev/ttyb, and so on. 
+ On the Macintosh, port 0 is the modem, using the drivers .ain and .aout. Port 1 is the printer, using the drivers.bin and .bout. To get more ports on a Macintosh, you must install other boards, with the accompanying drivers. 
+ [img] 
+ Data Bits 2 data bits is the number of bits in the incoming data. The value of data bits is between five and eight. 
+ [img] 
+ Stop Bits data bits is the number of bits in the incoming data. The value of data bits is between five and eight. 
+ [img] 
+ Parity data bits is the number of bits in the incoming data. The value of data bits is between five and eight. 
+ [img] 
+ IRM 
+ [img] 
+ Port Number When you use the serial port VIs under Windows, the port number parameter can have the following values: 
+ 0: COM1 5: COM6 10: LPT1 
+ 1: COM2 6: COM7 11: LPT2 
+ 2: COM3 7: COM8 12: LPT3 
+ 3: COM4 8: COM9 13: LPT4 
+ 4: COM5 
+ When you use the serial port VIs on a Sun SPARCstation, the port number parameter is 0 for /dev/ttya, 1 for /dev/ttyb, and so on. 
+ On the Macintosh, port 0 is the modem, using the drivers .ain and .aout. Port 1 is the printer, using the drivers.bin and .bout. To get more ports on a Macintosh, you must install other boards, with the accompanying drivers. 
+ [img] 
+ Baud Rate When you use the serial port VIs under Windows, the port number parameter can have the following values: 
+ 0: COM1 5: COM6 10: LPT1 
+ 1: COM2 6: COM7 11: LPT2 
+ 2: COM3 7: COM8 12: LPT3 
+ 3: COM4 8: COM9 13: LPT4 
+ 4: COM5 
+ When you use the serial port VIs on a Sun SPARCstation, the port number parameter is 0 for /dev/ttya, 1 for /dev/ttyb, and so on. 
+ On the Macintosh, port 0 is the modem, using the drivers .ain and .aout. Port 1 is the printer, using the drivers.bin and .bout. To get more ports on a Macintosh, you must install other boards, with the accompanying drivers. 
+ [img] 
+ Data Bits 2 data bits is the number of bits in the incoming data. The value of data bits is between five and eight. 
+ [img] 
+ Stop Bits data bits is the number of bits in the incoming data. The value of data bits is between five and eight. 
+ [img] 
+ Parity data bits is the number of bits in the incoming data. The value of data bits is between five and eight. 
+ [img] 
+ FURNACE 
+ [img] 
+ Port Number When you use the serial port VIs under Windows, the port number parameter can have the following values: 
+ 0: COM1 5: COM6 10: LPT1 
+ 1: COM2 6: COM7 11: LPT2 
+ 2: COM3 7: COM8 12: LPT3 
+ 3: COM4 8: COM9 13: LPT4 
+ 4: COM5 
+ When you use the serial port VIs on a Sun SPARCstation, the port number parameter is 0 for /dev/ttya, 1 for /dev/ttyb, and so on. 
+ On the Macintosh, port 0 is the modem, using the drivers .ain and .aout. Port 1 is the printer, using the drivers.bin and .bout. To get more ports on a Macintosh, you must install other boards, with the accompanying drivers. 
+ [img] 
+ Baud Rate When you use the serial port VIs under Windows, the port number parameter can have the following values: 
+ 0: COM1 5: COM6 10: LPT1 
+ 1: COM2 6: COM7 11: LPT2 
+ 2: COM3 7: COM8 12: LPT3 
+ 3: COM4 8: COM9 13: LPT4 
+ 4: COM5 
+ When you use the serial port VIs on a Sun SPARCstation, the port number parameter is 0 for /dev/ttya, 1 for /dev/ttyb, and so on. 
+ On the Macintosh, port 0 is the modem, using the drivers .ain and .aout. Port 1 is the printer, using the drivers.bin and .bout. To get more ports on a Macintosh, you must install other boards, with the accompanying drivers. 
+ [img] 
+ Data Bits 2 data bits is the number of bits in the incoming data. The value of data bits is between five and eight. 
+ [img] 
+ Stop Bits data bits is the number of bits in the incoming data. The value of data bits is between five and eight. 
+ [img] 
+ Parity data bits is the number of bits in the incoming data. The value of data bits is between five and eight. 
+ &quot;Serial Port Data.vi History&quot; 
+ Current Revision: 23 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ 2G Sample Handler Set ADV.vi 
+ [img] 
+ [img] 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Acceleration 
+ [img] 
+ Deceleration 
+ [img] 
+ Velocity 
+ [img] 
+ Distance 
+ [img] 
+ Move Mode 
+ [img] 
+ Direction 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Error (T) 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;2G Sample Handler Set ADV.vi History&quot; 
+ Current Revision: 96 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ 2G Sample Handler Poll.vi 
+ [img] 
+ [img] 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ SCM 25 Error(T) 
+ [img] 
+ Move Complete (T) 
+ [img] 
+ Wait Complete (T) 
+ [img] 
+ Limit Switch Encountered (T) 
+ [img] 
+ Motion In Progress(T) 
+ [img] 
+ Error(T) 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;2G Sample Handler Poll.vi History&quot; 
+ Current Revision: 72 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ 2G Sample Handler Go To Home.vi 
+ [img] 
+ [img] 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Home Switch Type 
+ [img] 
+ Still running 
+ [img] 
+ stop 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Error(T) 
+ [img] 
+ Info 
+ [img] 
+ user stop (t) 
+ [img] 
+ Busy 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;2G Sample Handler Go To Home.vi History&quot; 
+ Current Revision: 130 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ 2G Sample Handler Go To.vi 
+ [img] 
+ [img] 
+ [img] 
+ Move To 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Velocity 
+ [img] 
+ Deceleration 
+ [img] 
+ Acceleration 
+ [img] 
+ Calculate Next Move Only (T) 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Direction 
+ [img] 
+ Steps 
+ [img] 
+ Error (T) 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;2G Sample Handler Go To.vi History&quot; 
+ Current Revision: 74 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Scale.vi 
+ [img] 
+ [img] 
+ [img] 
+ Scale 
+ &quot;Scale.vi History&quot; 
+ Current Revision: 3 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ 2G Sample Handler Position.vi 
+ [img] 
+ [img] 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Translation Data 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ SQUID Position cm 
+ [img] 
+ Track Position 
+ [img] 
+ Error(T) 
+ [img] 
+ MS Position cm 
+ [img] 
+ Motion Stopped 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;2G Sample Handler Position.vi History&quot; 
+ Current Revision: 129 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Round To 10th.vi 
+ [img] 
+ [img] 
+ [img] 
+ IN 
+ [img] 
+ OUT 
+ [img] 
+ &quot;Round To 10th.vi History&quot; 
+ Current Revision: 2 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Degauss Power Up Time Out.vi 
+ [img] 
+ [img] 
+ [img] 
+ Tracking Start Time 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ DG Status 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Degauss Power Up Time Out.vi History&quot; 
+ Current Revision: 9 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ SQUID Measure.vi 
+ [img] 
+ [img] 
+ [img] 
+ SQUID Data 
+ [img] 
+ SQUID-X Responce 
+ [img] 
+ SQUID-Y Responce 
+ [img] 
+ SQUID-Z Responce 
+ [img] 
+ SQUID-X Calib 
+ [img] 
+ SQUID-Y Calib 
+ [img] 
+ SQUID-Z Calib 
+ [img] 
+ SQUID-X filter data 
+ [img] 
+ SQUID-Y filter data 
+ [img] 
+ SQUID-Z filter data 
+ [img] 
+ SQUID-X range data 
+ [img] 
+ SQUID-Y range data 
+ [img] 
+ SQUID-Z range data 
+ [img] 
+ SQUID-X slew data 
+ [img] 
+ SQUID-Y slew data 
+ [img] 
+ SQUID-Z slew data 
+ [img] 
+ SQUID-X feedback data 
+ [img] 
+ SQUID-Y feedback data 
+ [img] 
+ SQUID-Z feedback data 
+ [img] 
+ Data in 
+ [img] 
+ [img] 
+ Data index in 
+ [img] 
+ Start Time in 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Measurement Type 
+ [img] 
+ DAQ Type 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Position 
+ [img] 
+ # DAQs 
+ [img] 
+ Current Tray # 
+ [img] 
+ Sample Input 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ Data out 
+ [img] 
+ [img] 
+ Data index out 
+ [img] 
+ Start Time out 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ SQUID X 
+ [img] 
+ SQUID Y 
+ [img] 
+ SQUIDZ 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;SQUID Measure.vi History&quot; 
+ Current Revision: 172 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Calculate Int-Inc-Dec.vi 
+ [img] 
+ [img] 
+ [img] 
+ X 
+ [img] 
+ Y 
+ [img] 
+ Z 
+ [img] 
+ SQUID Data IN 
+ [img] 
+ SQUID-X Responce 
+ [img] 
+ SQUID-Y Responce 
+ [img] 
+ SQUID-Z Responce 
+ [img] 
+ SQUID-X Calib 
+ [img] 
+ SQUID-Y Calib 
+ [img] 
+ SQUID-Z Calib 
+ [img] 
+ SQUID-X filter data 
+ [img] 
+ SQUID-Y filter data 
+ [img] 
+ SQUID-Z filter data 
+ [img] 
+ SQUID-X range data 
+ [img] 
+ SQUID-Y range data 
+ [img] 
+ SQUID-Z range data 
+ [img] 
+ SQUID-X slew data 
+ [img] 
+ SQUID-Y slew data 
+ [img] 
+ SQUID-Z slew data 
+ [img] 
+ SQUID-X feedback data 
+ [img] 
+ SQUID-Y feedback data 
+ [img] 
+ SQUID-Z feedback data 
+ [img] 
+ Discrete Sample Index 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Measurement Type 
+ [img] 
+ Current Tray # 
+ [img] 
+ Sample Input 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ X intensity 
+ [img] 
+ Y intensity 
+ [img] 
+ Z intensity 
+ [img] 
+ IID 
+ [img] 
+ intensity 
+ [img] 
+ declination 
+ [img] 
+ inclination 
+ [img] 
+ declination rot #1 
+ [img] 
+ inclination rot #1 
+ [img] 
+ declination rot #2 
+ [img] 
+ inclination rot #2 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Calculate Int-Inc-Dec.vi History&quot; 
+ Current Revision: 112 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Parse Sample Input Line.vi 
+ [img] 
+ [img] 
+ [img] 
+ Selection 
+ [img] 
+ Sample Input 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ Data 
+ [img] 
+ ID 
+ [img] 
+ Position 
+ [img] 
+ Depth 
+ [img] 
+ Volume 
+ [img] 
+ Sample Az 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Az 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Parse Sample Input Line.vi History&quot; 
+ Current Revision: 12 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ IID Calc.vi 
+ [img] 
+ [img] 
+ [img] 
+ X 
+ [img] 
+ Y 
+ [img] 
+ Z 
+ [img] 
+ inclination 
+ [img] 
+ declination 
+ [img] 
+ intensity 
+ [img] 
+ [img] 
+ [img] 
+ &quot;IID Calc.vi History&quot; 
+ Current Revision: 92 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Rotate.vi 
+ [img] 
+ [img] 
+ [img] 
+ Sample Input 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ Rotation 
+ [img] 
+ X IN 
+ [img] 
+ Y IN 
+ [img] 
+ Z IN 
+ [img] 
+ Selection 
+ [img] 
+ X OUT 
+ [img] 
+ Y OUT 
+ [img] 
+ Z OUT 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Rotate.vi History&quot; 
+ Current Revision: 63 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 

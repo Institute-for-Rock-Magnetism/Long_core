@@ -1,0 +1,87 @@
+Rotation
+
+4| "Formation" +P}
+
+renenenenererenenenenenerernnenenenenerernrenenenenrsnrnrenenenenrsnrnrenenenennnernrenenenenrsernrenenenenrsernrenenenensernrenenenenrsernrenenenensernrenenenensernrenenenensernrenenenennsernnenenenenrsnrnrenenenennsnrnrenenenennsnrnnenenenenrsernnenenenenernrenenenenrsernrenenenenrernrenenenensernnenenerenrsernreneneneernnenenenennrerenenenennny
+
+FIT (iii
+
+nk
+
+(eX * eX * (1 - cos(dip)) +
+
+cos(dip)) * ak + (eX * eY * (1 - cos(dip)) -— (eZ * sin(dip))) * a¥Y + (eX * eZ * (1 - cos(dip)) + (e¥Y * sin(dip)) * aZ)
+
+nyY
+
+(eY * eX * (1 - cos(dip)) + (eZ * sin(dip))) * ak + (e¥ * eY * (1 - cos(dip)) +
+
+cos(dip)) * a¥ + (eY * eZ * (1 - cos(dip)) -— (eX * sin(dip)) * aZ)
+
+nZ
+
+(eZ * eX * (1 - cos(dip)) -— (eY * sin(dip))) * ak + (eZ * eY * (1 - cos(dip)) + (eX * sin(dip))) * a¥ + (eZ * eZ * (1 - cos(dip)) +
+
+cos(dip) * aZ)
+
+Po
+
+dip
+
+esansesteanseeeansesteausesteausesteausesteausestausestausesteausestsausestausesteausestsausestausestausesteausesteausesteausestsauseatcausestcausestsausesteausesteausesteausesteausesteansesteauaeateanseteanseseeanae
+
+eeetsesteenaesteenanseeenanes
+
+seanaesteausesteausesteauseteausesteauseseeausesteausesteausesteansesteausesteausesteausesteausesteansesteansesteansesteanaeed! -
+
+eeetsesteenaesteenanseeenanes
+
+Sample Input [L==24
+
+ED ofr
+
+| Use Formation Rot (T)|
+
+7]
+
+XIN {I ;
+
+NA
+
+[poBi]| X OUT
+
+YIN{ ;
+
+i,
+
+[poBL]| Y OUT
+
+i,
+
+ZIN{ ;
+
+az
+
+(poBL |] Z OUT
+
+bomen
+
+Parse
+
+90.00} >>
+
+Sample
+
+360.00} "tal
+
+Selection |[132
+
+Input
+
+=
+
+360.00] {ral
+
+80.00 >
+
+Radian converesion

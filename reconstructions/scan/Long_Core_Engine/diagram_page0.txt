@@ -1,0 +1,235 @@
+Ms nn nn 8 nn nn 8 nn nn 8 8 wn
+
+wn nn nn nn 8 8 wn 8 8
+
+nn 8 nn nn 8 nn no 8 on 8 ow wn on en 8 8 8
+
+cones
+
+M["SAVEDATA”
+
+q
+
+| Track Position | Position
+
+eeeeaeseeenanseeeeene
+
+peeteeteenseeteanseeeeensteee
+
+Jecnseeteansesteansesteansesteensesteanaeseeens]
+
+eeeesee [MM cecenseeeeanseeenanseeeeansecenaesteenaesteensnseeenaeed)
+
+| Motion Stopped (T) |
+
+| StartTime | Time
+
+IRM | IRMStatus |
+
+—
+
+may
+
+ee
+
+ee ra
+
+DG Status
+
+nde
+
+“o- eB
+
+—
+
+SS, ee
+
+DGCoil
+
+Long Core Engine Data IN [Ls
+
+Lesa
+
+ro
+
+ARM Status
+
+a
+
+———
+
+= —— Fe
+
+| ee
+
+2,
+
+—
+
+deena
+
+002 Zz
+
+Senet
+
+;——— Suz
+
+MS Status | Status
+
+} MS Data | AS Data
+
+—
+
+a ee
+
+ee
+
+po
+
+His Position 15 Pos | oo MSPosition — |
+
+| Direction —|
+
+DT Ne ee ee ee Ne a) 1 (0..3] 7 ppeeneaebalatel Os0#0*0*0=0s]
+
+=[]=11#0#0#0#sLs)-
+
+| pel a pf
+
+| Action Index | Index
+
+LIRMTRIGGER" +P
+
+[False +p
+
+ateaneeeeee
+
+Tee vb
+
+[rogerk |
+
+|__ Action | |
+
+aation
+
+|_MoveTo |
+
+poo
+
+eee eee
+
+Taxis]
+
+| DAQ Type |
+
+Rees
+
+Amplitude |
+
+Action Array IN [L208)P5 ERI
+
+| DAQType |
+
+“*1 hee
+
+Action | Action Type|
+
+|
+
+|_Amplitude 7
+
+[Temp 1
+
+[Furnace Action | |
+
+u
+
+[ETE]|Stop DAQ (F)
+
+| Current Tray # | |
+
+oe
+
+Queue Index
+
+Degauss Datagi_2us 1
+
+:
+
+4
+
+Ostet eeee eee eee eee Dees Deedee Dee
+
+He
+
+TP sOsO [sUs0sUsLs;
+
+Data Array IN| [o5up
+
+.
+
+——losi] | Data Array OUT
+
+SQUID Data
+
+(¢  sxxexeceerereeeerern|
+
+MS Data [L204
+
+¢ fee
+
+ES
+
+Maneeerenerenrererenrererenrererenrerererenrererrert
+
+z
+
+TARA RAR OORT
+
+3 Ss
+
+Action Array OUT
+
+Measurment Queue Array|[
+
+= Fe FY |
+
+I
+
+= Fe FY |
+
+Translation Data {L208
+
+PeerEcEeEEEEcEr if SECEEEEXEDS
+
+Measurement Parameters ji_203 1
+
+| SR EEXEEXEXEEKEXEXEEEXEEKE ( SXXEXEXECEEXEXEZEEXED|
+
+Soo
+
+en,
+
+mmm mene
+
+Measurement Data jLS« of
+
+p> [Run # -iBEs2)]
+
+DED Sample Time Stamp fap
+
+ii
+
+fala}
+
+Sen nnn nn
+
+pm [Run 2
+
+wihd
+
+Sample Input (L&=2
+
+Error Indicator IN jL==4
+
+== aa so )lError Indicator OUT

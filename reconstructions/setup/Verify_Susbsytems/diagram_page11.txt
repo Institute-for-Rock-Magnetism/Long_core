@@ -1,0 +1,9 @@
+gpl
+
+0 [0..1] ~ > eee
+
+2G
+
+Init
+
+LO EC CCC CNC CCC CCC

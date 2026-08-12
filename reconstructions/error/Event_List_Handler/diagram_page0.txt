@@ -1,0 +1,31 @@
+8 nn 8 8 8 8 nn nn 8 8 nn nn nw 8 nn nn on 8 on no nn 8 ww nn nw ne 8 wn ny
+
+[False +p
+
+"Add event to list” __ bj
+
+Error Indicator IN
+
+(ay,
+
+0
+
+o000000000
+
+|
+
+o-elEe
+
+Event |Labc#
+
+_
+
+b0000000000000000000000000000000000000000000000000000000000000000000000000000
+
+=m 0
+
+Error Indicator OUT
+
+Mode [Lau
+
+=

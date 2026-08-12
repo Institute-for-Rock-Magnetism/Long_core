@@ -1,0 +1,4556 @@
+ 
+ Save Yes-No.vi 
+ Save Yes-No.vi 
+ [img] 
+ [img] 
+ [img] 
+ No repeat step 
+ [img] 
+ No next 
+ [img] 
+ Yes abort 
+ [img] 
+ Yes next 
+ [img] 
+ Action Array IN 
+ [img] 
+ Action Cluster 
+ [img] 
+ Action Type 
+ [img] 
+ Action 
+ [img] 
+ Move To 
+ [img] 
+ Axis 
+ [img] 
+ DAQ Type 
+ [img] 
+ # DAQs 
+ [img] 
+ Amplitude 
+ [img] 
+ Temp 
+ [img] 
+ Queue Index 
+ [img] 
+ Furnace Action 
+ [img] 
+ Current Tray # 
+ [img] 
+ Data Array IN 
+ [img] 
+ [img] 
+ Action Index IN 
+ [img] 
+ Measurment Queue Array 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ SQUID Data 
+ [img] 
+ SQUID-X Responce 
+ [img] 
+ SQUID-Y Responce 
+ [img] 
+ SQUID-Z Responce 
+ [img] 
+ SQUID-X Calib 
+ [img] 
+ SQUID-Y Calib 
+ [img] 
+ SQUID-Z Calib 
+ [img] 
+ SQUID-X filter data 
+ [img] 
+ SQUID-Y filter data 
+ [img] 
+ SQUID-Z filter data 
+ [img] 
+ SQUID-X range data 
+ [img] 
+ SQUID-Y range data 
+ [img] 
+ SQUID-Z range data 
+ [img] 
+ SQUID-X slew data 
+ [img] 
+ SQUID-Y slew data 
+ [img] 
+ SQUID-Z slew data 
+ [img] 
+ SQUID-X feedback data 
+ [img] 
+ SQUID-Y feedback data 
+ [img] 
+ SQUID-Z feedback data 
+ [img] 
+ Measurement Data IN 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Measurement Parameters 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ File Format Data 
+ [img] 
+ Save Leader/Trailer Data? 
+ [img] 
+ File Format Array 
+ [img] 
+ Data Types 
+ [img] 
+ Translation Data 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ Data Index 
+ [img] 
+ Use Data? 
+ [img] 
+ Current Tray # 
+ [img] 
+ Drift Tolerance (emu) 
+ [img] 
+ Demag Plot 
+ [img] 
+ No abort 
+ [img] 
+ Sample Input 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ XYZ-DII Plot 
+ [img] 
+ Intensity 
+ [img] 
+ Inclination 
+ [img] 
+ Mag Susc/SQUID 
+ [img] 
+ Declination 
+ [img] 
+ Action Array OUT 
+ [img] 
+ Action Cluster 
+ [img] 
+ Action Type 
+ [img] 
+ Action 
+ [img] 
+ Move To 
+ [img] 
+ Axis 
+ [img] 
+ DAQ Type 
+ [img] 
+ # DAQs 
+ [img] 
+ Amplitude 
+ [img] 
+ Temp 
+ [img] 
+ Queue Index 
+ [img] 
+ Furnace Action 
+ [img] 
+ Current Tray # 
+ [img] 
+ ActionIndex OUT 
+ [img] 
+ Drift Calculations: 
+ [img] 
+ X Drift 
+ [img] 
+ Y Drift 
+ [img] 
+ Z Drift 
+ [img] 
+ X Drift 
+ [img] 
+ Y Drift 
+ [img] 
+ Z Drift 
+ [img] 
+ Measurement Data OUT 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Dis info 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Save Yes-No.vi History&quot; 
+ Current Revision: 180 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Open File and Write Data.vi 
+ [img] 
+ [img] 
+ [img] 
+ File Format Data 
+ [img] 
+ Save Leader/Trailer Data? 
+ [img] 
+ File Format Array 
+ [img] 
+ Data Types 
+ [img] 
+ SQUID Data 
+ [img] 
+ SQUID-X Responce 
+ [img] 
+ SQUID-Y Responce 
+ [img] 
+ SQUID-Z Responce 
+ [img] 
+ SQUID-X Calib 
+ [img] 
+ SQUID-Y Calib 
+ [img] 
+ SQUID-Z Calib 
+ [img] 
+ SQUID-X filter data 
+ [img] 
+ SQUID-Y filter data 
+ [img] 
+ SQUID-Z filter data 
+ [img] 
+ SQUID-X range data 
+ [img] 
+ SQUID-Y range data 
+ [img] 
+ SQUID-Z range data 
+ [img] 
+ SQUID-X slew data 
+ [img] 
+ SQUID-Y slew data 
+ [img] 
+ SQUID-Z slew data 
+ [img] 
+ SQUID-X feedback data 
+ [img] 
+ SQUID-Y feedback data 
+ [img] 
+ SQUID-Z feedback data 
+ [img] 
+ Measurement Parameters 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Data Array 
+ [img] 
+ [img] 
+ Current Tray # 
+ [img] 
+ Sample Input 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Open File and Write Data.vi History&quot; 
+ Current Revision: 179 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Data Logger.vi 
+ [img] 
+ [img] 
+ [img] 
+ Tray# 
+ [img] 
+ Measurement Type 
+ [img] 
+ Index 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Data Logger.vi History&quot; 
+ Current Revision: 24 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Write Datalog.vi 
+ [img] 
+ [img] 
+ [img] 
+ Path (IN) 
+ [img] 
+ File (IN) 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Datalog Data IN 
+ [img] 
+ [img] 
+ Name 
+ [img] 
+ Pos 
+ [img] 
+ Demag Step 
+ [img] 
+ [img] 
+ Time Stamp 
+ [img] 
+ AF 
+ [img] 
+ Temp 
+ [img] 
+ ARM 
+ [img] 
+ IRM 
+ [img] 
+ X 
+ [img] 
+ Y 
+ [img] 
+ Z 
+ [img] 
+ Inc 
+ [img] 
+ Dec 
+ [img] 
+ Int 
+ [img] 
+ Dec Sam 
+ [img] 
+ Inc Sam 
+ [img] 
+ Dec Bed 
+ [img] 
+ Inc Bed 
+ [img] 
+ Treatment? 
+ [img] 
+ Path (OUT) 
+ [img] 
+ Write Fail (T) 
+ [img] 
+ File Error (T) 
+ [img] 
+ File (OUT) 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Datalog Refnum 
+ [img] 
+ Datalog Data OUT 
+ [img] 
+ [img] 
+ Name 
+ [img] 
+ Pos 
+ [img] 
+ Demag Step 
+ [img] 
+ [img] 
+ Time Stamp 
+ [img] 
+ AF 
+ [img] 
+ Temp 
+ [img] 
+ ARM 
+ [img] 
+ IRM 
+ [img] 
+ X 
+ [img] 
+ Y 
+ [img] 
+ Z 
+ [img] 
+ Inc 
+ [img] 
+ Dec 
+ [img] 
+ Int 
+ [img] 
+ Dec Sam 
+ [img] 
+ Inc Sam 
+ [img] 
+ Dec Bed 
+ [img] 
+ Inc Bed 
+ [img] 
+ Treatment? 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Write Datalog.vi History&quot; 
+ Current Revision: 117 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Extract Last Step.vi 
+ [img] 
+ [img] 
+ [img] 
+ Datalog Data IN 
+ [img] 
+ Plot Data 
+ [img] 
+ Name 
+ [img] 
+ Pos 
+ [img] 
+ Demag Step 
+ [img] 
+ [img] 
+ Time Stamp 
+ [img] 
+ AF 
+ [img] 
+ Temp 
+ [img] 
+ ARM 
+ [img] 
+ IRM 
+ [img] 
+ X 
+ [img] 
+ Y 
+ [img] 
+ Z 
+ [img] 
+ Inc 
+ [img] 
+ Dec 
+ [img] 
+ Int 
+ [img] 
+ Dec Sam 
+ [img] 
+ Inc Sam 
+ [img] 
+ Dec Bed 
+ [img] 
+ Inc Bed 
+ [img] 
+ Treatment? 
+ [img] 
+ Datalog Data OUT 
+ [img] 
+ Plot Data 
+ [img] 
+ Name 
+ [img] 
+ Pos 
+ [img] 
+ Demag Step 
+ [img] 
+ [img] 
+ Time Stamp 
+ [img] 
+ AF 
+ [img] 
+ Temp 
+ [img] 
+ ARM 
+ [img] 
+ IRM 
+ [img] 
+ X 
+ [img] 
+ Y 
+ [img] 
+ Z 
+ [img] 
+ Inc 
+ [img] 
+ Dec 
+ [img] 
+ Int 
+ [img] 
+ Dec Sam 
+ [img] 
+ Inc Sam 
+ [img] 
+ Dec Bed 
+ [img] 
+ Inc Bed 
+ [img] 
+ Treatment? 
+ [img] 
+ &quot;Extract Last Step.vi History&quot; 
+ Current Revision: 4 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Update datalog.vi 
+ [img] 
+ [img] 
+ [img] 
+ Path (IN) 
+ [img] 
+ File (IN) 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Datalog Data IN 
+ [img] 
+ [img] 
+ Name 
+ [img] 
+ Pos 
+ [img] 
+ Demag Step 
+ [img] 
+ [img] 
+ Time Stamp 
+ [img] 
+ AF 
+ [img] 
+ Temp 
+ [img] 
+ ARM 
+ [img] 
+ IRM 
+ [img] 
+ X 
+ [img] 
+ Y 
+ [img] 
+ Z 
+ [img] 
+ Inc 
+ [img] 
+ Dec 
+ [img] 
+ Int 
+ [img] 
+ Dec Sam 
+ [img] 
+ Inc Sam 
+ [img] 
+ Dec Bed 
+ [img] 
+ Inc Bed 
+ [img] 
+ Treatment? 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Datalog Data OUT 
+ [img] 
+ [img] 
+ Name 
+ [img] 
+ Pos 
+ [img] 
+ Demag Step 
+ [img] 
+ [img] 
+ Time Stamp 
+ [img] 
+ AF 
+ [img] 
+ Temp 
+ [img] 
+ ARM 
+ [img] 
+ IRM 
+ [img] 
+ X 
+ [img] 
+ Y 
+ [img] 
+ Z 
+ [img] 
+ Inc 
+ [img] 
+ Dec 
+ [img] 
+ Int 
+ [img] 
+ Dec Sam 
+ [img] 
+ Inc Sam 
+ [img] 
+ Dec Bed 
+ [img] 
+ Inc Bed 
+ [img] 
+ Treatment? 
+ [img] 
+ Datalog Matched &amp; New Data 
+ [img] 
+ [img] 
+ Name 
+ [img] 
+ Pos 
+ [img] 
+ Demag Step 
+ [img] 
+ [img] 
+ Time Stamp 
+ [img] 
+ AF 
+ [img] 
+ Temp 
+ [img] 
+ ARM 
+ [img] 
+ IRM 
+ [img] 
+ X 
+ [img] 
+ Y 
+ [img] 
+ Z 
+ [img] 
+ Inc 
+ [img] 
+ Dec 
+ [img] 
+ Int 
+ [img] 
+ Dec Sam 
+ [img] 
+ Inc Sam 
+ [img] 
+ Dec Bed 
+ [img] 
+ Inc Bed 
+ [img] 
+ Treatment? 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Update datalog.vi History&quot; 
+ Current Revision: 27 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Read Datalog.vi 
+ [img] 
+ [img] 
+ [img] 
+ Path (IN) 
+ [img] 
+ File Not Found 
+ [img] 
+ File (IN) 
+ [img] 
+ Open File Dialog 
+ [img] 
+ File Dialog Prompt 
+ [img] 
+ Pattern 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Path (OUT) 
+ [img] 
+ Read Fail (T) 
+ [img] 
+ User Abort (T) 
+ [img] 
+ File Error (T) 
+ [img] 
+ File (OUT) 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Datalog Data 
+ [img] 
+ [img] 
+ Name 
+ [img] 
+ Pos 
+ [img] 
+ Demag Step 
+ [img] 
+ [img] 
+ Time Stamp 
+ [img] 
+ AF 
+ [img] 
+ Temp 
+ [img] 
+ ARM 
+ [img] 
+ IRM 
+ [img] 
+ X 
+ [img] 
+ Y 
+ [img] 
+ Z 
+ [img] 
+ Inc 
+ [img] 
+ Dec 
+ [img] 
+ Int 
+ [img] 
+ Dec Sam 
+ [img] 
+ Inc Sam 
+ [img] 
+ Dec Bed 
+ [img] 
+ Inc Bed 
+ [img] 
+ Treatment? 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Read Datalog.vi History&quot; 
+ Current Revision: 49 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Long Core Header Writer.vi 
+ [img] 
+ [img] 
+ [img] 
+ File Format Data 
+ [img] 
+ Save Leader/Trailer Data? 
+ [img] 
+ File Format Array 
+ [img] 
+ Data Types 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ File refnum 
+ [img] 
+ Measurement Parameters 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Long Core Header Writer.vi History&quot; 
+ Current Revision: 41 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ File Format Data.ctl 
+ [img] 
+ [img] 
+ [img] 
+ File Format Data 
+ [img] 
+ Save Leader/Trailer Data? 
+ [img] 
+ File Format Array 
+ [img] 
+ Data Types 
+ &quot;File Format Data.ctl History&quot; 
+ Current Revision: 37 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ File Data Types.ctl 
+ [img] 
+ [img] 
+ [img] 
+ Data Types 
+ &quot;File Data Types.ctl History&quot; 
+ Current Revision: 35 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Long Core Data Writer.vi 
+ [img] 
+ [img] 
+ [img] 
+ Data 
+ [img] 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Measurement Parameters 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ File Format Data 
+ [img] 
+ Save Leader/Trailer Data? 
+ [img] 
+ File Format Array 
+ [img] 
+ Data Types 
+ [img] 
+ Backup refnum 
+ [img] 
+ SQUID Data 
+ [img] 
+ SQUID-X Responce 
+ [img] 
+ SQUID-Y Responce 
+ [img] 
+ SQUID-Z Responce 
+ [img] 
+ SQUID-X Calib 
+ [img] 
+ SQUID-Y Calib 
+ [img] 
+ SQUID-Z Calib 
+ [img] 
+ SQUID-X filter data 
+ [img] 
+ SQUID-Y filter data 
+ [img] 
+ SQUID-Z filter data 
+ [img] 
+ SQUID-X range data 
+ [img] 
+ SQUID-Y range data 
+ [img] 
+ SQUID-Z range data 
+ [img] 
+ SQUID-X slew data 
+ [img] 
+ SQUID-Y slew data 
+ [img] 
+ SQUID-Z slew data 
+ [img] 
+ SQUID-X feedback data 
+ [img] 
+ SQUID-Y feedback data 
+ [img] 
+ SQUID-Z feedback data 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ Back Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Current Tray # 
+ [img] 
+ Sample Input 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ Prime refnum 
+ [img] 
+ Prime Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Tray Index 
+ [img] 
+ Back Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Data 
+ [img] 
+ Prime Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Long Core Data Writer.vi History&quot; 
+ Current Revision: 344 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ 24 Hr Date-Time Stamp.vi 
+ [img] 
+ [img] 
+ [img] 
+ Time In 
+ [img] 
+ Use Time In (T) Now (F) 
+ [img] 
+ Prefix string 
+ [img] 
+ Prefix + Time Stamp 
+ [img] 
+ Time Stamp 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;24 Hr Date-Time Stamp.vi History&quot; 
+ Current Revision: 32 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Extract Numbers DBL.vi 
+ Finds all numbers in the given string and puts them into an array as single-precision numbers. All of the following formats are recognized: 
+ 123 1.23 1.23e2 1.23E2 
+ No spaces or other characters may appear within the number, but any characters may appear before or after the number. 
+ [img] 
+ [img] 
+ [img] 
+ String 
+ [img] 
+ DBL Array 
+ [img] 
+ [img] 
+ &quot;Extract Numbers DBL.vi History&quot; 
+ Current Revision: 2 
+ rev. 1 Mon, Oct 3, 1994 6:36:53 PM greggf 
+ VI was converted from LabVIEW version 3.1b1 to LabVIEW version 3.1. 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Offline Treatment.vi 
+ [img] 
+ [img] 
+ [img] 
+ Offline Instrument 
+ [img] 
+ ARM Acquisition Type 
+ [img] 
+ Demag of: 
+ [img] 
+ Measurement Queue Pause Step 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ &quot;Offline Treatment.vi History&quot; 
+ Current Revision: 12 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Pause Comment.vi 
+ [img] 
+ [img] 
+ [img] 
+ Pause Comment 
+ &quot;Pause Comment.vi History&quot; 
+ Current Revision: 1 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Graph Data.vi 
+ [img] 
+ [img] 
+ [img] 
+ Data 
+ [img] 
+ [img] 
+ Data Index 
+ [img] 
+ Use Data? 
+ [img] 
+ Sample Input 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Tray # 
+ [img] 
+ Measurement Type 
+ [img] 
+ Declination 
+ [img] 
+ Mag Susc/SQUID 
+ [img] 
+ Inclination 
+ [img] 
+ Intensity 
+ [img] 
+ Discrete Data 
+ [img] 
+ Discrete Info 
+ [img] 
+ Sample ID 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Graph Data.vi History&quot; 
+ Current Revision: 36 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Demag Plots.vi 
+ [img] 
+ [img] 
+ [img] 
+ Previous 
+ [img] 
+ Next 
+ [img] 
+ Done 
+ [img] 
+ Plot Type: 
+ [img] 
+ Style: 
+ [img] 
+ Print 
+ [img] 
+ Print all 
+ [img] 
+ Intensity vs. 
+ [img] 
+ Plot? 
+ [img] 
+ Sample Position 
+ [img] 
+ Intensity Decay 
+ [img] 
+ Vector Demagnetization 
+ [img] 
+ Inclination 
+ [img] 
+ Declination 
+ [img] 
+ Intensity 
+ [img] 
+ R-label 
+ [img] 
+ L- label 
+ [img] 
+ T - label 
+ [img] 
+ B -label 
+ [img] 
+ [img] 
+ Sample ID 
+ [img] 
+ Equal Area Projection 
+ [img] 
+ another dummy graph 
+ [img] 
+ Inclination Sam 
+ [img] 
+ Declination Sam 
+ [img] 
+ Inclination For 
+ [img] 
+ Declination For 
+ [img] 
+ X moment 
+ [img] 
+ Y moment 
+ [img] 
+ Z moment 
+ [img] 
+ vs 
+ [img] 
+ AF field 
+ [img] 
+ Temp. 
+ [img] 
+ ARM field 
+ [img] 
+ IRM field 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Demag Plots.vi History&quot; 
+ Current Revision: 324 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Extract &amp; Sort Plot Data.vi 
+ [img] 
+ [img] 
+ [img] 
+ Plot Data IN 
+ [img] 
+ [img] 
+ Name 
+ [img] 
+ Pos 
+ [img] 
+ Demag Step 
+ [img] 
+ [img] 
+ Time Stamp 
+ [img] 
+ AF 
+ [img] 
+ Temp 
+ [img] 
+ ARM 
+ [img] 
+ IRM 
+ [img] 
+ X 
+ [img] 
+ Y 
+ [img] 
+ Z 
+ [img] 
+ Inc 
+ [img] 
+ Dec 
+ [img] 
+ Int 
+ [img] 
+ Dec Sam 
+ [img] 
+ Inc Sam 
+ [img] 
+ Dec Bed 
+ [img] 
+ Inc Bed 
+ [img] 
+ Treatment? 
+ [img] 
+ Intensity vs. 
+ [img] 
+ Plot Data OUT 
+ [img] 
+ [img] 
+ Name 
+ [img] 
+ Pos 
+ [img] 
+ Demag Step 
+ [img] 
+ [img] 
+ Time Stamp 
+ [img] 
+ AF 
+ [img] 
+ Temp 
+ [img] 
+ ARM 
+ [img] 
+ IRM 
+ [img] 
+ X 
+ [img] 
+ Y 
+ [img] 
+ Z 
+ [img] 
+ Inc 
+ [img] 
+ Dec 
+ [img] 
+ Int 
+ [img] 
+ Dec Sam 
+ [img] 
+ Inc Sam 
+ [img] 
+ Dec Bed 
+ [img] 
+ Inc Bed 
+ [img] 
+ Treatment? 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Extract &amp; Sort Plot Data.vi History&quot; 
+ Current Revision: 30 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Plot Printing.vi 
+ [img] 
+ [img] 
+ [img] 
+ Plot Type: 
+ [img] 
+ Style: 
+ [img] 
+ Plot index 
+ [img] 
+ Use? 
+ [img] 
+ Plot data 
+ [img] 
+ Plot Data 
+ [img] 
+ Name 
+ [img] 
+ Pos 
+ [img] 
+ Demag Step 
+ [img] 
+ [img] 
+ Time Stamp 
+ [img] 
+ AF 
+ [img] 
+ Temp 
+ [img] 
+ ARM 
+ [img] 
+ IRM 
+ [img] 
+ X 
+ [img] 
+ Y 
+ [img] 
+ Z 
+ [img] 
+ Inc 
+ [img] 
+ Dec 
+ [img] 
+ Int 
+ [img] 
+ Dec Sam 
+ [img] 
+ Inc Sam 
+ [img] 
+ Dec Bed 
+ [img] 
+ Inc Bed 
+ [img] 
+ Treatment? 
+ [img] 
+ Intensity vs. 
+ [img] 
+ &quot;Plot Printing.vi History&quot; 
+ Current Revision: 20 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Print Plots.vi 
+ [img] 
+ [img] 
+ [img] 
+ Plot Type: 
+ [img] 
+ Style: 
+ [img] 
+ Plot index 
+ [img] 
+ Data Plotted Is: 
+ [img] 
+ Plot data 
+ [img] 
+ Plot Data 
+ [img] 
+ Name 
+ [img] 
+ Pos 
+ [img] 
+ Demag Step 
+ [img] 
+ [img] 
+ Time Stamp 
+ [img] 
+ AF 
+ [img] 
+ Temp 
+ [img] 
+ ARM 
+ [img] 
+ IRM 
+ [img] 
+ X 
+ [img] 
+ Y 
+ [img] 
+ Z 
+ [img] 
+ Inc 
+ [img] 
+ Dec 
+ [img] 
+ Int 
+ [img] 
+ Dec Sam 
+ [img] 
+ Inc Sam 
+ [img] 
+ Dec Bed 
+ [img] 
+ Inc Bed 
+ [img] 
+ Treatment? 
+ [img] 
+ Intensity vs. 
+ [img] 
+ Intensity Decay 
+ [img] 
+ Vector Demagnetization 
+ [img] 
+ R-label 
+ [img] 
+ L- label 
+ [img] 
+ T - label 
+ [img] 
+ B -label 
+ [img] 
+ [img] 
+ Equal Area Projection 
+ [img] 
+ [img] 
+ Sample ID 
+ [img] 
+ Date: 
+ [img] 
+ Jo 
+ [img] 
+ Data 
+ [img] 
+ u 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Print Plots.vi History&quot; 
+ Current Revision: 246 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Select Demag Data.vi 
+ [img] 
+ [img] 
+ [img] 
+ Use? 
+ [img] 
+ Sample Select 
+ [img] 
+ Plot Data 
+ [img] 
+ Plot Data 
+ [img] 
+ Name 
+ [img] 
+ Pos 
+ [img] 
+ Demag Step 
+ [img] 
+ [img] 
+ Time Stamp 
+ [img] 
+ AF 
+ [img] 
+ Temp 
+ [img] 
+ ARM 
+ [img] 
+ IRM 
+ [img] 
+ X 
+ [img] 
+ Y 
+ [img] 
+ Z 
+ [img] 
+ Inc 
+ [img] 
+ Dec 
+ [img] 
+ Int 
+ [img] 
+ Dec Sam 
+ [img] 
+ Inc Sam 
+ [img] 
+ Dec Bed 
+ [img] 
+ Inc Bed 
+ [img] 
+ Treatment? 
+ [img] 
+ Intensity vs. 
+ [img] 
+ Int 
+ [img] 
+ Int 
+ [img] 
+ Dec 
+ [img] 
+ Dec 
+ [img] 
+ Inc 
+ [img] 
+ Inc 
+ [img] 
+ Demag Step 
+ [img] 
+ Temp 
+ [img] 
+ X 
+ [img] 
+ X 
+ [img] 
+ Y 
+ [img] 
+ Y 
+ [img] 
+ Z 
+ [img] 
+ Z 
+ [img] 
+ Pos 
+ [img] 
+ Pos 
+ [img] 
+ SAM ID 
+ [img] 
+ Sam ID 
+ [img] 
+ Data 
+ [img] 
+ [img] 
+ Time Stamp 
+ [img] 
+ AF 
+ [img] 
+ Temp 
+ [img] 
+ ARM 
+ [img] 
+ IRM 
+ [img] 
+ X 
+ [img] 
+ Y 
+ [img] 
+ Z 
+ [img] 
+ Inc 
+ [img] 
+ Dec 
+ [img] 
+ Int 
+ [img] 
+ Dec Sam 
+ [img] 
+ Inc Sam 
+ [img] 
+ Dec Bed 
+ [img] 
+ Inc Bed 
+ [img] 
+ Treatment? 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Select Demag Data.vi History&quot; 
+ Current Revision: 23 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Equal Area.vi 
+ [img] 
+ [img] 
+ [img] 
+ Inclination 
+ [img] 
+ Inc 
+ [img] 
+ Declination 
+ [img] 
+ Dec 
+ [img] 
+ Equal Area Projection 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Equal Area.vi History&quot; 
+ Current Revision: 3 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Discrete Info header.vi 
+ [img] 
+ [img] 
+ [img] 
+ Sample Input 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ Discrete Column Tiltles 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Discrete Info header.vi History&quot; 
+ Current Revision: 17 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ XYZDII Plot.vi 
+ [img] 
+ [img] 
+ [img] 
+ Display DII Based On 
+ [img] 
+ Show Plots As A Function 
+ [img] 
+ Done 
+ [img] 
+ Axis 
+ [img] 
+ graph 
+ [img] 
+ Magnetization 
+ [img] 
+ Legend 
+ [img] 
+ [img] 
+ Declination 
+ [img] 
+ Inclination 
+ [img] 
+ Intensity 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;XYZDII Plot.vi History&quot; 
+ Current Revision: 38 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ User's Pause.vi 
+ [img] 
+ [img] 
+ [img] 
+ Comments (80 characters max) 
+ [img] 
+ Resume 
+ [img] 
+ Treatment? 
+ [img] 
+ Temperature 
+ [img] 
+ IRM Gauss 
+ [img] 
+ ARM Gauss 
+ [img] 
+ Measurement Queue IN 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ Queue Index 
+ [img] 
+ Instrument 
+ [img] 
+ AF Field Gauss 
+ [img] 
+ ARM Acquisition Type 
+ [img] 
+ Demag/Measurement of: 
+ [img] 
+ TRM Field (Gauss) 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;User's Pause.vi History&quot; 
+ Current Revision: 71 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Strip String.vi 
+ [img] 
+ [img] 
+ [img] 
+ IN STRING 
+ [img] 
+ STRIP CHAR 
+ [img] 
+ REPLACE CHAR 
+ [img] 
+ OUT STRING 
+ [img] 
+ #OCCURANCES 
+ [img] 
+ [img] 
+ &quot;Strip String.vi History&quot; 
+ Current Revision: 6 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Long Core Engine Data Out.ctl 
+ [img] 
+ [img] 
+ [img] 
+ Long Core Engine Data Out 
+ [img] 
+ Action Index 
+ [img] 
+ Data Index 
+ [img] 
+ Track Position 
+ [img] 
+ Motion Stopped (T) 
+ [img] 
+ Start Time 
+ [img] 
+ IRM Status 
+ [img] 
+ IRM Oe 
+ [img] 
+ DG Status 
+ [img] 
+ DGCoil 
+ [img] 
+ DG mT 
+ [img] 
+ ARM Gauss 
+ [img] 
+ ARM Status 
+ [img] 
+ SQUID Status 
+ [img] 
+ SQUID X 
+ [img] 
+ SQUID Y 
+ [img] 
+ SQUID Z 
+ [img] 
+ MS Status 
+ [img] 
+ MS Data 
+ [img] 
+ SQUID Position 
+ [img] 
+ MS Position 
+ [img] 
+ Direction 
+ [img] 
+ Program State 
+ &quot;Long Core Engine Data Out.ctl History&quot; 
+ Current Revision: 18 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Long Core Engine Init.vi 
+ [img] 
+ [img] 
+ [img] 
+ Data Array Size 
+ [img] 
+ Data Array Size 
+ [img] 
+ Long Core Engine Data Out 
+ [img] 
+ Action Index 
+ [img] 
+ Data Index 
+ [img] 
+ Track Position 
+ [img] 
+ Motion Stopped (T) 
+ [img] 
+ Start Time 
+ [img] 
+ IRM Status 
+ [img] 
+ IRM Oe 
+ [img] 
+ DG Status 
+ [img] 
+ DGCoil 
+ [img] 
+ DG mT 
+ [img] 
+ ARM Gauss 
+ [img] 
+ ARM Status 
+ [img] 
+ SQUID Status 
+ [img] 
+ SQUID X 
+ [img] 
+ SQUID Y 
+ [img] 
+ SQUID Z 
+ [img] 
+ MS Status 
+ [img] 
+ MS Data 
+ [img] 
+ SQUID Position 
+ [img] 
+ MS Position 
+ [img] 
+ Direction 
+ [img] 
+ Program State 
+ [img] 
+ Data Array 
+ [img] 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Error(T) 
+ [img] 
+ Status Cluster Init 
+ [img] 
+ Track 
+ [img] 
+ SQUID Stat 
+ [img] 
+ SQUID Status... 
+ [img] 
+ SQUID cm........ 
+ [img] 
+ SQUID X.......... 
+ [img] 
+ SQUID Y.......... 
+ [img] 
+ SQUID Z.......... 
+ [img] 
+ MS Stat 
+ [img] 
+ MS Status........ 
+ [img] 
+ MS cm............. 
+ [img] 
+ MS................... 
+ [img] 
+ DG Stat 
+ [img] 
+ AF Field ........... 
+ [img] 
+ AF Coil ............ 
+ [img] 
+ AF Status ........ 
+ [img] 
+ ARM Stat 
+ [img] 
+ ARM Status..... 
+ [img] 
+ ARM Field ...... 
+ [img] 
+ IRM Stat 
+ [img] 
+ IRM Status...... 
+ [img] 
+ IRM Field ........ 
+ [img] 
+ Error 
+ [img] 
+ Info 
+ [img] 
+ Tray # 
+ [img] 
+ &quot;Long Core Engine Init.vi History&quot; 
+ Current Revision: 74 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ SQUID status.ctl 
+ [img] 
+ [img] 
+ [img] 
+ SQUID Stat 
+ [img] 
+ SQUID Status... 
+ [img] 
+ SQUID cm........ 
+ [img] 
+ SQUID X.......... 
+ [img] 
+ SQUID Y.......... 
+ [img] 
+ SQUID Z.......... 
+ &quot;SQUID status.ctl History&quot; 
+ Current Revision: 6 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ MS Stat.ctl 
+ [img] 
+ [img] 
+ [img] 
+ MS Stat 
+ [img] 
+ MS Status........ 
+ [img] 
+ MS cm............. 
+ [img] 
+ MS................... 
+ &quot;MS Stat.ctl History&quot; 
+ Current Revision: 2 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ DG Stat.ctl 
+ [img] 
+ [img] 
+ [img] 
+ DG Stat 
+ [img] 
+ AF Field ........... 
+ [img] 
+ AF Coil ............ 
+ [img] 
+ AF Status ........ 
+ &quot;DG Stat.ctl History&quot; 
+ Current Revision: 9 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ ARM Stat.ctl 
+ [img] 
+ [img] 
+ [img] 
+ ARM Stat 
+ [img] 
+ ARM Status..... 
+ [img] 
+ ARM Field ...... 
+ &quot;ARM Stat.ctl History&quot; 
+ Current Revision: 5 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ IRM Stat.ctl 
+ [img] 
+ [img] 
+ [img] 
+ IRM Stat 
+ [img] 
+ IRM Status...... 
+ [img] 
+ IRM Field ........ 
+ &quot;IRM Stat.ctl History&quot; 
+ Current Revision: 3 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Status &amp; Error Control.vi 
+ [img] 
+ [img] 
+ [img] 
+ Action Array IN 
+ [img] 
+ Action Cluster 
+ [img] 
+ Action Type 
+ [img] 
+ Action 
+ [img] 
+ Move To 
+ [img] 
+ Axis 
+ [img] 
+ DAQ Type 
+ [img] 
+ # DAQs 
+ [img] 
+ Amplitude 
+ [img] 
+ Temp 
+ [img] 
+ Queue Index 
+ [img] 
+ Furnace Action 
+ [img] 
+ Current Tray # 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Long Core Engine Data IN 
+ [img] 
+ Action Index 
+ [img] 
+ Data Index 
+ [img] 
+ Track Position 
+ [img] 
+ Motion Stopped (T) 
+ [img] 
+ Start Time 
+ [img] 
+ IRM Status 
+ [img] 
+ IRM Oe 
+ [img] 
+ DG Status 
+ [img] 
+ DGCoil 
+ [img] 
+ DG mT 
+ [img] 
+ ARM Gauss 
+ [img] 
+ ARM Status 
+ [img] 
+ SQUID Status 
+ [img] 
+ SQUID X 
+ [img] 
+ SQUID Y 
+ [img] 
+ SQUID Z 
+ [img] 
+ MS Status 
+ [img] 
+ MS Data 
+ [img] 
+ SQUID Position 
+ [img] 
+ MS Position 
+ [img] 
+ Direction 
+ [img] 
+ Program State 
+ [img] 
+ USER ABORT (T) 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Translation Data 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ Measurement Queue Array 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Status Cluster IN 
+ [img] 
+ Track 
+ [img] 
+ SQUID Stat 
+ [img] 
+ SQUID Status... 
+ [img] 
+ SQUID cm........ 
+ [img] 
+ SQUID X.......... 
+ [img] 
+ SQUID Y.......... 
+ [img] 
+ SQUID Z.......... 
+ [img] 
+ MS Stat 
+ [img] 
+ MS Status........ 
+ [img] 
+ MS cm............. 
+ [img] 
+ MS................... 
+ [img] 
+ DG Stat 
+ [img] 
+ AF Field ........... 
+ [img] 
+ AF Coil ............ 
+ [img] 
+ AF Status ........ 
+ [img] 
+ ARM Stat 
+ [img] 
+ ARM Status..... 
+ [img] 
+ ARM Field ...... 
+ [img] 
+ IRM Stat 
+ [img] 
+ IRM Status...... 
+ [img] 
+ IRM Field ........ 
+ [img] 
+ Error 
+ [img] 
+ Info 
+ [img] 
+ Tray # 
+ [img] 
+ Degauss Data 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Delay Parameter 
+ [img] 
+ Status 
+ [img] 
+ Amplitude 
+ [img] 
+ Active Coil 
+ [img] 
+ Min 
+ [img] 
+ Max 
+ [img] 
+ X Cal 
+ [img] 
+ Y Cal 
+ [img] 
+ Z Cal 
+ [img] 
+ Action Array OUT 
+ [img] 
+ Action Cluster 
+ [img] 
+ Action Type 
+ [img] 
+ Action 
+ [img] 
+ Move To 
+ [img] 
+ Axis 
+ [img] 
+ DAQ Type 
+ [img] 
+ # DAQs 
+ [img] 
+ Amplitude 
+ [img] 
+ Temp 
+ [img] 
+ Queue Index 
+ [img] 
+ Furnace Action 
+ [img] 
+ Current Tray # 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Long Core Engine Data Out 
+ [img] 
+ Action Index 
+ [img] 
+ Data Index 
+ [img] 
+ Track Position 
+ [img] 
+ Motion Stopped (T) 
+ [img] 
+ Start Time 
+ [img] 
+ IRM Status 
+ [img] 
+ IRM Oe 
+ [img] 
+ DG Status 
+ [img] 
+ DGCoil 
+ [img] 
+ DG mT 
+ [img] 
+ ARM Gauss 
+ [img] 
+ ARM Status 
+ [img] 
+ SQUID Status 
+ [img] 
+ SQUID X 
+ [img] 
+ SQUID Y 
+ [img] 
+ SQUID Z 
+ [img] 
+ MS Status 
+ [img] 
+ MS Data 
+ [img] 
+ SQUID Position 
+ [img] 
+ MS Position 
+ [img] 
+ Direction 
+ [img] 
+ Program State 
+ [img] 
+ Meas Queue 
+ [img] 
+ Status Cluster OUT 
+ [img] 
+ Track 
+ [img] 
+ SQUID Stat 
+ [img] 
+ SQUID Status... 
+ [img] 
+ SQUID cm........ 
+ [img] 
+ SQUID X.......... 
+ [img] 
+ SQUID Y.......... 
+ [img] 
+ SQUID Z.......... 
+ [img] 
+ MS Stat 
+ [img] 
+ MS Status........ 
+ [img] 
+ MS cm............. 
+ [img] 
+ MS................... 
+ [img] 
+ DG Stat 
+ [img] 
+ AF Field ........... 
+ [img] 
+ AF Coil ............ 
+ [img] 
+ AF Status ........ 
+ [img] 
+ ARM Stat 
+ [img] 
+ ARM Status..... 
+ [img] 
+ ARM Field ...... 
+ [img] 
+ IRM Stat 
+ [img] 
+ IRM Status...... 
+ [img] 
+ IRM Field ........ 
+ [img] 
+ Error 
+ [img] 
+ Info 
+ [img] 
+ Tray # 
+ [img] 
+ Halt Reset 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Status &amp; Error Control.vi History&quot; 
+ Current Revision: 81 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Abort Subsystens.vi 
+ [img] 
+ [img] 
+ [img] 
+ Check Demag Responce 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Abort Subsystens.vi History&quot; 
+ Current Revision: 10 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ ARM Manual Off.vi 
+ [img] 
+ [img] 
+ [img] 
+ DONE 
+ [img] 
+ Info 
+ [img] 
+ &quot;ARM Manual Off.vi History&quot; 
+ Current Revision: 15 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Intialize System.vi 
+ [img] 
+ [img] 
+ [img] 
+ Degauss Data 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Delay Parameter 
+ [img] 
+ Status 
+ [img] 
+ Amplitude 
+ [img] 
+ Active Coil 
+ [img] 
+ Min 
+ [img] 
+ Max 
+ [img] 
+ X Cal 
+ [img] 
+ Y Cal 
+ [img] 
+ Z Cal 
+ [img] 
+ SQUID Data 
+ [img] 
+ SQUID-X Responce 
+ [img] 
+ SQUID-Y Responce 
+ [img] 
+ SQUID-Z Responce 
+ [img] 
+ SQUID-X Calib 
+ [img] 
+ SQUID-Y Calib 
+ [img] 
+ SQUID-Z Calib 
+ [img] 
+ SQUID-X filter data 
+ [img] 
+ SQUID-Y filter data 
+ [img] 
+ SQUID-Z filter data 
+ [img] 
+ SQUID-X range data 
+ [img] 
+ SQUID-Y range data 
+ [img] 
+ SQUID-Z range data 
+ [img] 
+ SQUID-X slew data 
+ [img] 
+ SQUID-Y slew data 
+ [img] 
+ SQUID-Z slew data 
+ [img] 
+ SQUID-X feedback data 
+ [img] 
+ SQUID-Y feedback data 
+ [img] 
+ SQUID-Z feedback data 
+ [img] 
+ Translation Data 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ File Format Data 
+ [img] 
+ Save Leader/Trailer Data? 
+ [img] 
+ File Format Array 
+ [img] 
+ Data Types 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Measurement Parameters 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ MS Data 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Measurement Queue Array 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ Sample Input 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Intialize System.vi History&quot; 
+ Current Revision: 283 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ INI Check.vi 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;INI Check.vi History&quot; 
+ Current Revision: 18 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Read Long Core Set Up.vi 
+ [img] 
+ [img] 
+ [img] 
+ Translation Data 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ SQUID Data 
+ [img] 
+ SQUID-X Responce 
+ [img] 
+ SQUID-Y Responce 
+ [img] 
+ SQUID-Z Responce 
+ [img] 
+ SQUID-X Calib 
+ [img] 
+ SQUID-Y Calib 
+ [img] 
+ SQUID-Z Calib 
+ [img] 
+ SQUID-X filter data 
+ [img] 
+ SQUID-Y filter data 
+ [img] 
+ SQUID-Z filter data 
+ [img] 
+ SQUID-X range data 
+ [img] 
+ SQUID-Y range data 
+ [img] 
+ SQUID-Z range data 
+ [img] 
+ SQUID-X slew data 
+ [img] 
+ SQUID-Y slew data 
+ [img] 
+ SQUID-Z slew data 
+ [img] 
+ SQUID-X feedback data 
+ [img] 
+ SQUID-Y feedback data 
+ [img] 
+ SQUID-Z feedback data 
+ [img] 
+ Degauss Data 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Delay Parameter 
+ [img] 
+ Status 
+ [img] 
+ Amplitude 
+ [img] 
+ Active Coil 
+ [img] 
+ Min 
+ [img] 
+ Max 
+ [img] 
+ X Cal 
+ [img] 
+ Y Cal 
+ [img] 
+ Z Cal 
+ [img] 
+ File Format Data 
+ [img] 
+ Save Leader/Trailer Data? 
+ [img] 
+ File Format Array 
+ [img] 
+ Data Types 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Measurement Parameters 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ MS Data 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Measurement Queue Array 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ OK (T) 
+ [img] 
+ Sample Input 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ [img] 
+ &quot;Read Long Core Set Up.vi History&quot; 
+ Current Revision: 298 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Read File.vi 
+ [img] 
+ [img] 
+ [img] 
+ Path (IN) 
+ [img] 
+ File Not Found 
+ [img] 
+ File (IN) 
+ [img] 
+ Open File Dialog 
+ [img] 
+ File Dialog Prompt 
+ [img] 
+ Pattern 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Path (OUT) 
+ [img] 
+ Data 
+ [img] 
+ Read Fail (T) 
+ [img] 
+ User Abort (T) 
+ [img] 
+ File Error (T) 
+ [img] 
+ File (OUT) 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Read File.vi History&quot; 
+ Current Revision: 42 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 

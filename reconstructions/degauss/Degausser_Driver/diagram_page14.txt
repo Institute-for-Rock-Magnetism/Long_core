@@ -1,0 +1,11 @@
+"set delay to 9 sec: DCD9"
+
+P|
+
+Bytes To Read {6|
+
+Setting Degausser’s delay to 9
+
+second
+
+DCDS

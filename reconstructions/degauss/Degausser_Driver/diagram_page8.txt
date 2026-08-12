@@ -1,0 +1,11 @@
+"set delay to 3 sec: DCD3"
+
+P|
+
+Bytes To Read {6|
+
+Setting Degausser’s delay to 3
+
+second
+
+DCD3

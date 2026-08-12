@@ -1,0 +1,5 @@
+Commanding Degausser to
+
+send status
+
+DSS

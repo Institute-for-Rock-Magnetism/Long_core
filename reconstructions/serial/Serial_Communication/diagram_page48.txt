@@ -1,0 +1,3 @@
+| “Write & Read”_~p
+
+id] “Clear Buffer Before Write”_~p

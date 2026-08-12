@@ -1,0 +1,29 @@
+MS commands
+
+seen
+
+Verify Failed (T)
+
+gS
+
+seen
+
+2G
+
+&
+
+Error (T)
+
+ee
+
+ms
+
+Driver
+
+po
+
+Reply string
+
+Error Indicator IN
+
+Error Indicator OUT

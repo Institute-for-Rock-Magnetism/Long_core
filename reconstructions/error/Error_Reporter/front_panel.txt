@@ -1,0 +1,15 @@
+(user-defined dialog type]
+
+error?
+
+code out
+
+type of dialog (OK msg:1)
+
+error in (no error)
+
+source out
+
+message
+
+error out

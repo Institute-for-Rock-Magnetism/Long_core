@@ -1,0 +1,13 @@
+"set ramp to 3: DCR3"
+
+P|
+
+By Sting w/Timeout f
+
+joWrite Only
+
+Bytes To Read {6|
+
+Setting Degausser’s ramp to 3
+
+DCR3

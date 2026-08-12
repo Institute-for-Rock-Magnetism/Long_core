@@ -1,0 +1,11 @@
+Position
+
+Direction
+
+Error(T)
+
+user stop (T)
+
+Error Indicator IN
+
+Error Indicator OUT

@@ -1,0 +1,37 @@
+Calculate Next Move Only (T)
+
+aeeeeae
+
+oe
+
+Direction
+
+Move To
+
+seenseeeeenseeenanaee
+
+2G I=
+
+Error (T)
+
+Acceleration
+
+—
+
+Start
+
+Move
+
+po
+
+Steps
+
+Deceleration
+
+Error Indicator OUT
+
+Velocity
+
+Error Indicator IN
+
+nn

@@ -1,0 +1,2852 @@
+ 
+ Extract Input Data.vi 
+ Extract Input Data.vi 
+ [img] 
+ [img] 
+ [img] 
+ Data String 
+ [img] 
+ Choose Delimiter(s) 
+ [img] 
+ tab 
+ [img] 
+ comma 
+ [img] 
+ space(s) 
+ [img] 
+ Ok 
+ [img] 
+ Cancel 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Pos /Len 
+ [img] 
+ Depth 
+ [img] 
+ Vol / Area 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Set ID 
+ [img] 
+ Set position 
+ [img] 
+ Set depth 
+ [img] 
+ Set volume 
+ [img] 
+ Set Sample Azimuth 
+ [img] 
+ Set Sample Dip 
+ [img] 
+ Set Formation Azimuth 
+ [img] 
+ Set Formation Dip 
+ [img] 
+ Use pos/len 
+ [img] 
+ Use depth 
+ [img] 
+ Use Sample Rotation 
+ [img] 
+ Use Formation Rotation 
+ [img] 
+ Sample Input IN 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ Overwite (T) 
+ [img] 
+ Title lines 
+ [img] 
+ Instructions 
+ [img] 
+ Set Mag Dev 
+ [img] 
+ Mag. Dev. 
+ [img] 
+ Number of Sample ID columns[Sample ID Size] 
+ [img] 
+ User's Input Data 
+ [img] 
+ Sample Input OUT 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Extract Input Data.vi History&quot; 
+ Current Revision: 95 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Data String to Data Table.vi 
+ [img] 
+ [img] 
+ [img] 
+ Choose Delimiter(s) 
+ [img] 
+ tab 
+ [img] 
+ comma 
+ [img] 
+ space(s) 
+ [img] 
+ Data 
+ [img] 
+ Mode 
+ [img] 
+ Table Data 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Data String to Data Table.vi History&quot; 
+ Current Revision: 7 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Data Table to Sample Input Data.vi 
+ [img] 
+ [img] 
+ [img] 
+ Sample Input IN 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ Table Data 
+ [img] 
+ [img] 
+ Overwrite (T) 
+ [img] 
+ Title lines 
+ [img] 
+ Sample Input OUT 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Data Table to Sample Input Data.vi History&quot; 
+ Current Revision: 21 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ 2G Sample Handler Check Load.vi 
+ [img] 
+ [img] 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Translation Data 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;2G Sample Handler Check Load.vi History&quot; 
+ Current Revision: 78 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ CM to STEP.vi 
+ [img] 
+ [img] 
+ [img] 
+ Cm 
+ [img] 
+ Step 
+ [img] 
+ Step-0 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;CM to STEP.vi History&quot; 
+ Current Revision: 5 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ 2G Sample Handler Move to Load.vi 
+ [img] 
+ [img] 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Still running 
+ [img] 
+ Move To 
+ [img] 
+ stop 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Error(T) 
+ [img] 
+ Info 
+ [img] 
+ user stop (T) 
+ [img] 
+ Busy 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;2G Sample Handler Move to Load.vi History&quot; 
+ Current Revision: 131 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Discrete Sample Selection.vi 
+ [img] 
+ [img] 
+ [img] 
+ Sample Input Data 
+ [img] 
+ Tray One 
+ [img] 
+ Sample Input IN 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ Ok 
+ [img] 
+ Cancel 
+ [img] 
+ Tray Two 
+ [img] 
+ Tray Three 
+ [img] 
+ Selection Mode 
+ [img] 
+ Measurement Data IN 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Translation Data IN 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ Clear #1 
+ [img] 
+ Clear #2 
+ [img] 
+ Clear #3 
+ [img] 
+ Input 
+ [img] 
+ Run # 
+ [img] 
+ Maxium Number of Discrete Samples Allowed 
+ [img] 
+ Measurement Data OUT 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Canceled(T) 
+ [img] 
+ Sample Input OUT 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ info 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Discrete Sample Selection.vi History&quot; 
+ Current Revision: 116 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ List Box Control.vi 
+ [img] 
+ [img] 
+ [img] 
+ Tray 
+ [img] 
+ Selection Array IN 
+ [img] 
+ [img] 
+ Item Symbols IN 
+ [img] 
+ [img] 
+ Empty Array 
+ [img] 
+ [img] 
+ Selection Mode 
+ [img] 
+ Item Names IN 
+ [img] 
+ [img] 
+ Sample Selection 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Selection Array OUT 
+ [img] 
+ [img] 
+ Item Symbols OUT 
+ [img] 
+ [img] 
+ Item Names OUT 
+ [img] 
+ [img] 
+ [img] 
+ &quot;List Box Control.vi History&quot; 
+ Current Revision: 8 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Truncate Tray Array.vi 
+ [img] 
+ [img] 
+ [img] 
+ Tray #1 IN 
+ [img] 
+ [img] 
+ Tray #2 IN 
+ [img] 
+ [img] 
+ Tray #3 IN 
+ [img] 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 OUT 
+ [img] 
+ [img] 
+ Tray #2 OUT 
+ [img] 
+ [img] 
+ Tray #3 OUT 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Truncate Tray Array.vi History&quot; 
+ Current Revision: 10 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Select Data File.vi 
+ [img] 
+ [img] 
+ [img] 
+ File List 
+ [img] 
+ Data File 
+ [img] 
+ Ok 
+ [img] 
+ Cancel 
+ [img] 
+ Check to use sample ID 
+ [img] 
+ Prime Data Folder 
+ [img] 
+ Backup Data Folder 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Select Data File.vi History&quot; 
+ Current Revision: 32 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Select Datalog File.vi 
+ [img] 
+ [img] 
+ [img] 
+ File List 
+ [img] 
+ Demag 
+ [img] 
+ Cancel 
+ [img] 
+ Export 
+ [img] 
+ Mode 
+ [img] 
+ XYZ-DII 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Select Datalog File.vi History&quot; 
+ Current Revision: 93 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Export datalog.vi 
+ [img] 
+ [img] 
+ [img] 
+ Display Data 
+ [img] 
+ [img] 
+ Name 
+ [img] 
+ Pos 
+ [img] 
+ Demag Step 
+ [img] 
+ [img] 
+ Time Stamp 
+ [img] 
+ AF 
+ [img] 
+ Temp 
+ [img] 
+ ARM 
+ [img] 
+ IRM 
+ [img] 
+ X 
+ [img] 
+ Y 
+ [img] 
+ Z 
+ [img] 
+ Inc 
+ [img] 
+ Dec 
+ [img] 
+ Int 
+ [img] 
+ Dec Sam 
+ [img] 
+ Inc Sam 
+ [img] 
+ Dec Bed 
+ [img] 
+ Inc Bed 
+ [img] 
+ Treatment? 
+ [img] 
+ File (IN) 
+ [img] 
+ Still running 
+ [img] 
+ Busy 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Export datalog.vi History&quot; 
+ Current Revision: 49 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Sort Export Data.vi 
+ [img] 
+ [img] 
+ [img] 
+ Sort AF 
+ [img] 
+ Sort Temp 
+ [img] 
+ Sort Sample 
+ [img] 
+ Sort By 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Sort Export Data.vi History&quot; 
+ Current Revision: 5 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ CN76 Subsystem.ctl 
+ [img] 
+ [img] 
+ [img] 
+ CN76 Data IN 
+ [img] 
+ Set point 
+ [img] 
+ Gain output #1 
+ [img] 
+ Gain Ration output #2 
+ [img] 
+ Rate 
+ [img] 
+ Reset 
+ [img] 
+ Output #1 Hysteresis 
+ [img] 
+ Output #2 Hysteresis 
+ [img] 
+ Output #2 Separation 
+ [img] 
+ Dampling 
+ [img] 
+ Alarm #1 
+ [img] 
+ Alarm #2 
+ [img] 
+ Setpoint Lower Limit 
+ [img] 
+ Cycle Time Output #1 
+ [img] 
+ Cycle Time Output #2 
+ [img] 
+ Setpoint Target Time 
+ [img] 
+ Setpoint Upper Limit 
+ &quot;CN76 Subsystem.ctl History&quot; 
+ Current Revision: 14 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ AutoSave_Drift.vi 
+ [img] 
+ [img] 
+ [img] 
+ Drift tol% 
+ [img] 
+ Remeasure 
+ [img] 
+ In case of failure:[Cont/Abort] 
+ [img] 
+ Continue[Continue] 
+ [img] 
+ Abort 
+ [img] 
+ Drift Tolerance 
+ [img] 
+ percent 
+ [img] 
+ Absolute 
+ [img] 
+ Drift tol abs 
+ [img] 
+ email address 
+ [img] 
+ Contact Me 
+ [img] 
+ E-mail 
+ [img] 
+ Text 
+ [img] 
+ Test e-mail 
+ [img] 
+ Cellular Provider 
+ [img] 
+ Continue[Continue] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;AutoSave_Drift.vi History&quot; 
+ Current Revision: 27 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Auto Save Data2.vi 
+ [img] 
+ [img] 
+ [img] 
+ Data Array IN 
+ [img] 
+ [img] 
+ Action Index IN 
+ [img] 
+ Measurment Queue Array 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ SQUID Data 
+ [img] 
+ SQUID-X Responce 
+ [img] 
+ SQUID-Y Responce 
+ [img] 
+ SQUID-Z Responce 
+ [img] 
+ SQUID-X Calib 
+ [img] 
+ SQUID-Y Calib 
+ [img] 
+ SQUID-Z Calib 
+ [img] 
+ SQUID-X filter data 
+ [img] 
+ SQUID-Y filter data 
+ [img] 
+ SQUID-Z filter data 
+ [img] 
+ SQUID-X range data 
+ [img] 
+ SQUID-Y range data 
+ [img] 
+ SQUID-Z range data 
+ [img] 
+ SQUID-X slew data 
+ [img] 
+ SQUID-Y slew data 
+ [img] 
+ SQUID-Z slew data 
+ [img] 
+ SQUID-X feedback data 
+ [img] 
+ SQUID-Y feedback data 
+ [img] 
+ SQUID-Z feedback data 
+ [img] 
+ Measurement Data IN 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Measurement Parameters 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ File Format Data 
+ [img] 
+ Save Leader/Trailer Data? 
+ [img] 
+ File Format Array 
+ [img] 
+ Data Types 
+ [img] 
+ Current Tray # 
+ [img] 
+ Action Array In 
+ [img] 
+ Action Cluster 
+ [img] 
+ Action Type 
+ [img] 
+ Action 
+ [img] 
+ Move To 
+ [img] 
+ Axis 
+ [img] 
+ DAQ Type 
+ [img] 
+ # DAQs 
+ [img] 
+ Amplitude 
+ [img] 
+ Temp 
+ [img] 
+ Queue Index 
+ [img] 
+ Furnace Action 
+ [img] 
+ Current Tray # 
+ [img] 
+ Sample Input 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ Translation Data 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ ActionIndex OUT 
+ [img] 
+ Action Array Out 
+ [img] 
+ Action Cluster 
+ [img] 
+ Action Type 
+ [img] 
+ Action 
+ [img] 
+ Move To 
+ [img] 
+ Axis 
+ [img] 
+ DAQ Type 
+ [img] 
+ # DAQs 
+ [img] 
+ Amplitude 
+ [img] 
+ Temp 
+ [img] 
+ Queue Index 
+ [img] 
+ Furnace Action 
+ [img] 
+ Current Tray # 
+ [img] 
+ Measurement Data OUT 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Auto Save Data2.vi History&quot; 
+ Current Revision: 168 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Display_message.vi 
+ [img] 
+ [img] 
+ [img] 
+ Autosave Status 
+ [img] 
+ &quot;Display_message.vi History&quot; 
+ Current Revision: 3 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ get_usernames.vi 
+ [img] 
+ [img] 
+ [img] 
+ error in (no error) error in describes error conditions that occur before this VI or function runs. 
+ [img] 
+ status status is TRUE (X) if an error occurred before this VI or function ran or FALSE (checkmark) to indicate a warning or that no error occurred before this VI or function ran. The default is FALSE. 
+ [img] 
+ code code is the error or warning code. The default is 0. 
+ [img] 
+ source source specifies the origin of the error or warning and is, in most cases, the name of the VI or function that produced the error or warning. The default is an empty string. 
+ [img] 
+ UserID Drop-down 
+ [img] 
+ error out error in can accept error information wired from VIs previously called. Use this information to decide if any functionality should be bypassed in the event of errors from other VIs. 
+ Right-click the error in control on the front panel and select Explain Error or Explain Warning from the shortcut menu for more information about the error. 
+ [img] 
+ status status is TRUE (X) if an error occurred or FALSE (checkmark) to indicate a warning or that no error occurred. 
+ Right-click the error in control on the front panel and select Explain Error or Explain Warning from the shortcut menu for more information about the error. 
+ [img] 
+ code code is the error or warning code. 
+ Right-click the error in control on the front panel and select Explain Error or Explain Warning from the shortcut menu for more information about the error. 
+ [img] 
+ source source describes the origin of the error or warning. 
+ Right-click the error in control on the front panel and select Explain Error or Explain Warning from the shortcut menu for more information about the error. 
+ [img] 
+ UserID output 
+ [img] 
+ String 
+ [img] 
+ &quot;get_usernames.vi History&quot; 
+ Current Revision: 34 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ DB_Info.vi 
+ [img] 
+ [img] 
+ [img] 
+ User ID 
+ [img] 
+ DB Radio 
+ [img] 
+ DB Radio[DB Yes] 
+ [img] 
+ DB No 
+ [img] 
+ Database 
+ [img] 
+ loginID 
+ [img] 
+ password 
+ &quot;DB_Info.vi History&quot; 
+ Current Revision: 6 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ get_specimens.vi 
+ Given IRM_DB User ID, vi extracts specimen data for that user. Output is string array/table with: 
+ 1) Specimen ID 
+ 2) Specimen Description 
+ 3) Length (cm) 
+ 4) Batch ID 
+ 5) Specimen Azimuth 
+ 6) Speciment Plunge 
+ 7) Site Azimuth 
+ 8) Site Plunge 
+ 9) Specimen Mass (g) 
+ 10) Specimen Volume 
+ 11) Key 
+ [img] 
+ [img] 
+ [img] 
+ UserID 
+ [img] 
+ error in (no error) error in describes error conditions that occur before this VI or function runs. 
+ [img] 
+ status status is TRUE (X) if an error occurred before this VI or function ran or FALSE (checkmark) to indicate a warning or that no error occurred before this VI or function ran. The default is FALSE. 
+ [img] 
+ code code is the error or warning code. The default is 0. 
+ [img] 
+ source source specifies the origin of the error or warning and is, in most cases, the name of the VI or function that produced the error or warning. The default is an empty string. 
+ [img] 
+ Specimen Data 
+ [img] 
+ error out error in can accept error information wired from VIs previously called. Use this information to decide if any functionality should be bypassed in the event of errors from other VIs. 
+ Right-click the error in control on the front panel and select Explain Error or Explain Warning from the shortcut menu for more information about the error. 
+ [img] 
+ status status is TRUE (X) if an error occurred or FALSE (checkmark) to indicate a warning or that no error occurred. 
+ Right-click the error in control on the front panel and select Explain Error or Explain Warning from the shortcut menu for more information about the error. 
+ [img] 
+ code code is the error or warning code. 
+ Right-click the error in control on the front panel and select Explain Error or Explain Warning from the shortcut menu for more information about the error. 
+ [img] 
+ source source describes the origin of the error or warning. 
+ Right-click the error in control on the front panel and select Explain Error or Explain Warning from the shortcut menu for more information about the error. 
+ [img] 
+ [img] 
+ &quot;get_specimens.vi History&quot; 
+ Current Revision: 75 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Meas Type.vi 
+ [img] 
+ [img] 
+ [img] 
+ Rem_type 
+ [img] 
+ Continue 
+ [img] 
+ Rem_type 2 
+ [img] 
+ &quot;Meas Type.vi History&quot; 
+ Current Revision: 9 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Remanence_type.vi 
+ [img] 
+ [img] 
+ [img] 
+ Rem_type 
+ &quot;Remanence_type.vi History&quot; 
+ Current Revision: 1 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Section Information_DB.vi 
+ [img] 
+ [img] 
+ [img] 
+ Ok 
+ [img] 
+ Cancel 
+ [img] 
+ Top of Section Missing 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Sample Input IN 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ Orientation 
+ [img] 
+ Get Spec 
+ [img] 
+ Limit Specimen 
+ [img] 
+ Specimen Data 
+ [img] 
+ Length (cm) 
+ [img] 
+ Cross-sec. Area (cm2) 
+ [img] 
+ Update len/area 
+ [img] 
+ error in (no error) error in describes error conditions that occur before this VI or function runs. 
+ [img] 
+ status status is TRUE (X) if an error occurred before this VI or function ran or FALSE (checkmark) to indicate a warning or that no error occurred before this VI or function ran. The default is FALSE. 
+ [img] 
+ code code is the error or warning code. The default is 0. 
+ [img] 
+ source source specifies the origin of the error or warning and is, in most cases, the name of the VI or function that produced the error or warning. The default is an empty string. 
+ [img] 
+ Apply Formation Correction? 
+ [img] 
+ Apply Sample Correction? 
+ [img] 
+ Core Offset 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Run # 
+ [img] 
+ Sample Input OUT 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ Canceled (T) 
+ [img] 
+ error out error in can accept error information wired from VIs previously called. Use this information to decide if any functionality should be bypassed in the event of errors from other VIs. 
+ Right-click the error in control on the front panel and select Explain Error or Explain Warning from the shortcut menu for more information about the error. 
+ [img] 
+ status status is TRUE (X) if an error occurred or FALSE (checkmark) to indicate a warning or that no error occurred. 
+ Right-click the error in control on the front panel and select Explain Error or Explain Warning from the shortcut menu for more information about the error. 
+ [img] 
+ code code is the error or warning code. 
+ Right-click the error in control on the front panel and select Explain Error or Explain Warning from the shortcut menu for more information about the error. 
+ [img] 
+ source source describes the origin of the error or warning. 
+ Right-click the error in control on the front panel and select Explain Error or Explain Warning from the shortcut menu for more information about the error. 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Section Information_DB.vi History&quot; 
+ Current Revision: 223 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Discrete Sample Selection_DB.vi 
+ [img] 
+ [img] 
+ [img] 
+ Tray One 
+ [img] 
+ Sample Input IN 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ Ok 
+ [img] 
+ Cancel 
+ [img] 
+ Selection Mode 
+ [img] 
+ Measurement Data IN 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Translation Data IN 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ Clear #1 
+ [img] 
+ Get Spec 
+ [img] 
+ Limit Specimen 
+ [img] 
+ Specimen Data 
+ [img] 
+ Apply Formation Correction? 
+ [img] 
+ Apply Sample Correction? 
+ [img] 
+ Limit Batch ID 
+ [img] 
+ Add2Batch 
+ [img] 
+ error in (no error) error in describes error conditions that occur before this VI or function runs. 
+ [img] 
+ status status is TRUE (X) if an error occurred before this VI or function ran or FALSE (checkmark) to indicate a warning or that no error occurred before this VI or function ran. The default is FALSE. 
+ [img] 
+ code code is the error or warning code. The default is 0. 
+ [img] 
+ source source specifies the origin of the error or warning and is, in most cases, the name of the VI or function that produced the error or warning. The default is an empty string. 
+ [img] 
+ Run # 
+ [img] 
+ Maxium Number of Discrete Samples Allowed 
+ [img] 
+ Measurement Data OUT 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Canceled(T) 
+ [img] 
+ Sample Input OUT 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ error out error in can accept error information wired from VIs previously called. Use this information to decide if any functionality should be bypassed in the event of errors from other VIs. 
+ Right-click the error in control on the front panel and select Explain Error or Explain Warning from the shortcut menu for more information about the error. 
+ [img] 
+ status status is TRUE (X) if an error occurred or FALSE (checkmark) to indicate a warning or that no error occurred. 
+ Right-click the error in control on the front panel and select Explain Error or Explain Warning from the shortcut menu for more information about the error. 
+ [img] 
+ code code is the error or warning code. 
+ Right-click the error in control on the front panel and select Explain Error or Explain Warning from the shortcut menu for more information about the error. 
+ [img] 
+ source source describes the origin of the error or warning. 
+ Right-click the error in control on the front panel and select Explain Error or Explain Warning from the shortcut menu for more information about the error. 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Discrete Sample Selection_DB.vi History&quot; 
+ Current Revision: 178 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ List Box Control_DB.vi 
+ [img] 
+ [img] 
+ [img] 
+ Tray 
+ [img] 
+ Selection Array IN 
+ [img] 
+ [img] 
+ Item Symbols IN 
+ [img] 
+ [img] 
+ Empty Array 
+ [img] 
+ [img] 
+ Selection Mode 
+ [img] 
+ Item Names IN 
+ [img] 
+ [img] 
+ Sample Selection 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Selection Array OUT 
+ [img] 
+ [img] 
+ Item Symbols OUT 
+ [img] 
+ [img] 
+ Item Names OUT 
+ [img] 
+ [img] 
+ [img] 
+ &quot;List Box Control_DB.vi History&quot; 
+ Current Revision: 10 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ assemble_and_write_DB.vi 
+ [img] 
+ [img] 
+ [img] 
+ Sample Input 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ Data Array 
+ [img] 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Measurement Queue IN 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ Meas Queue Index 
+ [img] 
+ error in (no error) error in describes error conditions that occur before this VI or function runs. 
+ [img] 
+ status status is TRUE (X) if an error occurred before this VI or function ran or FALSE (checkmark) to indicate a warning or that no error occurred before this VI or function ran. The default is FALSE. 
+ [img] 
+ code code is the error or warning code. The default is 0. 
+ [img] 
+ source source specifies the origin of the error or warning and is, in most cases, the name of the VI or function that produced the error or warning. The default is an empty string. 
+ [img] 
+ Measurement Parameters 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ error out error out contains error information. If error in indicates that an error occurred before this VI or function ran, error out contains the same error information. Otherwise, it describes the error status that this VI or function produces. 
+ [img] 
+ status status is TRUE (X) if an error occurred or FALSE (checkmark) to indicate a warning or that no error occurred. 
+ [img] 
+ code code is the error or warning code. 
+ [img] 
+ source source describes the origin of the error or warning and is, in most cases, the name of the VI or function that produced the error or warning. 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;assemble_and_write_DB.vi History&quot; 
+ Current Revision: 135 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ find_ARM_type.vi 
+ [img] 
+ [img] 
+ [img] 
+ Meas Queue Index 
+ [img] 
+ Measurement Queue IN 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ Remanence Code 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;find_ARM_type.vi History&quot; 
+ Current Revision: 15 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ SPH2CARTb.vi 
+ Converts Declination/Inclination/Intensity values to X Y Z. 
+ Dec/Inc input in DEGREES (NOT radians). 
+ [img] 
+ [img] 
+ [img] 
+ Inclination 
+ [img] 
+ Declination 
+ [img] 
+ Intensity 
+ [img] 
+ X 
+ [img] 
+ Y 
+ [img] 
+ Z 
+ [img] 
+ &quot;SPH2CARTb.vi History&quot; 
+ Current Revision: 17 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Sample Input_nonDB.vi 
+ [img] 
+ [img] 
+ [img] 
+ Sample Input_nonDB 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ &quot;Sample Input_nonDB.vi History&quot; 
+ Current Revision: 2 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ convert_null.vi 
+ Converts a NULL database value (in a numeric field) to a desired default value. If vi not used, will convert to zero. 
+ [img] 
+ [img] 
+ [img] 
+ Value In 
+ [img] 
+ error in error in can accept error information wired from VIs previously called. Use this information to decide if any functionality should be bypassed in the event of errors from other VIs. 
+ Right-click the error in control on the front panel and select Explain Error or Explain Warning from the shortcut menu for more information about the error. 
+ [img] 
+ status status is TRUE (X) if an error occurred or FALSE (checkmark) to indicate a warning or that no error occurred. 
+ Right-click the error in control on the front panel and select Explain Error or Explain Warning from the shortcut menu for more information about the error. 
+ [img] 
+ code code is the error or warning code. 
+ Right-click the error in control on the front panel and select Explain Error or Explain Warning from the shortcut menu for more information about the error. 
+ [img] 
+ source source describes the origin of the error or warning. 
+ Right-click the error in control on the front panel and select Explain Error or Explain Warning from the shortcut menu for more information about the error. 
+ [img] 
+ Default value 
+ [img] 
+ error out error in can accept error information wired from VIs previously called. Use this information to decide if any functionality should be bypassed in the event of errors from other VIs. 
+ Right-click the error in control on the front panel and select Explain Error or Explain Warning from the shortcut menu for more information about the error. 
+ [img] 
+ status status is TRUE (X) if an error occurred or FALSE (checkmark) to indicate a warning or that no error occurred. 
+ Right-click the error in control on the front panel and select Explain Error or Explain Warning from the shortcut menu for more information about the error. 
+ [img] 
+ code code is the error or warning code. 
+ Right-click the error in control on the front panel and select Explain Error or Explain Warning from the shortcut menu for more information about the error. 
+ [img] 
+ source source describes the origin of the error or warning. 
+ Right-click the error in control on the front panel and select Explain Error or Explain Warning from the shortcut menu for more information about the error. 
+ [img] 
+ Value Out 
+ [img] 
+ &quot;convert_null.vi History&quot; 
+ Current Revision: 12 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ write_to_IRM_DB2.vi 
+ [img] 
+ [img] 
+ [img] 
+ error in (no error) error in describes error conditions that occur before this VI or function runs. 
+ [img] 
+ status status is TRUE (X) if an error occurred before this VI or function ran or FALSE (checkmark) to indicate a warning or that no error occurred before this VI or function ran. The default is FALSE. 
+ [img] 
+ code code is the error or warning code. The default is 0. 
+ [img] 
+ source source specifies the origin of the error or warning and is, in most cases, the name of the VI or function that produced the error or warning. The default is an empty string. 
+ [img] 
+ columns columns is the column in the table to insert data into. Wiring an empty array to this input assumes that all columns in the table are to be used. 
+ [img] 
+ String columns is the column in the table to insert data into. Wiring an empty array to this input assumes that all columns in the table are to be used. 
+ [img] 
+ data data is the data you want to insert in the database. 
+ [img] 
+ DB table 
+ [img] 
+ connection reference connection reference specifies a reference to an ADO Connection object. 
+ [img] 
+ error out error out contains error information. If error in indicates that an error occurred before this VI or function ran, error out contains the same error information. Otherwise, it describes the error status that this VI or function produces. 
+ [img] 
+ status status is TRUE (X) if an error occurred or FALSE (checkmark) to indicate a warning or that no error occurred. 
+ [img] 
+ code code is the error or warning code. 
+ [img] 
+ source source describes the origin of the error or warning and is, in most cases, the name of the VI or function that produced the error or warning. 
+ [img] 
+ connection reference out connection reference out returns a reference to an ADO Connection object. 
+ [img] 
+ &quot;write_to_IRM_DB2.vi History&quot; 
+ Current Revision: 17 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ rem_prop_table.vi 
+ [img] 
+ [img] 
+ [img] 
+ Cluster 
+ [img] 
+ SpecOwner 
+ [img] 
+ SpecID 
+ [img] 
+ Date 
+ [img] 
+ Time 
+ [img] 
+ Mx 
+ [img] 
+ My 
+ [img] 
+ Mz 
+ [img] 
+ M_N 
+ [img] 
+ M_E 
+ [img] 
+ M_V 
+ [img] 
+ Moment 
+ [img] 
+ Dec 
+ [img] 
+ Inc 
+ [img] 
+ Drift ratio 
+ [img] 
+ N meas 
+ [img] 
+ Meas position 
+ [img] 
+ Run number 
+ [img] 
+ comment 
+ [img] 
+ Inst Code 
+ [img] 
+ J (Am2/kg or A/m) 
+ [img] 
+ norm area or mass 
+ [img] 
+ Tmax or AF max 
+ [img] 
+ Num1 
+ [img] 
+ Num2 
+ [img] 
+ Num3 
+ [img] 
+ Num4 
+ [img] 
+ Num5 
+ [img] 
+ Num6 
+ [img] 
+ Num7 
+ [img] 
+ core offset (cm) 
+ [img] 
+ Meas Code 
+ [img] 
+ Meas Type 
+ [img] 
+ connection reference connection reference specifies a reference to an ADO Connection object. 
+ [img] 
+ error in (no error) error in describes error conditions that occur before this VI or function runs. 
+ [img] 
+ status status is TRUE (X) if an error occurred before this VI or function ran or FALSE (checkmark) to indicate a warning or that no error occurred before this VI or function ran. The default is FALSE. 
+ [img] 
+ code code is the error or warning code. The default is 0. 
+ [img] 
+ source source specifies the origin of the error or warning and is, in most cases, the name of the VI or function that produced the error or warning. The default is an empty string. 
+ [img] 
+ error out error out contains error information. If error in indicates that an error occurred before this VI or function ran, error out contains the same error information. Otherwise, it describes the error status that this VI or function produces. 
+ [img] 
+ status status is TRUE (X) if an error occurred or FALSE (checkmark) to indicate a warning or that no error occurred. 
+ [img] 
+ code code is the error or warning code. 
+ [img] 
+ source source describes the origin of the error or warning and is, in most cases, the name of the VI or function that produced the error or warning. 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;rem_prop_table.vi History&quot; 
+ Current Revision: 62 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ 2d_Array_sort.vi 
+ [img] 
+ [img] 
+ [img] 
+ 2D Input Array 
+ [img] 
+ [img] 
+ Column to Sort on 
+ [img] 
+ 2D Ouput Array 
+ [img] 
+ [img] 
+ &quot;2d_Array_sort.vi History&quot; 
+ Current Revision: 6 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Config_access_type.vi 
+ [img] 
+ [img] 
+ [img] 
+ Config Access Type 
+ [img] 
+ Standard 
+ [img] 
+ Admin 
+ &quot;Config_access_type.vi History&quot; 
+ Current Revision: 7 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Core_offset.vi 
+ [img] 
+ [img] 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Data IN 
+ [img] 
+ [img] 
+ Data Out 
+ [img] 
+ [img] 
+ &quot;Core_offset.vi History&quot; 
+ Current Revision: 4 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Access_type.vi 
+ [img] 
+ [img] 
+ [img] 
+ Configuration Access Type: 
+ [img] 
+ Standard 
+ [img] 
+ Admin 
+ [img] 
+ Continue 
+ [img] 
+ Cancel 
+ [img] 
+ Administrator Password 
+ [img] 
+ AccessTypeOut 
+ [img] 
+ Standard 
+ [img] 
+ Admin 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Access_type.vi History&quot; 
+ Current Revision: 27 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Contact_globals.vi 
+ [img] 
+ [img] 
+ [img] 
+ email address 
+ [img] 
+ Contact Me 
+ [img] 
+ E-mail 
+ [img] 
+ Text 
+ [img] 
+ Cellular Provider 
+ &quot;Contact_globals.vi History&quot; 
+ Current Revision: 16 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ GmailLV80.vi 
+ [img] 
+ [img] 
+ [img] 
+ Sender's Email Address (eg: LabVIEW@gmail.com) 
+ [img] 
+ Sender's Name 
+ [img] 
+ Recipient's Email Address 
+ [img] 
+ Recipient's Name 
+ [img] 
+ Subject 
+ [img] 
+ Body 
+ [img] 
+ Outgoing Mail Server (SMTP) 
+ [img] 
+ GMAIL Account User ID 
+ [img] 
+ GMAIL Account Password 
+ [img] 
+ Enable SSL 
+ [img] 
+ Port 
+ [img] 
+ Attachment - Optional 
+ [img] 
+ CC - Optional 
+ [img] 
+ [img] 
+ [img] 
+ &quot;GmailLV80.vi History&quot; 
+ Current Revision: 32 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ assemble_and_write_TRAY_DB.vi 
+ [img] 
+ [img] 
+ [img] 
+ Data Array 
+ [img] 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ error in (no error) error in describes error conditions that occur before this VI or function runs. 
+ [img] 
+ status status is TRUE (X) if an error occurred before this VI or function ran or FALSE (checkmark) to indicate a warning or that no error occurred before this VI or function ran. The default is FALSE. 
+ [img] 
+ code code is the error or warning code. The default is 0. 
+ [img] 
+ source source specifies the origin of the error or warning and is, in most cases, the name of the VI or function that produced the error or warning. The default is an empty string. 
+ [img] 
+ error out error out contains error information. If error in indicates that an error occurred before this VI or function ran, error out contains the same error information. Otherwise, it describes the error status that this VI or function produces. 
+ [img] 
+ status status is TRUE (X) if an error occurred or FALSE (checkmark) to indicate a warning or that no error occurred. 
+ [img] 
+ code code is the error or warning code. 
+ [img] 
+ source source describes the origin of the error or warning and is, in most cases, the name of the VI or function that produced the error or warning. 
+ [img] 
+ &quot;assemble_and_write_TRAY_DB.vi History&quot; 
+ Current Revision: 147 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 

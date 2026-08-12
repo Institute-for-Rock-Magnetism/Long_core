@@ -1,0 +1,9 @@
+"set delay to 1 sec: DCD1"
+
+aI
+
+Bytes To Read {6|
+
+Setting Degausser’s delay to 1
+
+second

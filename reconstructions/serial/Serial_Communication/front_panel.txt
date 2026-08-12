@@ -1,0 +1,39 @@
+Read: Termination Mode
+
+Read/Write: Buffer Mode
+
+Read: Buffer Mode
+
+Write: Buffer Mode
+
+Read/Write Mode
+
+Serial
+
+String OUT
+
+Port Number
+
+Comm
+
+Bytes To Read
+
+Truncated String OUT
+
+Error (t)
+
+Timeout (ms)
+
+Error Indicator OUT
+
+Termination String
+
+Error Indicator IN
+
+Time
+
+String IN
+
+Get # of Bytes Delay (ms)
+
+Character Delay

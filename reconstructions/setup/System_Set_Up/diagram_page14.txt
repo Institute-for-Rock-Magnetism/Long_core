@@ -1,0 +1,3 @@
+] “Left-Hand Home & Left-Hand Tray Ref ~p|
+
+“Limit Switch” _+j

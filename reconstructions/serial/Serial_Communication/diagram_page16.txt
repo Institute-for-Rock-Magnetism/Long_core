@@ -1,0 +1,5 @@
+w
+
+"Write & Read” vb i
+
+| “Clear Buffer Before Read” _~p

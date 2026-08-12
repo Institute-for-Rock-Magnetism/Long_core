@@ -1,0 +1,39 @@
+Long Core Engine Data IN
+
+Long Core Engine Data Out
+
+Action Array IN
+
+Action Array OUT
+
+Measurement Queue Array
+
+Halt Reset
+
+Error Indicator IN
+
+qo
+
+ns
+
+Meas Queue
+
+_——
+
+Error Indicator OUT
+
+Status Cluster IN =
+
+boon
+
+Measurement Data
+
+conor
+
+Status Cluster OUT
+
+USER ABORT (T) -
+
+Degauss Data
+
+Translation Data

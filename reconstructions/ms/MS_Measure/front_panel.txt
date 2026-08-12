@@ -1,0 +1,39 @@
+Data index in
+
+Data index out
+
+Start Time in
+
+2G
+
+Roe
+
+Start Time out
+
+Position
+
+ms
+
+MS
+
+fica
+
+a
+
+DAQ Type
+
+Error Indicator OUT
+
+# DAQs
+
+Data out
+
+Error Indicator IN
+
+nn
+
+Data in
+
+Measurement Data
+
+como

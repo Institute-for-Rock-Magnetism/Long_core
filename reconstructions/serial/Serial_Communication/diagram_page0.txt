@@ -1,0 +1,133 @@
+"Clear Buffer’
+
+prenerer conenenenererenenenenenererenenenenenererenery
+
+«
+
+OOTaTa
+
+rereteteteseseret
+
+[False +p
+
+il Write Only" +f
+
+Ml "Clear Buffer Before Write”_~PI
+
+Read/Write Mode|[L@!
+
+_— a
+
+Write: Buffer Mode[L@!
+
+Read: Buffer Mode|[LO)
+
+. |
+
+az =
+
+_
+
+Read/Write: Buffer Mode|[_@
+
+Read: Termination Mode|Lou
+
+Daeeeteteneetenenaeteneneteneeeneneen
+
+Port Number
+
+[LusZ
+
+a Defaut “By © (Character Delay =H — :
+
+6 COM? |r|
+
+hQaon
+
+bow
+
+String IN [Labs — _
+
+enn eens
+
+wifes
+
+Timeout (ms) [Lusa
+
+&
+
+4
+
+9
+
+sEenoonaa aac,
+
+EEE ees
+
+OR i lalate
+
+saeaaas
+
+&
+
+SEES
+
+&
+
+4
+
+9
+
+saeaooaes,
+
+SERIES
+
+pannnnes
+
+seaesesteauseteausesteausesteausesteausesteausesteausesteauseseeausestausesteausestsausestsausestausestsausestsausestsausestsausesteausestuausesteausesteausesteausestausesteausestausestausestsausestsausestsausestsausestsausestcausesteausestausestausestsausestausesteausestausestcausesteausesteausesteansesteensestcarsestearsestean[l settesesteausesteansesteansesteauaesteansesteansesesesy
+
+at
+
+Timeout [F}-'
+
+Bytes in Buffer aL
+
+ek
+
+babe] String OUT
+
+i
+
+|
+
+; bie
+
+Eazal Truncated String OUT
+
+Start Time (0 Om.
+
+-—
+
+Ste
+
+aa —
+
+132 ]|Time
+
+Soo
+
+—
+
+Sooo Sooo
+
+SEE “ci fe] /Error Indicator OUT
+
+—— a
+
+b> [error.status BEET] Error (t)
+
+Error Indicator IN{L5=s8
+
+IG Teron
+
+eee

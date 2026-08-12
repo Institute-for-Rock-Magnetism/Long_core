@@ -1,0 +1,65 @@
+3
+
+is COM |r|
+
+Subsystem
+
+ARM"
+
+poe
+
+Ve,
+
+.
+
+| Data Bits 2 | Bits 2
+
+SERIAL
+
+| Parity |
+
+EEE)
+
+en
+
+&
+
+4
+
+9
+
+sEenoonaa aac,
+
+EEE ees
+
+OR i lalate
+
+Ee
+
+| Stop Bits | Bits
+
+eeteseeenenseeee
+
+[False +p
+
+aa —
+
+aa —
+
+Error Indicator IN
+
+L=seh
+
+eee eee eet
+
+eee
+
+pe
+
+boos es
+
+=m 0
+
+Error Indicator OUT
+
+Remove all events |

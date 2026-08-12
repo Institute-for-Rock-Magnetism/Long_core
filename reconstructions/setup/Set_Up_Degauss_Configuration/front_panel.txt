@@ -1,0 +1,11 @@
+Action
+
+Set up
+
+Degauss Data IN
+
+Degaus
+
+.
+
+Degauss Data OUT

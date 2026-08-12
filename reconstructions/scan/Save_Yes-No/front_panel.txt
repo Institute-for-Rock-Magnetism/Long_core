@@ -1,0 +1,37 @@
+Current Tray #
+
+Sample Input
+
+eee eens
+
+Action Index IN
+
+Data Index
+
+File Format Data
+
+eee
+
+ActionIndex OUT
+
+Use Data?
+
+Measurement Data OUT
+
+Translation Data
+
+Data Array IN
+
+Action Array OUT
+
+Action Array IN
+
+Measurment Queue Array
+
+Measurement Parameters
+
+ee
+
+Measurement Data IN
+
+SQUID Data

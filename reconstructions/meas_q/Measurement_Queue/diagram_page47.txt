@@ -1,0 +1,29 @@
+["Load File’ ~>
+
+00000000
+
+»
+
+eeenaeseeenenseeee
+
+[False +p
+
+M
+
+| Sampleinterval | intery | Sampleinterval |
+
+Read
+
+| Leaderlength | length
+
+| Trailerlength |
+
+Sl
+
+Delay after mo. “€ 1SEC%
+
+| Tray Corrected |
+
+>#Delay after move ssec:
+
+Sooo

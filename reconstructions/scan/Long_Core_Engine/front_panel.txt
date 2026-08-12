@@ -1,0 +1,61 @@
+.
+
+Degauss Data
+
+ooo
+
+en
+
+Long Core Engine Data IN
+
+Long Core Engine Data Out
+
+Action Array IN
+
+Renenenne
+
+rane
+
+z
+
+:
+
+ra
+
+ner
+
+Action Array OUT
+
+Data Array IN
+
+Jeseeeerseereenee
+
+Data Array OUT
+
+Sample Input
+
+Run #
+
+Data Array Size
+
+‘~~ Stop DAQ (F)
+
+Measurement Data
+
+Error Indicator OUT
+
+Error Indicator IN
+
+ma
+
+Measurment Queue Array
+
+File Format Data
+
+Measurement Parameters
+
+Translation Data
+
+MS Data
+
+SQUID Data

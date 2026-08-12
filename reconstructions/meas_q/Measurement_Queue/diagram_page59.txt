@@ -1,0 +1,23 @@
+= idl "Degauss X,Y, &Z- ARM axial”
+
+P|
+
+| True_~p
+
+WAR
+
+se
+
+G! You
+
+cu
+
+2 1%
+
+have a
+
+ARM
+
+Driver
+
+sequence

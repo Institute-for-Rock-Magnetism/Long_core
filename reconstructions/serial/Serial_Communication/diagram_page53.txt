@@ -1,0 +1,3 @@
+| "Write Only" +P
+
+| “Clear Buffer Before Write” bj

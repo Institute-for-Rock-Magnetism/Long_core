@@ -1,0 +1,11 @@
+"set delay to 2 sec: DCD2"
+
+P|
+
+Bytes To Read {6|
+
+Setting Degausser’s delay to 2
+
+second
+
+DCcD2

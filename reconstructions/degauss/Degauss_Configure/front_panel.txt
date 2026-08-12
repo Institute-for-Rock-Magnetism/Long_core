@@ -1,0 +1,15 @@
+seeseeseeeeaeeeeseeneaeene Error Mm
+
+2G
+
+Degauss Data IN
+
+.
+
+Contig
+
+Degauss Data OUT
+
+Error Indicator IN
+
+Error Indicator OUT

@@ -1,0 +1,127 @@
+| “Sample”
+
+Measurement Data {_5sc#
+
+eee eee
+
+DAQ Type [Lo 5
+
+Area
+
+|->——i080)
+
+Start Time in [Desai
+
+Start Time out
+
+ji.. ~p
+
+>it
+
+# DAQs |Lts2
+
+aa —
+
+2G
+
+Roe
+
+b [erorstatus
+
+ms
+
+Error Indicator IN fiSecl
+
+ees
+
+eet
+
+a
+
+eee
+
+set Date
+
+homers | oor
+
+—
+
+Sooo
+
+nn (ooo
+
+jee 2)! Error Indicator OUT
+
+"Do nothing ¥
+
+ATH A
+
+post] MS
+
+Position cate.
+
+Data in | [o5.)———+
+
+HE
+
+HE
+
+a?
+
+HE
+
+HE
+
+HE
+
+EE
+
+HE
+
+a?
+
+Data out
+
+=?
+
+at
+
+je:
+
+=?
+
+=?
+
+=?
+
+at
+
+6] oa
+
+Ste
+
+Data index in [EE aa
+
+-
+
+E
+
+fe
+
+Ba
+
+| Data index out
+
+pos
+
+raw MS mean raw MS SD
+
+time
+
+# DAQs
+
+area
+
+record
+
+type

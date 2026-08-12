@@ -1,0 +1,21 @@
+Case
+
+Degauss axis requested
+
+2G
+
+AF field requested
+
+pono
+
+Axis status
+
+Error Indicator OUT
+
+AF field
+
+Error Indicator IN
+
+nn
+
+DSS reply IN

@@ -1,0 +1,9 @@
+Full Tray Length
+
+Scale (steps/cm)
+
+Track Length (cm)
+
+Home Switch Type
+
+Home & Tray Ref

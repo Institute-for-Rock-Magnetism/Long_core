@@ -1,0 +1,89 @@
+“Veri
+
+Connection
+
+w
+
+P|
+
+aa] Verify - Vc"
+
+~>PI
+
+Command [Lom
+
+seal
+
+/False_ vp
+
+a
+
+er
+
+atled (1)
+
+ITF
+
+Eb
+
+65111) error.code |
+
+il
+
+I
+
+CK>
+
+> | Port Number|
+
+q
+
+aa —
+
+Serial
+
+rr
+
+> | error.statu
+
+aa —
+
+Comm
+
+Sono Ooo
+
+i
+
+Error Indicator |
+
+Nes sb
+
+Error (1)
+
+ee = )lError Indicator OUT
+
+"Do nothing ¥
+
+seaeaeseeenestennanseeneane
+
+od
+
+2>
+
+Paramete [Lon
+
+(=e
+
+3 | C2
+
+od
+
+23>
+
+Value ;
+
+Get # of Bytes Delay (ms) [50]
+
+=> see E
+
+seed

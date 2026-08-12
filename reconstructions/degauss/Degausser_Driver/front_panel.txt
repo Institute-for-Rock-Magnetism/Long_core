@@ -1,0 +1,33 @@
+Degausser commands
+
+Degauss axis
+
+seeeeneneeeeeneenananaees Verify Failed Mm
+
+Amplitude
+
+seeneeeeeaeee
+
+Error (T)
+
+.
+
+Ocqauz:
+
+2G
+
+Degauss Data
+
+———
+
+Oriver
+
+Reply string
+
+Error Indicator IN
+
+Degauss Data
+
+——
+
+Error Indicator OUT

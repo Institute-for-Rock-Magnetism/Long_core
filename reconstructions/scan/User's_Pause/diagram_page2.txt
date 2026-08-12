@@ -1,0 +1,27 @@
+[False +p
+
+18. ~b|
+
+IRM Options
+
+[FF] Visible Field Gauss
+
+ARM Gauss
+
+= IRM Gauss
+
+%
+
+[FF] emperature
+
+[F] RM Field (Gauss)
+
+[FF] emag/Measurement
+
+Psi Dec
+
+en
+
+Psi Inc
+
+bVisible} RM Acquisition Type

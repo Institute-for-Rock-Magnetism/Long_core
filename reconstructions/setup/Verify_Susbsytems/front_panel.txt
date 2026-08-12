@@ -1,0 +1,9 @@
+Degauss Data
+
+Subsystem
+
+Status
+
+Error Indicator IN
+
+ne

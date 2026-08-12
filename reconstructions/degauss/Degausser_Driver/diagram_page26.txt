@@ -1,0 +1,11 @@
+"read DERC status”
+
+P|
+
+Bytes To Read
+
+Commanding Degausser to
+
+send cycle status
+
+DERC

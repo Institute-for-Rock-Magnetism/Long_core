@@ -1,0 +1,35 @@
+eee en
+
+Discrete Data
+
+Measurement Type
+
+eee
+
+warerrrres
+
+Sample Input
+
+Mag Susc/SQUID
+
+Use Data?
+
+GRAPH
+
+Intensity
+
+Data Index
+
+Inclination
+
+Data
+
+ae
+
+Declination
+
+Tray #
+
+Measurement Data
+
+eee

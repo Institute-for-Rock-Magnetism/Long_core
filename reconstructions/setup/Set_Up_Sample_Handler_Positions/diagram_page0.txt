@@ -1,0 +1,131 @@
+4] “initialize
+
+P|
+
+hag Sud
+
+Pos
+
+——
+
+bAMagnetic Su
+
+eptibilit
+
+Degauss stage =1 Pos
+
+Degauss stage =2 Pos
+
+bMDegauss stage=1
+
+| Unload Pos | Pos
+
+b@Degauss
+
+a5
+
+.
+
+.
+
+stage =2
+
+— =] } Bkgnd=1Pos |
+
+>#Load
+
+Unload
+
+} -Bkgnd =2 Pos | #2 } -Bkgnd =2 Pos |
+
+Sensor Velocity
+
+Background stage =1
+
+Degauss Velocity
+
+Background stage =2
+
+Background Velocity
+
+Load:Unload Velocity
+
+>#Sensor Velocit,
+
+} AF CoilPos | Coil Pos
+
+bMDegauss Velocity
+
+— AC
+
+oll Pos
+
+ee a | IRM Stage Pos | Pos
+
+> Background VYelocit
+
+se
+
+seeeeeee
+
+Next /LTER
+
+rapry
+
+[True_~p|
+
+QUID
+
+Back|LTER
+
+Ose
+
+Cancel |[LTFie
+
+Admin “}-4>>
+
+a
+
+jagnetic Susceptibility
+
+Track [LTE
+
+a
+
+1
+
+Degauss stage#1
+
+fi
+
+He
+
+Degauss stage #2
+
+[2 ee 24)G Coil center
+
+Ae
+
+Bt Ppa
+
+=
+
+M Stage
+
+*Disabled|
+
+M Coil center
+
+|
+
+a
+
+ackground stage #1
+
+a
+
+ackground stage #2
+
+=
+
+oad / Unioad

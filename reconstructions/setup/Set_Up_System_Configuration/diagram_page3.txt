@@ -1,0 +1,41 @@
+initialize
+
+w
+
+ai
+
+p> [Port Number|si] > @SQUID’s serial port number]
+
+bere}
+
+by [Por Number -@ Magnetic Susceptibilty meters serial por number
+
+—
+
+p> [Port Number|s]> @Degausser Subsystem’s serial port number
+
+bere}
+
+=p» [Port Number|s[>®ARM Subsystemr's serial port number
+
+p> [Port Number|s]>#IRM Subsystem’s serial port number
+
+bere}
+
+= | Port Number
+
+—
+
+> | Port Number fi > ft Sample Handler's serial port number
+
+COS Dd ol
+
+|"Disconnecte_~ PI
+
+|"Disconnecte_+ >|
+
+|"Disconnecte_+ >|
+
+RD Subsystem connected
+
+COCCI COSC RC CONC RC CONC RC COR CRC CCRC RC CONC RC CCRC ECE

@@ -1,0 +1,25 @@
+SQUID Data IN
+
+Measurement Data
+
+conor
+
+Z intensity
+
+Y intensity
+
+'
+
+X intensity
+
+10
+
+Current Tray #
+
+Measurement Type
+
+Discrete Sample Index
+
+Sample Input
+
+ooo

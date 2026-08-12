@@ -1,0 +1,21 @@
+MS mode
+
+DAQ Type
+
+2G
+
+Roe
+
+ms
+
+MS Data
+
+Error Indicator IN
+
+ee
+
+Gct Data
+
+poor
+
+Error Indicator OUT

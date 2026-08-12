@@ -1,0 +1,25 @@
+"set amplitude: DCA"
+
+P|
+
+Write Only
+
+Bytes To Read [9]
+
+setting Degausser's
+
+amplitude
+
+%04d
+
+E* %
+
+am
+
+F
+
+[rsz
+
+Amplitude
+
+us

@@ -1,0 +1,17 @@
+Sample Interval
+
+Drift Corrected
+
+Tray
+
+Data Array Out
+
+Current Tray #
+
+Correct
+
+Measurement Type
+
+Data Array IN
+
+Core Offset

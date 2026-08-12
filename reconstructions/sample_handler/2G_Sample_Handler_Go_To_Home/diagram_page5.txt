@@ -1,0 +1,25 @@
+i >>
+
+Acceleration 10
+
+Deceleration 10}
+
+Velocity [5000]
+
+D=O8 ;
+
+2G I=
+
+2G I=
+
+ADM N
+
+Driver
+
+CROCE ts] | O=0=0=0=0
+
+Soo
+
+QoS)
+
+Nan ne nnn nn mn

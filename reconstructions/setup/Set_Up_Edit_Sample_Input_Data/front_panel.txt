@@ -1,0 +1,9 @@
+Sample Input IN
+
+ne
+
+Bata
+
+[ooo
+
+Sample Input OUT

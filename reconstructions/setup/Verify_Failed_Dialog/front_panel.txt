@@ -1,0 +1,13 @@
+city
+
+Info
+
+Failed
+
+Try Again OUT
+
+Show manual button (T) ~
+
+Gi
+
+Disconnect(T) Manual(F)

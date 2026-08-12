@@ -1,0 +1,57 @@
+ae eae Te eee eae Tela le Teale le letelelalal 2 (0..2] vp
+
+IME SNC UME SC ME IM SC UME SC UE Se Ue UE ee me Ue me me ee ee!
+
+R
+
+le ~Pl
+
+[False +p
+
+SQUIDs connected
+
+SQUIDs [LEER
+
+| True_~P|
+
+[False +p
+
+Magnetics connected
+
+Magnetics Susceptibility meter [TF
+
+| True_~P|
+
+[False +p
+
+Degaussing connected
+
+Degaussing Susbystem
+
+[True_p
+
+[False +p
+
+ARM connected [CLES
+
+ARM Subsytem
+
+i True_~p
+
+[False +p
+
+IRM Subsystem connected
+
+IRM Subsystem
+
+[True_p
+
+Furnace Subsytems connected
+
+[False +p
+
+Furnace Subsytems
+
+TEs
+
+SACRA AEA AACA AACA AENEAN AENEAN AEE AE AEA AE AE AENEAN ACEC ECAC AEE

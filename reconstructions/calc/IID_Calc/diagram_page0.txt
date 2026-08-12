@@ -1,0 +1,59 @@
+Xv'2 + Yv'2 + Zv’2
+
+sqrt(Xv" + Yw'2 + Zv*2)
+
+Lit
+
+ODP inclination correction
+
+[False +p
+
+Xv'2
+
+{True_p
+
+>
+
+|
+
+arctan{Y v/Xv)}
+
+Radians to Degrees
+
+| | | YviXv
+
+tu
+
+‘and
+
+Yvw2
+
+>
+
+zv'2
+
+>
+
+arctan{Zv/
+
+sqn(xv2 +
+
+Yv42))
+
+2v / sart(Xv42 + Yv*2)
+
+Radians to Degress
+
+Ly,
+
+%
+
+atan
+
+Xw2 + YvA2
+
+sart(Xv*2 + Yv"2)
+
+ips
+
+Radian converesion

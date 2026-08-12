@@ -1,0 +1,89 @@
+|..0 PI
+
+time
+
+X mean
+
+Y mean
+
+Z mean
+
+X corr
+
+Y corr
+
+Z corr
+
+X drift
+
+Y drift
+
+Data Array IN [[081)j
+
+Z drift |
+
+-———
+
+Data Array Out
+
+EE
+
+EE
+
+EE
+
+EE
+
+a?
+
+EE
+
+a?
+
+EE
+
+a?
+
+Te
+
+q
+
+at
+
+f4Heso
+
+pps: 0
+
+7 2
+
+@NRM Bk
+
+=2 Kb
+
+@NRM Bk
+
+=1K>
+
+>—pP
+
+>—x
+
+2b
+
+@NRM Bk
+
+@NRM Bk
+
+=1\>
+
+[>—-Y
+
+@NRM Bk
+
+=37
+
+@NRM Bk
+
+1Z>
+
+[>—2

@@ -1,0 +1,37 @@
+Sample Input IN
+
+fo Sample Input OUT
+
+SQUID Data IN
+
+SQUID Data OUT
+
+Degauss Data IN
+
+Set Up|
+
+b= Degauss Data OUT
+
+Translation Data IN
+
+Translation Data OUT
+
+Measurement Data IN
+
+Measurement Data OT
+
+File Format Data IN
+
+File Format Data OUT
+
+Measurement Queue Array IN
+
+Measurement Queue Array OUT
+
+MS Data IN
+
+MS Data OUT
+
+Measurement Parameters IN
+
+Measurement Parameters OUT

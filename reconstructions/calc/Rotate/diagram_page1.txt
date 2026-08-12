@@ -1,0 +1,25 @@
+"Sample"
+
+{True_~pi
+
+Mer
+
+(Mx * sin(DIP) + Mz * cos(DIP)) * sin(AZ) + My * cos(AZ):
+
+Myr
+
+-1 * (Ms * sin(DIP) + Mz * cos(DIP)) * cos(AZ) + My * sin(AZ):
+
+[___ae
+
+D
+
+oiMex
+
+-1 * Mx * cos(DIP) + Mz * sin(DIP):
+
+Hx
+
+Hz
+
+Mzr

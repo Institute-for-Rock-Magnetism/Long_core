@@ -1,0 +1,11 @@
+"set delay to 5 sec: DCD5"
+
+P|
+
+Bytes To Read {6|
+
+Setting Degausser’s delay to 5
+
+second
+
+DCODS

@@ -1,0 +1,21 @@
+“3
+
+Thermal [Thermal Demag options] g options
+
+foe Arpltude |
+
+ARM Amplitude
+
+pm
+
+IRM IRM Amplitude |
+
+al
+
+.
+
+JTRM Amplitude | J Amplitude
+
+pas
+
+al

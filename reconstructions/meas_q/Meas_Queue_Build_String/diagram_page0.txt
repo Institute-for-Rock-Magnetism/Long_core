@@ -1,0 +1,59 @@
+IN]
+
+a) “Magnetic Susceptibility" +p
+
+——
+
+Measurement Queue IN
+
+=
+
+Units
+
+"0.1" +p
+
+ [-range:0.1
+
+o>
+
+3 | C2
+
+pid’.
+
+si"
+
+ps4
+
+[“Low Field” _~p}
+
+pt
+
+ARMY | Amplitude
+
+EOL) —{ >>
+
+jong
+
++}
+
+ne
+
+Randomize DG Axis
+
+=i
+
+a
+
+o>
+
+EAE]
+
+String Array OUT
+
+3 | C2
+
+[True_~p|
+
+ee Ly Meas. Series.|
+
+aA

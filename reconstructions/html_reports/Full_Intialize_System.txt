@@ -1,0 +1,5386 @@
+ 
+ Full Intialize System.vi 
+ Full Intialize System.vi 
+ [img] 
+ [img] 
+ [img] 
+ Degauss Data IN 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Delay Parameter 
+ [img] 
+ Status 
+ [img] 
+ Amplitude 
+ [img] 
+ Active Coil 
+ [img] 
+ Min 
+ [img] 
+ Max 
+ [img] 
+ X Cal 
+ [img] 
+ Y Cal 
+ [img] 
+ Z Cal 
+ [img] 
+ SQUID Data IN 
+ [img] 
+ SQUID-X Responce 
+ [img] 
+ SQUID-Y Responce 
+ [img] 
+ SQUID-Z Responce 
+ [img] 
+ SQUID-X Calib 
+ [img] 
+ SQUID-Y Calib 
+ [img] 
+ SQUID-Z Calib 
+ [img] 
+ SQUID-X filter data 
+ [img] 
+ SQUID-Y filter data 
+ [img] 
+ SQUID-Z filter data 
+ [img] 
+ SQUID-X range data 
+ [img] 
+ SQUID-Y range data 
+ [img] 
+ SQUID-Z range data 
+ [img] 
+ SQUID-X slew data 
+ [img] 
+ SQUID-Y slew data 
+ [img] 
+ SQUID-Z slew data 
+ [img] 
+ SQUID-X feedback data 
+ [img] 
+ SQUID-Y feedback data 
+ [img] 
+ SQUID-Z feedback data 
+ [img] 
+ Translation Data IN 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ File Format Data IN 
+ [img] 
+ Save Leader/Trailer Data? 
+ [img] 
+ File Format Array 
+ [img] 
+ Data Types 
+ [img] 
+ Measurement Parameters IN 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ MS Data IN 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Measurement Queue Array IN 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ Measurement Data IN 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Sample Input IN 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ Degauss Data OUT 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Delay Parameter 
+ [img] 
+ Status 
+ [img] 
+ Amplitude 
+ [img] 
+ Active Coil 
+ [img] 
+ Min 
+ [img] 
+ Max 
+ [img] 
+ X Cal 
+ [img] 
+ Y Cal 
+ [img] 
+ Z Cal 
+ [img] 
+ SQUID Data OUT 
+ [img] 
+ SQUID-X Responce 
+ [img] 
+ SQUID-Y Responce 
+ [img] 
+ SQUID-Z Responce 
+ [img] 
+ SQUID-X Calib 
+ [img] 
+ SQUID-Y Calib 
+ [img] 
+ SQUID-Z Calib 
+ [img] 
+ SQUID-X filter data 
+ [img] 
+ SQUID-Y filter data 
+ [img] 
+ SQUID-Z filter data 
+ [img] 
+ SQUID-X range data 
+ [img] 
+ SQUID-Y range data 
+ [img] 
+ SQUID-Z range data 
+ [img] 
+ SQUID-X slew data 
+ [img] 
+ SQUID-Y slew data 
+ [img] 
+ SQUID-Z slew data 
+ [img] 
+ SQUID-X feedback data 
+ [img] 
+ SQUID-Y feedback data 
+ [img] 
+ SQUID-Z feedback data 
+ [img] 
+ Translation Data OUT 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ File Format Data OUT 
+ [img] 
+ Save Leader/Trailer Data? 
+ [img] 
+ File Format Array 
+ [img] 
+ Data Types 
+ [img] 
+ Measurement Parameters OUT 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ MS Data OUT 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Measurement Queue Array OUT 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ Measurement Data OUT 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Sample Input OUT 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Full Intialize System.vi History&quot; 
+ Current Revision: 195 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Password change.vi 
+ [img] 
+ [img] 
+ [img] 
+ data 
+ [img] 
+ Ok 
+ [img] 
+ Check to disable password protection 
+ [img] 
+ Cancel 
+ [img] 
+ Info 
+ [img] 
+ Verified(T) 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Password change.vi History&quot; 
+ Current Revision: 85 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Verify Password.vi 
+ [img] 
+ [img] 
+ [img] 
+ Verify Password 
+ [img] 
+ Ok 
+ [img] 
+ Verify Password OUT 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Verify Password.vi History&quot; 
+ Current Revision: 9 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Set Up Control.vi 
+ [img] 
+ [img] 
+ [img] 
+ SQUID IN 
+ [img] 
+ SQUID-X Responce 
+ [img] 
+ SQUID-Y Responce 
+ [img] 
+ SQUID-Z Responce 
+ [img] 
+ SQUID-X Calib 
+ [img] 
+ SQUID-Y Calib 
+ [img] 
+ SQUID-Z Calib 
+ [img] 
+ SQUID-X filter data 
+ [img] 
+ SQUID-Y filter data 
+ [img] 
+ SQUID-Z filter data 
+ [img] 
+ SQUID-X range data 
+ [img] 
+ SQUID-Y range data 
+ [img] 
+ SQUID-Z range data 
+ [img] 
+ SQUID-X slew data 
+ [img] 
+ SQUID-Y slew data 
+ [img] 
+ SQUID-Z slew data 
+ [img] 
+ SQUID-X feedback data 
+ [img] 
+ SQUID-Y feedback data 
+ [img] 
+ SQUID-Z feedback data 
+ [img] 
+ Degauss Data IN 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Delay Parameter 
+ [img] 
+ Status 
+ [img] 
+ Amplitude 
+ [img] 
+ Active Coil 
+ [img] 
+ Min 
+ [img] 
+ Max 
+ [img] 
+ X Cal 
+ [img] 
+ Y Cal 
+ [img] 
+ Z Cal 
+ [img] 
+ Translation Data IN 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ File Format Data IN 
+ [img] 
+ Save Leader/Trailer Data? 
+ [img] 
+ File Format Array 
+ [img] 
+ Data Types 
+ [img] 
+ Measurement Parameters IN 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ MS Data IN 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Measurement Queue Array IN 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ Sample Input IN 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ SQUID Data Out 
+ [img] 
+ SQUID-X Responce 
+ [img] 
+ SQUID-Y Responce 
+ [img] 
+ SQUID-Z Responce 
+ [img] 
+ SQUID-X Calib 
+ [img] 
+ SQUID-Y Calib 
+ [img] 
+ SQUID-Z Calib 
+ [img] 
+ SQUID-X filter data 
+ [img] 
+ SQUID-Y filter data 
+ [img] 
+ SQUID-Z filter data 
+ [img] 
+ SQUID-X range data 
+ [img] 
+ SQUID-Y range data 
+ [img] 
+ SQUID-Z range data 
+ [img] 
+ SQUID-X slew data 
+ [img] 
+ SQUID-Y slew data 
+ [img] 
+ SQUID-Z slew data 
+ [img] 
+ SQUID-X feedback data 
+ [img] 
+ SQUID-Y feedback data 
+ [img] 
+ SQUID-Z feedback data 
+ [img] 
+ Degauss Data OUT 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Delay Parameter 
+ [img] 
+ Status 
+ [img] 
+ Amplitude 
+ [img] 
+ Active Coil 
+ [img] 
+ Min 
+ [img] 
+ Max 
+ [img] 
+ X Cal 
+ [img] 
+ Y Cal 
+ [img] 
+ Z Cal 
+ [img] 
+ Translation Data OUT 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ File Format Data OUT 
+ [img] 
+ Save Leader/Trailer Data? 
+ [img] 
+ File Format Array 
+ [img] 
+ Data Types 
+ [img] 
+ Measurement Parameters OUT 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ MS Data OUT 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Measurement Queue Array OUT 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ Finished? 
+ [img] 
+ Sample Input OUT 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Set Up Control.vi History&quot; 
+ Current Revision: 155 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Set Up Welcome.vi 
+ [img] 
+ [img] 
+ [img] 
+ Next 
+ [img] 
+ Cancel 
+ [img] 
+ Back 
+ [img] 
+ Action 
+ [img] 
+ &quot;Set Up Welcome.vi History&quot; 
+ Current Revision: 10 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Set Up System Configuration.vi 
+ [img] 
+ [img] 
+ [img] 
+ Next 
+ [img] 
+ Back 
+ [img] 
+ Cancel 
+ [img] 
+ SQUIDs 
+ [img] 
+ Magnetics Susceptibility meter 
+ [img] 
+ Degaussing Susbystem 
+ [img] 
+ ARM Subsytem 
+ [img] 
+ IRM Subsystem 
+ [img] 
+ Furnace Subsytems 
+ [img] 
+ SQUIDs connected 
+ [img] 
+ Magnetics connected 
+ [img] 
+ Degaussing connected 
+ [img] 
+ IRM Subsystem connected 
+ [img] 
+ Furnace Subsytems connected 
+ [img] 
+ SQUID's serial port number When you use the serial port VIs under Windows, the port number parameter can have the following values: 
+ 0: COM1 5: COM6 10: LPT1 
+ 1: COM2 6: COM7 11: LPT2 
+ 2: COM3 7: COM8 12: LPT3 
+ 3: COM4 8: COM9 13: LPT4 
+ 4: COM5 
+ When you use the serial port VIs on a Sun SPARCstation, the port number parameter is 0 for /dev/ttya, 1 for /dev/ttyb, and so on. 
+ On the Macintosh, port 0 is the modem, using the drivers .ain and .aout. Port 1 is the printer, using the drivers.bin and .bout. To get more ports on a Macintosh, you must install other boards, with the accompanying drivers. 
+ [img] 
+ SQUID Serial Port 
+ [img] 
+ Magnetic Susceptibility meter's serial port number When you use the serial port VIs under Windows, the port number parameter can have the following values: 
+ 0: COM1 5: COM6 10: LPT1 
+ 1: COM2 6: COM7 11: LPT2 
+ 2: COM3 7: COM8 12: LPT3 
+ 3: COM4 8: COM9 13: LPT4 
+ 4: COM5 
+ When you use the serial port VIs on a Sun SPARCstation, the port number parameter is 0 for /dev/ttya, 1 for /dev/ttyb, and so on. 
+ On the Macintosh, port 0 is the modem, using the drivers .ain and .aout. Port 1 is the printer, using the drivers.bin and .bout. To get more ports on a Macintosh, you must install other boards, with the accompanying drivers. 
+ [img] 
+ Degausser Subsystem's serial port number When you use the serial port VIs under Windows, the port number parameter can have the following values: 
+ 0: COM1 5: COM6 10: LPT1 
+ 1: COM2 6: COM7 11: LPT2 
+ 2: COM3 7: COM8 12: LPT3 
+ 3: COM4 8: COM9 13: LPT4 
+ 4: COM5 
+ When you use the serial port VIs on a Sun SPARCstation, the port number parameter is 0 for /dev/ttya, 1 for /dev/ttyb, and so on. 
+ On the Macintosh, port 0 is the modem, using the drivers .ain and .aout. Port 1 is the printer, using the drivers.bin and .bout. To get more ports on a Macintosh, you must install other boards, with the accompanying drivers. 
+ [img] 
+ ARM Subsystemr's serial port number When you use the serial port VIs under Windows, the port number parameter can have the following values: 
+ 0: COM1 5: COM6 10: LPT1 
+ 1: COM2 6: COM7 11: LPT2 
+ 2: COM3 7: COM8 12: LPT3 
+ 3: COM4 8: COM9 13: LPT4 
+ 4: COM5 
+ When you use the serial port VIs on a Sun SPARCstation, the port number parameter is 0 for /dev/ttya, 1 for /dev/ttyb, and so on. 
+ On the Macintosh, port 0 is the modem, using the drivers .ain and .aout. Port 1 is the printer, using the drivers.bin and .bout. To get more ports on a Macintosh, you must install other boards, with the accompanying drivers. 
+ [img] 
+ IRM Subsystem's serial port number When you use the serial port VIs under Windows, the port number parameter can have the following values: 
+ 0: COM1 5: COM6 10: LPT1 
+ 1: COM2 6: COM7 11: LPT2 
+ 2: COM3 7: COM8 12: LPT3 
+ 3: COM4 8: COM9 13: LPT4 
+ 4: COM5 
+ When you use the serial port VIs on a Sun SPARCstation, the port number parameter is 0 for /dev/ttya, 1 for /dev/ttyb, and so on. 
+ On the Macintosh, port 0 is the modem, using the drivers .ain and .aout. Port 1 is the printer, using the drivers.bin and .bout. To get more ports on a Macintosh, you must install other boards, with the accompanying drivers. 
+ [img] 
+ Furnace Subsystem's serial port number When you use the serial port VIs under Windows, the port number parameter can have the following values: 
+ 0: COM1 5: COM6 10: LPT1 
+ 1: COM2 6: COM7 11: LPT2 
+ 2: COM3 7: COM8 12: LPT3 
+ 3: COM4 8: COM9 13: LPT4 
+ 4: COM5 
+ When you use the serial port VIs on a Sun SPARCstation, the port number parameter is 0 for /dev/ttya, 1 for /dev/ttyb, and so on. 
+ On the Macintosh, port 0 is the modem, using the drivers .ain and .aout. Port 1 is the printer, using the drivers.bin and .bout. To get more ports on a Macintosh, you must install other boards, with the accompanying drivers. 
+ [img] 
+ Sample Handler's serial port number When you use the serial port VIs under Windows, the port number parameter can have the following values: 
+ 0: COM1 5: COM6 10: LPT1 
+ 1: COM2 6: COM7 11: LPT2 
+ 2: COM3 7: COM8 12: LPT3 
+ 3: COM4 8: COM9 13: LPT4 
+ 4: COM5 
+ When you use the serial port VIs on a Sun SPARCstation, the port number parameter is 0 for /dev/ttya, 1 for /dev/ttyb, and so on. 
+ On the Macintosh, port 0 is the modem, using the drivers .ain and .aout. Port 1 is the printer, using the drivers.bin and .bout. To get more ports on a Macintosh, you must install other boards, with the accompanying drivers. 
+ [img] 
+ MS Serial Port 
+ [img] 
+ DG Serial Port 
+ [img] 
+ ARM Serial Port 
+ [img] 
+ IRM Serial Port 
+ [img] 
+ FUR Serial Port 
+ [img] 
+ Sample Handler 
+ [img] 
+ info 
+ [img] 
+ ARM connected 
+ [img] 
+ Degauss Data 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Delay Parameter 
+ [img] 
+ Status 
+ [img] 
+ Amplitude 
+ [img] 
+ Active Coil 
+ [img] 
+ Min 
+ [img] 
+ Max 
+ [img] 
+ X Cal 
+ [img] 
+ Y Cal 
+ [img] 
+ Z Cal 
+ [img] 
+ Verify Info 
+ [img] 
+ Action 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Set Up System Configuration.vi History&quot; 
+ Current Revision: 374 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Serial Port Initializer2.vi 
+ [img] 
+ [img] 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Subsystem 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Serial Port Initializer2.vi History&quot; 
+ Current Revision: 34 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Verify Susbsytems.vi 
+ [img] 
+ [img] 
+ [img] 
+ Subsystem 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Degauss Data 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Delay Parameter 
+ [img] 
+ Status 
+ [img] 
+ Amplitude 
+ [img] 
+ Active Coil 
+ [img] 
+ Min 
+ [img] 
+ Max 
+ [img] 
+ X Cal 
+ [img] 
+ Y Cal 
+ [img] 
+ Z Cal 
+ [img] 
+ Status 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Verify Susbsytems.vi History&quot; 
+ Current Revision: 87 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Verify Failed Dialog.vi 
+ [img] 
+ [img] 
+ [img] 
+ Try Again 
+ [img] 
+ Manual 
+ [img] 
+ Disconnect 
+ [img] 
+ Info 
+ [img] 
+ Show manual button (T) 
+ [img] 
+ Try Again OUT 
+ [img] 
+ Disconnect(T) Manual(F) 
+ [img] 
+ &quot;Verify Failed Dialog.vi History&quot; 
+ Current Revision: 4 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Degausser Init Comm.vi 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Degausser Init Comm.vi History&quot; 
+ Current Revision: 20 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Set Serial Port Parameters.vi 
+ [img] 
+ [img] 
+ [img] 
+ Subsystem 
+ [img] 
+ Serial Port 
+ [img] 
+ Baud Rate When you use the serial port VIs under Windows, the port number parameter can have the following values: 
+ 0: COM1 5: COM6 10: LPT1 
+ 1: COM2 6: COM7 11: LPT2 
+ 2: COM3 7: COM8 12: LPT3 
+ 3: COM4 8: COM9 13: LPT4 
+ 4: COM5 
+ When you use the serial port VIs on a Sun SPARCstation, the port number parameter is 0 for /dev/ttya, 1 for /dev/ttyb, and so on. 
+ On the Macintosh, port 0 is the modem, using the drivers .ain and .aout. Port 1 is the printer, using the drivers.bin and .bout. To get more ports on a Macintosh, you must install other boards, with the accompanying drivers. 
+ [img] 
+ Data Bits data bits is the number of bits in the incoming data. The value of data bits is between five and eight. 
+ [img] 
+ Stop Bits data bits is the number of bits in the incoming data. The value of data bits is between five and eight. 
+ [img] 
+ Parity data bits is the number of bits in the incoming data. The value of data bits is between five and eight. 
+ [img] 
+ Ok 
+ [img] 
+ Subsystem : 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Set Serial Port Parameters.vi History&quot; 
+ Current Revision: 34 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Set Up SQUID Configuration.vi 
+ [img] 
+ [img] 
+ [img] 
+ Next 
+ [img] 
+ Back 
+ [img] 
+ Cancel 
+ [img] 
+ SQUID Parameters 
+ [img] 
+ SQUID-X Responce 
+ [img] 
+ SQUID-Y Responce 
+ [img] 
+ SQUID-Z Responce 
+ [img] 
+ SQUID-X Calib 
+ [img] 
+ SQUID-Y Calib 
+ [img] 
+ SQUID-Z Calib 
+ [img] 
+ SQUID-X filter data 
+ [img] 
+ SQUID-Y filter data 
+ [img] 
+ SQUID-Z filter data 
+ [img] 
+ SQUID-X range data 
+ [img] 
+ SQUID-Y range data 
+ [img] 
+ SQUID-Z range data 
+ [img] 
+ SQUID-X slew data 
+ [img] 
+ SQUID-Y slew data 
+ [img] 
+ SQUID-Z slew data 
+ [img] 
+ SQUID-X feedback data 
+ [img] 
+ SQUID-Y feedback data 
+ [img] 
+ SQUID-Z feedback data 
+ [img] 
+ SQUID Data IN 
+ [img] 
+ SQUID-X Responce 
+ [img] 
+ SQUID-Y Responce 
+ [img] 
+ SQUID-Z Responce 
+ [img] 
+ SQUID-X Calib 
+ [img] 
+ SQUID-Y Calib 
+ [img] 
+ SQUID-Z Calib 
+ [img] 
+ SQUID-X filter data 
+ [img] 
+ SQUID-Y filter data 
+ [img] 
+ SQUID-Z filter data 
+ [img] 
+ SQUID-X range data 
+ [img] 
+ SQUID-Y range data 
+ [img] 
+ SQUID-Z range data 
+ [img] 
+ SQUID-X slew data 
+ [img] 
+ SQUID-Y slew data 
+ [img] 
+ SQUID-Z slew data 
+ [img] 
+ SQUID-X feedback data 
+ [img] 
+ SQUID-Y feedback data 
+ [img] 
+ SQUID-Z feedback data 
+ [img] 
+ SQUID Data OUT 
+ [img] 
+ SQUID-X Responce 
+ [img] 
+ SQUID-Y Responce 
+ [img] 
+ SQUID-Z Responce 
+ [img] 
+ SQUID-X Calib 
+ [img] 
+ SQUID-Y Calib 
+ [img] 
+ SQUID-Z Calib 
+ [img] 
+ SQUID-X filter data 
+ [img] 
+ SQUID-Y filter data 
+ [img] 
+ SQUID-Z filter data 
+ [img] 
+ SQUID-X range data 
+ [img] 
+ SQUID-Y range data 
+ [img] 
+ SQUID-Z range data 
+ [img] 
+ SQUID-X slew data 
+ [img] 
+ SQUID-Y slew data 
+ [img] 
+ SQUID-Z slew data 
+ [img] 
+ SQUID-X feedback data 
+ [img] 
+ SQUID-Y feedback data 
+ [img] 
+ SQUID-Z feedback data 
+ [img] 
+ Action 
+ [img] 
+ Verify Info 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Set Up SQUID Configuration.vi History&quot; 
+ Current Revision: 336 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ SQUID Initialize &amp; Verify.vi 
+ [img] 
+ [img] 
+ [img] 
+ SQUID Data IN 
+ [img] 
+ SQUID-X Responce 
+ [img] 
+ SQUID-Y Responce 
+ [img] 
+ SQUID-Z Responce 
+ [img] 
+ SQUID-X Calib 
+ [img] 
+ SQUID-Y Calib 
+ [img] 
+ SQUID-Z Calib 
+ [img] 
+ SQUID-X filter data 
+ [img] 
+ SQUID-Y filter data 
+ [img] 
+ SQUID-Z filter data 
+ [img] 
+ SQUID-X range data 
+ [img] 
+ SQUID-Y range data 
+ [img] 
+ SQUID-Z range data 
+ [img] 
+ SQUID-X slew data 
+ [img] 
+ SQUID-Y slew data 
+ [img] 
+ SQUID-Z slew data 
+ [img] 
+ SQUID-X feedback data 
+ [img] 
+ SQUID-Y feedback data 
+ [img] 
+ SQUID-Z feedback data 
+ [img] 
+ Error Status IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ SQUID Data IN 
+ [img] 
+ SQUID-X Responce 
+ [img] 
+ SQUID-Y Responce 
+ [img] 
+ SQUID-Z Responce 
+ [img] 
+ SQUID-X Calib 
+ [img] 
+ SQUID-Y Calib 
+ [img] 
+ SQUID-Z Calib 
+ [img] 
+ SQUID-X filter data 
+ [img] 
+ SQUID-Y filter data 
+ [img] 
+ SQUID-Z filter data 
+ [img] 
+ SQUID-X range data 
+ [img] 
+ SQUID-Y range data 
+ [img] 
+ SQUID-Z range data 
+ [img] 
+ SQUID-X slew data 
+ [img] 
+ SQUID-Y slew data 
+ [img] 
+ SQUID-Z slew data 
+ [img] 
+ SQUID-X feedback data 
+ [img] 
+ SQUID-Y feedback data 
+ [img] 
+ SQUID-Z feedback data 
+ [img] 
+ Error Status Out 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Error (T) 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;SQUID Initialize &amp; Verify.vi History&quot; 
+ Current Revision: 41 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Set Up Mag Sus Configuration.vi 
+ [img] 
+ [img] 
+ [img] 
+ Next 
+ [img] 
+ Back 
+ [img] 
+ Cancel 
+ [img] 
+ MS Data IN 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ MS Parameters 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ MS Data OUT 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Action 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Set Up Mag Sus Configuration.vi History&quot; 
+ Current Revision: 332 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Set Up Degauss Configuration.vi 
+ [img] 
+ [img] 
+ [img] 
+ Next 
+ [img] 
+ Back 
+ [img] 
+ Cancel 
+ [img] 
+ Degauss Data IN 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Delay Parameter 
+ [img] 
+ Status 
+ [img] 
+ Amplitude 
+ [img] 
+ Active Coil 
+ [img] 
+ Min 
+ [img] 
+ Max 
+ [img] 
+ X Cal 
+ [img] 
+ Y Cal 
+ [img] 
+ Z Cal 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Minimum 
+ [img] 
+ Maximum 
+ [img] 
+ Info 
+ [img] 
+ Still running 
+ [img] 
+ X Coil Calibration 
+ [img] 
+ Y Coil Calibration 
+ [img] 
+ Z Coil Calibration 
+ [img] 
+ Character Delay 
+ [img] 
+ Tracking Timeout (sec) 
+ [img] 
+ Degauss Data OUT 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Delay Parameter 
+ [img] 
+ Status 
+ [img] 
+ Amplitude 
+ [img] 
+ Active Coil 
+ [img] 
+ Min 
+ [img] 
+ Max 
+ [img] 
+ X Cal 
+ [img] 
+ Y Cal 
+ [img] 
+ Z Cal 
+ [img] 
+ Action 
+ [img] 
+ Verify Info 
+ [img] 
+ Busy 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Set Up Degauss Configuration.vi History&quot; 
+ Current Revision: 374 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Degauss Configure.vi 
+ [img] 
+ [img] 
+ [img] 
+ Degauss Data IN 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Delay Parameter 
+ [img] 
+ Status 
+ [img] 
+ Amplitude 
+ [img] 
+ Active Coil 
+ [img] 
+ Min 
+ [img] 
+ Max 
+ [img] 
+ X Cal 
+ [img] 
+ Y Cal 
+ [img] 
+ Z Cal 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Degauss Data OUT 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Delay Parameter 
+ [img] 
+ Status 
+ [img] 
+ Amplitude 
+ [img] 
+ Active Coil 
+ [img] 
+ Min 
+ [img] 
+ Max 
+ [img] 
+ X Cal 
+ [img] 
+ Y Cal 
+ [img] 
+ Z Cal 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Error (T) 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Degauss Configure.vi History&quot; 
+ Current Revision: 69 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Degauss set ramp-dwell.vi 
+ [img] 
+ [img] 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Degauss Data IN 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Delay Parameter 
+ [img] 
+ Status 
+ [img] 
+ Amplitude 
+ [img] 
+ Active Coil 
+ [img] 
+ Min 
+ [img] 
+ Max 
+ [img] 
+ X Cal 
+ [img] 
+ Y Cal 
+ [img] 
+ Z Cal 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Abort (T) 
+ [img] 
+ Degauss Data OUT 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Delay Parameter 
+ [img] 
+ Status 
+ [img] 
+ Amplitude 
+ [img] 
+ Active Coil 
+ [img] 
+ Min 
+ [img] 
+ Max 
+ [img] 
+ X Cal 
+ [img] 
+ Y Cal 
+ [img] 
+ Z Cal 
+ [img] 
+ Error(T) 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Degauss set ramp-dwell.vi History&quot; 
+ Current Revision: 43 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Set Up Sample Handler Configuration.vi 
+ [img] 
+ [img] 
+ [img] 
+ Next 
+ [img] 
+ Back 
+ [img] 
+ Cancel 
+ [img] 
+ Translation Data IN 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ Home Switch Type 
+ [img] 
+ Tray Offset (cm) 
+ [img] 
+ Home Offset (cm) 
+ [img] 
+ Track Length (cm) 
+ [img] 
+ Scale (steps/cm) 
+ [img] 
+ Full Tray Length (cm) 
+ [img] 
+ Scale 
+ [img] 
+ [img] 
+ Home &amp; Tray Ref 
+ [img] 
+ Translation Data OUT 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ Action 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Set Up Sample Handler Configuration.vi History&quot; 
+ Current Revision: 382 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ 2G Sample Handler Scale.vi 
+ [img] 
+ [img] 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Home &amp; Tray Ref 
+ [img] 
+ Home Switch Type 
+ [img] 
+ Track Length (cm) 
+ [img] 
+ Scale (steps/cm) 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;2G Sample Handler Scale.vi History&quot; 
+ Current Revision: 14 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ 2G Sample Handler Find Home.vi 
+ [img] 
+ [img] 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Home Switch Type 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ User stop (t) 
+ [img] 
+ Errort (T) 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;2G Sample Handler Find Home.vi History&quot; 
+ Current Revision: 87 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ 2G Sample Handler Find Home Limit Switch.vi 
+ [img] 
+ [img] 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Home Switch Type 
+ [img] 
+ Still running 
+ [img] 
+ stop 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Error(T) 
+ [img] 
+ Info 
+ [img] 
+ user stop (t) 
+ [img] 
+ Busy 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;2G Sample Handler Find Home Limit Switch.vi History&quot; 
+ Current Revision: 133 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ 2G Sample Handler Find Home Switch.vi 
+ [img] 
+ [img] 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Home Switch Type 
+ [img] 
+ Still running 
+ [img] 
+ stop 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Error(T) 
+ [img] 
+ Info 
+ [img] 
+ user stop (t) 
+ [img] 
+ Busy 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;2G Sample Handler Find Home Switch.vi History&quot; 
+ Current Revision: 129 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ 2G Sample Handler Find LS.vi 
+ [img] 
+ [img] 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Still running 
+ [img] 
+ Direction 
+ [img] 
+ stop 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Error(T) 
+ [img] 
+ Info 
+ [img] 
+ Position 
+ [img] 
+ user stop (T) 
+ [img] 
+ Busy 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;2G Sample Handler Find LS.vi History&quot; 
+ Current Revision: 123 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Set Up Sample Handler Positions.vi 
+ [img] 
+ [img] 
+ [img] 
+ Next 
+ [img] 
+ Back 
+ [img] 
+ Cancel 
+ [img] 
+ Translation Data IN 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ [img] 
+ Degauss stage #2 
+ [img] 
+ Degauss stage#1 
+ [img] 
+ Magnetic Susceptibility 
+ [img] 
+ SQUID 
+ [img] 
+ Load / Unload 
+ [img] 
+ Background stage #1 
+ [img] 
+ Background stage #2 
+ [img] 
+ Track 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load Velocity 
+ [img] 
+ DG Coil center 
+ [img] 
+ IRM Stage 
+ [img] 
+ IRM Coil center 
+ [img] 
+ Translation Data OUT 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ Action 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Set Up Sample Handler Positions.vi History&quot; 
+ Current Revision: 400 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Track Utilities.vi 
+ [img] 
+ [img] 
+ [img] 
+ Steps 
+ [img] 
+ Mode 
+ [img] 
+ Go 
+ [img] 
+ Home 
+ [img] 
+ CW Limit Switch 
+ [img] 
+ CCW Limit Switch 
+ [img] 
+ Direction 
+ [img] 
+ Done 
+ [img] 
+ Speed 
+ [img] 
+ Home Switch Type 
+ [img] 
+ Scale 
+ [img] 
+ SQUID 
+ [img] 
+ MS 
+ [img] 
+ Bkgnd #1 
+ [img] 
+ Stage #1 
+ [img] 
+ Stage #2 
+ [img] 
+ Load 
+ [img] 
+ SQUID IN 
+ [img] 
+ Mag. Susc. IN 
+ [img] 
+ Bkgnd #1 IN 
+ [img] 
+ Stage #1 IN 
+ [img] 
+ Stage #2 IN 
+ [img] 
+ Load / Unload IN 
+ [img] 
+ Bkgnd #2 
+ [img] 
+ Bkgnd #2 IN 
+ [img] 
+ Cancel 
+ [img] 
+ stop 
+ [img] 
+ IRM 
+ [img] 
+ IRM IN 
+ [img] 
+ SQUID cm 
+ [img] 
+ Mag. Susc. cm 
+ [img] 
+ Bkgnd #1 cm 
+ [img] 
+ Stage #1 cm 
+ [img] 
+ Stage #2 cm 
+ [img] 
+ Load / Unload cm 
+ [img] 
+ Track Position (cm) 
+ [img] 
+ SQUID steps 
+ [img] 
+ Mag. Susc. steps 
+ [img] 
+ Bkgnd #1 steps 
+ [img] 
+ Stage #1 steps 
+ [img] 
+ Stage #2 steps 
+ [img] 
+ Load / Unload steps 
+ [img] 
+ Bkgnd #2 cm 
+ [img] 
+ Bkgnd #2 steps 
+ [img] 
+ Track Position (steps) 
+ [img] 
+ IRM Stage cm 
+ [img] 
+ IRM Stage steps 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Track Utilities.vi History&quot; 
+ Current Revision: 98 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Set Up Sample Handler Discrete.vi 
+ [img] 
+ [img] 
+ [img] 
+ Next 
+ [img] 
+ Back 
+ [img] 
+ Cancel 
+ [img] 
+ Translation Data IN 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ [img] 
+ Discrete Parameters 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max Number of Sample Positions 
+ [img] 
+ Translation Data OUT 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ Action 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Set Up Sample Handler Discrete.vi History&quot; 
+ Current Revision: 369 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Set Up Prime Data File.vi 
+ [img] 
+ [img] 
+ [img] 
+ Next 
+ [img] 
+ Back 
+ [img] 
+ Cancel 
+ [img] 
+ Path to the Data Directory 
+ [img] 
+ Browse 
+ [img] 
+ Data File Path 
+ [img] 
+ Action 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Set Up Prime Data File.vi History&quot; 
+ Current Revision: 384 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Extrac Path.vi 
+ [img] 
+ [img] 
+ [img] 
+ Data Path 
+ [img] 
+ Data Path Display 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Extrac Path.vi History&quot; 
+ Current Revision: 3 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Set Up Backup Data File.vi 
+ [img] 
+ [img] 
+ [img] 
+ Next 
+ [img] 
+ Back 
+ [img] 
+ Cancel 
+ [img] 
+ Path to the Data Directory 
+ [img] 
+ Browse 
+ [img] 
+ Data File Path 
+ [img] 
+ Check for Backup File 
+ [img] 
+ Action 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Set Up Backup Data File.vi History&quot; 
+ Current Revision: 392 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Set Up User File Format.vi 
+ [img] 
+ [img] 
+ [img] 
+ Next 
+ [img] 
+ Back 
+ [img] 
+ Cancel 
+ [img] 
+ Queue 
+ [img] 
+ Units 
+ [img] 
+ Range 
+ [img] 
+ File Format Data IN 
+ [img] 
+ Save Leader/Trailer Data? 
+ [img] 
+ File Format Array 
+ [img] 
+ Data Types 
+ [img] 
+ Action 
+ [img] 
+ File Format Data OUT 
+ [img] 
+ Save Leader/Trailer Data? 
+ [img] 
+ File Format Array 
+ [img] 
+ Data Types 
+ [img] 
+ File Format 
+ [img] 
+ Save Leader/Trailer Data? 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Set Up User File Format.vi History&quot; 
+ Current Revision: 393 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ File Format Editor.vi 
+ [img] 
+ [img] 
+ [img] 
+ Data Types 
+ [img] 
+ Move 
+ [img] 
+ Reset 
+ [img] 
+ Replace 
+ [img] 
+ Done 
+ [img] 
+ Save Leader/Trailer data 
+ [img] 
+ File Format 
+ [img] 
+ File Format Data IN 
+ [img] 
+ Save Leader/Trailer Data? 
+ [img] 
+ File Format Array 
+ [img] 
+ Data Types 
+ [img] 
+ File Format Data OUT 
+ [img] 
+ Save Leader/Trailer Data? 
+ [img] 
+ File Format Array 
+ [img] 
+ Data Types 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;File Format Editor.vi History&quot; 
+ Current Revision: 91 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Set Up Measurement Queue.vi 
+ [img] 
+ [img] 
+ [img] 
+ Next 
+ [img] 
+ Back 
+ [img] 
+ Cancel 
+ [img] 
+ Queue 
+ [img] 
+ Units 
+ [img] 
+ Range 
+ [img] 
+ Data IN 
+ [img] 
+ Queue Array 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ Measurement Parameters 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ MS Data 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Action 
+ [img] 
+ Measurement Queue 
+ [img] 
+ Measurement Parameters 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ Data OUT 
+ [img] 
+ Queue Array 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ Measurement Parameters 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ MS Data 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Set Up Measurement Queue.vi History&quot; 
+ Current Revision: 383 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Set Up Finished.vi 
+ [img] 
+ [img] 
+ [img] 
+ Next 
+ [img] 
+ Cancel 
+ [img] 
+ Back 
+ [img] 
+ Finished 
+ [img] 
+ Action 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Set Up Finished.vi History&quot; 
+ Current Revision: 16 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Write Long Core Set Up.vi 
+ [img] 
+ [img] 
+ [img] 
+ File Format Data 
+ [img] 
+ Save Leader/Trailer Data? 
+ [img] 
+ File Format Array 
+ [img] 
+ Data Types 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Translation Data 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ Degauss Data 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Delay Parameter 
+ [img] 
+ Status 
+ [img] 
+ Amplitude 
+ [img] 
+ Active Coil 
+ [img] 
+ Min 
+ [img] 
+ Max 
+ [img] 
+ X Cal 
+ [img] 
+ Y Cal 
+ [img] 
+ Z Cal 
+ [img] 
+ SQUID Data 
+ [img] 
+ SQUID-X Responce 
+ [img] 
+ SQUID-Y Responce 
+ [img] 
+ SQUID-Z Responce 
+ [img] 
+ SQUID-X Calib 
+ [img] 
+ SQUID-Y Calib 
+ [img] 
+ SQUID-Z Calib 
+ [img] 
+ SQUID-X filter data 
+ [img] 
+ SQUID-Y filter data 
+ [img] 
+ SQUID-Z filter data 
+ [img] 
+ SQUID-X range data 
+ [img] 
+ SQUID-Y range data 
+ [img] 
+ SQUID-Z range data 
+ [img] 
+ SQUID-X slew data 
+ [img] 
+ SQUID-Y slew data 
+ [img] 
+ SQUID-Z slew data 
+ [img] 
+ SQUID-X feedback data 
+ [img] 
+ SQUID-Y feedback data 
+ [img] 
+ SQUID-Z feedback data 
+ [img] 
+ Measurement Parameters 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ Measurement Queue Array 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ MS Data 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Sample Input 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ [img] 
+ &quot;Write Long Core Set Up.vi History&quot; 
+ Current Revision: 212 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Password.vi 
+ [img] 
+ [img] 
+ [img] 
+ Enter Password 
+ [img] 
+ Ok 
+ [img] 
+ Mode 
+ [img] 
+ Cancel(T) 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Password.vi History&quot; 
+ Current Revision: 65 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Quit.vi 
+ [img] 
+ [img] 
+ [img] 
+ Quit? (T) 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Quit.vi History&quot; 
+ Current Revision: 12 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Defalt System Configuration.vi 
+ [img] 
+ [img] 
+ [img] 
+ Still running 
+ [img] 
+ Degauss Data IN 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Delay Parameter 
+ [img] 
+ Status 
+ [img] 
+ Amplitude 
+ [img] 
+ Active Coil 
+ [img] 
+ Min 
+ [img] 
+ Max 
+ [img] 
+ X Cal 
+ [img] 
+ Y Cal 
+ [img] 
+ Z Cal 
+ [img] 
+ SQUID Data IN 
+ [img] 
+ SQUID-X Responce 
+ [img] 
+ SQUID-Y Responce 
+ [img] 
+ SQUID-Z Responce 
+ [img] 
+ SQUID-X Calib 
+ [img] 
+ SQUID-Y Calib 
+ [img] 
+ SQUID-Z Calib 
+ [img] 
+ SQUID-X filter data 
+ [img] 
+ SQUID-Y filter data 
+ [img] 
+ SQUID-Z filter data 
+ [img] 
+ SQUID-X range data 
+ [img] 
+ SQUID-Y range data 
+ [img] 
+ SQUID-Z range data 
+ [img] 
+ SQUID-X slew data 
+ [img] 
+ SQUID-Y slew data 
+ [img] 
+ SQUID-Z slew data 
+ [img] 
+ SQUID-X feedback data 
+ [img] 
+ SQUID-Y feedback data 
+ [img] 
+ SQUID-Z feedback data 
+ [img] 
+ Verify Info 
+ [img] 
+ Busy 
+ [img] 
+ info 
+ [img] 
+ SQUID Data OUT 
+ [img] 
+ SQUID-X Responce 
+ [img] 
+ SQUID-Y Responce 
+ [img] 
+ SQUID-Z Responce 
+ [img] 
+ SQUID-X Calib 
+ [img] 
+ SQUID-Y Calib 
+ [img] 
+ SQUID-Z Calib 
+ [img] 
+ SQUID-X filter data 
+ [img] 
+ SQUID-Y filter data 
+ [img] 
+ SQUID-Z filter data 
+ [img] 
+ SQUID-X range data 
+ [img] 
+ SQUID-Y range data 
+ [img] 
+ SQUID-Z range data 
+ [img] 
+ SQUID-X slew data 
+ [img] 
+ SQUID-Y slew data 
+ [img] 
+ SQUID-Z slew data 
+ [img] 
+ SQUID-X feedback data 
+ [img] 
+ SQUID-Y feedback data 
+ [img] 
+ SQUID-Z feedback data 
+ [img] 
+ Degauss Data OUT 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Delay Parameter 
+ [img] 
+ Status 
+ [img] 
+ Amplitude 
+ [img] 
+ Active Coil 
+ [img] 
+ Min 
+ [img] 
+ Max 
+ [img] 
+ X Cal 
+ [img] 
+ Y Cal 
+ [img] 
+ Z Cal 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Defalt System Configuration.vi History&quot; 
+ Current Revision: 389 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ System Set Up.vi 
+ [img] 
+ [img] 
+ [img] 
+ Read Set Up 
+ [img] 
+ Sample Handler 
+ [img] 
+ System Configuration 
+ [img] 
+ Run Number 
+ [img] 
+ Done 
+ [img] 
+ Degauss Data IN 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Delay Parameter 
+ [img] 
+ Status 
+ [img] 
+ Amplitude 
+ [img] 
+ Active Coil 
+ [img] 
+ Min 
+ [img] 
+ Max 
+ [img] 
+ X Cal 
+ [img] 
+ Y Cal 
+ [img] 
+ Z Cal 
+ [img] 
+ SQUID Data IN 
+ [img] 
+ SQUID-X Responce 
+ [img] 
+ SQUID-Y Responce 
+ [img] 
+ SQUID-Z Responce 
+ [img] 
+ SQUID-X Calib 
+ [img] 
+ SQUID-Y Calib 
+ [img] 
+ SQUID-Z Calib 
+ [img] 
+ SQUID-X filter data 
+ [img] 
+ SQUID-Y filter data 
+ [img] 
+ SQUID-Z filter data 
+ [img] 
+ SQUID-X range data 
+ [img] 
+ SQUID-Y range data 
+ [img] 
+ SQUID-Z range data 
+ [img] 
+ SQUID-X slew data 
+ [img] 
+ SQUID-Y slew data 
+ [img] 
+ SQUID-Z slew data 
+ [img] 
+ SQUID-X feedback data 
+ [img] 
+ SQUID-Y feedback data 
+ [img] 
+ SQUID-Z feedback data 
+ [img] 
+ Translation Data IN 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ File Format Data IN 
+ [img] 
+ Save Leader/Trailer Data? 
+ [img] 
+ File Format Array 
+ [img] 
+ Data Types 
+ [img] 
+ Measurement Data IN 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Password 
+ [img] 
+ MS Data IN 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Measurement Queue Array IN 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ Measurement Parameters IN 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ Serial Ports 
+ [img] 
+ Configure Track 
+ [img] 
+ Paths &amp; File 
+ [img] 
+ Sample Input IN 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ Degauss Data OUT 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Delay Parameter 
+ [img] 
+ Status 
+ [img] 
+ Amplitude 
+ [img] 
+ Active Coil 
+ [img] 
+ Min 
+ [img] 
+ Max 
+ [img] 
+ X Cal 
+ [img] 
+ Y Cal 
+ [img] 
+ Z Cal 
+ [img] 
+ SQUID Data OUT 
+ [img] 
+ SQUID-X Responce 
+ [img] 
+ SQUID-Y Responce 
+ [img] 
+ SQUID-Z Responce 
+ [img] 
+ SQUID-X Calib 
+ [img] 
+ SQUID-Y Calib 
+ [img] 
+ SQUID-Z Calib 
+ [img] 
+ SQUID-X filter data 
+ [img] 
+ SQUID-Y filter data 
+ [img] 
+ SQUID-Z filter data 
+ [img] 
+ SQUID-X range data 
+ [img] 
+ SQUID-Y range data 
+ [img] 
+ SQUID-Z range data 
+ [img] 
+ SQUID-X slew data 
+ [img] 
+ SQUID-Y slew data 
+ [img] 
+ SQUID-Z slew data 
+ [img] 
+ SQUID-X feedback data 
+ [img] 
+ SQUID-Y feedback data 
+ [img] 
+ SQUID-Z feedback data 
+ [img] 
+ Translation Data OUT 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ File Format Data OUT 
+ [img] 
+ Save Leader/Trailer Data? 
+ [img] 
+ File Format Array 
+ [img] 
+ Data Types 
+ [img] 
+ Measurement Data OT 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Measurement Queue Array OUT 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ MS Data OUT 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Measurement Parameters OUT 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ Sample Input OUT 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;System Set Up.vi History&quot; 
+ Current Revision: 188 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Set Up Control Serial Ports.vi 
+ [img] 
+ [img] 
+ SQUID IN 
+ [img] 
+ SQUID-X Responce 
+ [img] 
+ SQUID-Y Responce 
+ [img] 
+ SQUID-Z Responce 
+ [img] 
+ SQUID-X Calib 
+ [img] 
+ SQUID-Y Calib 
+ [img] 
+ SQUID-Z Calib 
+ [img] 
+ SQUID-X filter data 
+ [img] 
+ SQUID-Y filter data 
+ [img] 
+ SQUID-Z filter data 
+ [img] 
+ SQUID-X range data 
+ [img] 
+ SQUID-Y range data 
+ [img] 
+ SQUID-Z range data 
+ [img] 
+ SQUID-X slew data 
+ [img] 
+ SQUID-Y slew data 
+ [img] 
+ SQUID-Z slew data 
+ [img] 
+ SQUID-X feedback data 
+ [img] 
+ SQUID-Y feedback data 
+ [img] 
+ SQUID-Z feedback data 
+ [img] 
+ Degauss Data IN 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Delay Parameter 
+ [img] 
+ Status 
+ [img] 
+ Amplitude 
+ [img] 
+ Active Coil 
+ [img] 
+ Min 
+ [img] 
+ Max 
+ [img] 
+ X Cal 
+ [img] 
+ Y Cal 
+ [img] 
+ Z Cal 
+ [img] 
+ MS Data IN 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ SQUID Data Out 
+ [img] 
+ SQUID-X Responce 
+ [img] 
+ SQUID-Y Responce 
+ [img] 
+ SQUID-Z Responce 
+ [img] 
+ SQUID-X Calib 
+ [img] 
+ SQUID-Y Calib 
+ [img] 
+ SQUID-Z Calib 
+ [img] 
+ SQUID-X filter data 
+ [img] 
+ SQUID-Y filter data 
+ [img] 
+ SQUID-Z filter data 
+ [img] 
+ SQUID-X range data 
+ [img] 
+ SQUID-Y range data 
+ [img] 
+ SQUID-Z range data 
+ [img] 
+ SQUID-X slew data 
+ [img] 
+ SQUID-Y slew data 
+ [img] 
+ SQUID-Z slew data 
+ [img] 
+ SQUID-X feedback data 
+ [img] 
+ SQUID-Y feedback data 
+ [img] 
+ SQUID-Z feedback data 
+ [img] 
+ Degauss Data OUT 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Delay Parameter 
+ [img] 
+ Status 
+ [img] 
+ Amplitude 
+ [img] 
+ Active Coil 
+ [img] 
+ Min 
+ [img] 
+ Max 
+ [img] 
+ X Cal 
+ [img] 
+ Y Cal 
+ [img] 
+ Z Cal 
+ [img] 
+ MS Data OUT 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Finished? 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Set Up Control Serial Ports.vi History&quot; 
+ Current Revision: 104 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Set Up Control Track.vi 
+ [img] 
+ [img] 
+ Translation Data IN 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ Translation Data OUT 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ Finished? 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Set Up Control Track.vi History&quot; 
+ Current Revision: 102 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Set Up Control Data and Files.vi 
+ [img] 
+ [img] 
+ File Format Data IN 
+ [img] 
+ Save Leader/Trailer Data? 
+ [img] 
+ File Format Array 
+ [img] 
+ Data Types 
+ [img] 
+ File Format Data OUT 
+ [img] 
+ Save Leader/Trailer Data? 
+ [img] 
+ File Format Array 
+ [img] 
+ Data Types 
+ [img] 
+ Finished? 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Set Up Control Data and Files.vi History&quot; 
+ Current Revision: 107 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Reset Run Number.vi 
+ [img] 
+ [img] 
+ [img] 
+ Run Number 
+ [img] 
+ Done 
+ [img] 
+ Run Number out 
+ [img] 
+ &quot;Reset Run Number.vi History&quot; 
+ Current Revision: 4 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Tray Information.vi 
+ [img] 
+ [img] 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Translation Data 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ Measurement Parameters 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ Ok 
+ [img] 
+ Cancel 
+ [img] 
+ Measure 
+ [img] 
+ Sample in 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ Canceled (T) 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Tray Measurement Time Stamp 
+ [img] 
+ Run Number 
+ [img] 
+ Time 
+ [img] 
+ Sample Input OUT 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Tray Information.vi History&quot; 
+ Current Revision: 197 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Section Information.vi 
+ [img] 
+ [img] 
+ [img] 
+ Ok 
+ [img] 
+ Cancel 
+ [img] 
+ Top of Section Missing 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Sample Input Data 
+ [img] 
+ Sample Input IN 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ Input 
+ [img] 
+ Orientation 
+ [img] 
+ Canceled (T) 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Run # 
+ [img] 
+ Sample Input OUT 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ info 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Section Information.vi History&quot; 
+ Current Revision: 184 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Format List Box.vi 
+ [img] 
+ [img] 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Rot #1 (T) 
+ [img] 
+ Rot #2 (T) 
+ [img] 
+ Item Names 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Format List Box.vi History&quot; 
+ Current Revision: 9 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Set Up Edit Sample Input Data.vi 
+ [img] 
+ [img] 
+ [img] 
+ Next 
+ [img] 
+ Cancel 
+ [img] 
+ Data File Path 
+ [img] 
+ Sample Input IN 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ Sample Input Data 
+ [img] 
+ Insert 
+ [img] 
+ Delete 
+ [img] 
+ Copy 
+ [img] 
+ Cut 
+ [img] 
+ Paste 
+ [img] 
+ Info 
+ [img] 
+ Browse 
+ [img] 
+ Apply Formation Correction? 
+ [img] 
+ Apply Sample Correction? 
+ [img] 
+ Sample Input OUT 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ Copy Buffer 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Set Up Edit Sample Input Data.vi History&quot; 
+ Current Revision: 441 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Read Users File.vi 
+ [img] 
+ [img] 
+ [img] 
+ Sample Input IN 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ Over Write (T) 
+ [img] 
+ Error(T) 
+ [img] 
+ Sample Input OUT 
+ [img] 
+ Sample Input Data 
+ [img] 
+ [img] 
+ Use Position (T) 
+ [img] 
+ Use Depth (T) 
+ [img] 
+ Use Volume (T) 
+ [img] 
+ Use Sample Rot (T) 
+ [img] 
+ Use Formation Rot (T) 
+ [img] 
+ Sample ID Start 
+ [img] 
+ Sample ID Size 
+ [img] 
+ Position Col 
+ [img] 
+ Depth Col 
+ [img] 
+ Volume Col 
+ [img] 
+ Sample Azimuth 
+ [img] 
+ Sample Dip 
+ [img] 
+ Formation Azimuth 
+ [img] 
+ Formation Dip 
+ [img] 
+ Mag Dev Col 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Read Users File.vi History&quot; 
+ Current Revision: 138 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 

@@ -1,0 +1,31 @@
+File Format Data IN
+
+File Format Data OUT
+
+Measurement Parameters IN
+
+Measurement Parameters OUT
+
+Translation Data IN
+
+Translation Data OUT
+
+Degauss Data IN
+
+Degauss Data OUT
+
+SQUID IN
+
+SQUID Data Out
+
+MS Data IN
+
+MS Data OUT
+
+Measurement Queue Array IN
+
+Measurement Queue Array OUT
+
+Sample Input IN
+
+Sample Input OUT

@@ -1,0 +1,11 @@
+"ramp CYCLE: DERC”
+
+P|
+
+Bytes To Read {6|
+
+Commanding Degausser to
+
+cycle
+
+DERC

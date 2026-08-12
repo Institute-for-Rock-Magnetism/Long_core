@@ -1,0 +1,17 @@
+7
+
+DG Amplitude |
+
+ARMY 1 Amplitude
+
+py ret
+
+|
+
+.
+
+Temperature
+
+TRK fampitudte
+
+SI

@@ -1,0 +1,9 @@
+"set delay to 7 sec: DCD7"
+
+aI
+
+Bytes To Read {6|
+
+Setting Degausser’s delay to 7
+
+second

@@ -1,0 +1,13 @@
+%1d volts.
+
+rigger the IRM. Wait for the
+
+IRM to fire and then click DONE.
+
+Info
+
+Amplitude [L184
+
+ea)
+
+Done [ER->

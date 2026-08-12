@@ -1,0 +1,13 @@
+"select coil: DCC”
+
+~>PI
+
+Bytes To Read {6|
+
+Selecting Degaussing coil
+
+pcc
+
+o>
+
+2>

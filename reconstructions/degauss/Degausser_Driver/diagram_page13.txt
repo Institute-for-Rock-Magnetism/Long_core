@@ -1,0 +1,11 @@
+"set delay to 8 sec: DCD8"
+
+P|
+
+Bytes To Read {6|
+
+Setting Degausser’s delay to 8
+
+second
+
+DCD8

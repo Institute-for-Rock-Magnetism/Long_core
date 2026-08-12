@@ -1,0 +1,35 @@
+Home Switch Type
+
+Scale
+
+SQUID IN
+
+SQUID cm
+
+Mag. Susc. IN
+
+Mag. Suse. cm
+
+Bkgnd #1 IN
+
+Bkgnd #7 cm
+
+Stage #1 IN
+
+Stage #1 cm
+
+Stage #2 IN
+
+Stage #2 cm
+
+Load / Unload IN
+
+Load / Unload cm
+
+Bkgnd #2 IN
+
+Bkgnd #2 cm
+
+IRM IN
+
+IRM Stage cm

@@ -1,0 +1,5 @@
+Bytes To Read
+
+Commanding Degausser to
+
+send ramp down status

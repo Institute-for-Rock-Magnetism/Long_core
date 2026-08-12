@@ -1,0 +1,29 @@
+w
+
+"Move to Home Switch” YP
+
+i >>
+
+Acceleration 10
+
+Deceleration 10}
+
+Velocity [1000]
+
+=m
+
+2G I=
+
+2G I=
+
+ADM N
+
+Driver
+
+CROCE ts] | O=0=0=0=0
+
+Soo
+
+QoS)
+
+Neen nnn mene nnn eee

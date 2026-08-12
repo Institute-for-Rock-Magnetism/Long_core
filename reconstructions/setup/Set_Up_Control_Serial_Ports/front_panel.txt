@@ -1,0 +1,19 @@
+Degauss Data IN
+
+is
+
+pers |
+
+Degauss Data OUT
+
+SQUID IN
+
+SQUID Data Out
+
+MS Data IN
+
+peexet
+
+peesrs
+
+MS Data OUT

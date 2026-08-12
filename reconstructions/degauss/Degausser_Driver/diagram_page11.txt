@@ -1,0 +1,11 @@
+"set delay to 6 sec: DCD6"
+
+P|
+
+Bytes To Read {6|
+
+Setting Degausser’s delay to 6
+
+second
+
+DCD6

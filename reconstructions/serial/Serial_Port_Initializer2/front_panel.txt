@@ -1,0 +1,13 @@
+Subsystem
+
+SERIAL
+
+PoRT 2
+
+Error Indicator IN
+
+ne
+
+poor
+
+Error Indicator OUT

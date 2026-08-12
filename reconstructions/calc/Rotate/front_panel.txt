@@ -1,0 +1,19 @@
+Rotation
+
+XIN
+
+X OUT
+
+YIN
+
+Y OUT
+
+ZIN
+
+Z OUT
+
+Selection
+
+Sample Input
+
+qo

@@ -1,0 +1,1852 @@
+ 
+ Case Control.vi 
+ Case Control.vi 
+ [img] 
+ [img] 
+ [img] 
+ Selection array 
+ [img] 
+ [img] 
+ Program State 
+ [img] 
+ Auto Update 
+ [img] 
+ Case Control 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Case Control.vi History&quot; 
+ Current Revision: 48 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Subsystem Status.vi 
+ [img] 
+ [img] 
+ [img] 
+ SQUID? 
+ [img] 
+ MS? 
+ [img] 
+ DG? 
+ [img] 
+ ARM? 
+ [img] 
+ IRM? 
+ [img] 
+ FUR? 
+ [img] 
+ COOL? 
+ [img] 
+ SH? 
+ &quot;Subsystem Status.vi History&quot; 
+ Current Revision: 22 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Build Action Array.vi 
+ [img] 
+ [img] 
+ [img] 
+ Measurment Queue Array 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Measurement Parameters 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ Translation Data 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ Action Array 
+ [img] 
+ Action Cluster 
+ [img] 
+ Action Type 
+ [img] 
+ Action 
+ [img] 
+ Move To 
+ [img] 
+ Axis 
+ [img] 
+ DAQ Type 
+ [img] 
+ # DAQs 
+ [img] 
+ Amplitude 
+ [img] 
+ Temp 
+ [img] 
+ Queue Index 
+ [img] 
+ Furnace Action 
+ [img] 
+ Current Tray # 
+ [img] 
+ Measurement Queue Array 
+ [img] 
+ [img] 
+ Data Array Size 
+ [img] 
+ Data Array Size 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Build Action Array.vi History&quot; 
+ Current Revision: 181 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Meas Queue Build String.vi 
+ [img] 
+ [img] 
+ [img] 
+ Measurement Queue IN 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ String Array IN 
+ [img] 
+ [img] 
+ String Array OUT 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Meas Queue Build String.vi History&quot; 
+ Current Revision: 37 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Measurement Queue Line.ctl 
+ [img] 
+ [img] 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ &quot;Measurement Queue Line.ctl History&quot; 
+ Current Revision: 21 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Track Type.vi 
+ [img] 
+ [img] 
+ [img] 
+ Track Type 
+ [img] 
+ DG Type 
+ [img] 
+ DSS length 
+ [img] 
+ DSS reply 
+ [img] 
+ AF Degauss Timeout 
+ &quot;Track Type.vi History&quot; 
+ Current Revision: 5 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Treatment Array.vi 
+ [img] 
+ [img] 
+ [img] 
+ Action Cluster IN 
+ [img] 
+ Action Type 
+ [img] 
+ Action 
+ [img] 
+ Move To 
+ [img] 
+ Axis 
+ [img] 
+ DAQ Type 
+ [img] 
+ # DAQs 
+ [img] 
+ Amplitude 
+ [img] 
+ Temp 
+ [img] 
+ Queue Index 
+ [img] 
+ Furnace Action 
+ [img] 
+ Current Tray # 
+ [img] 
+ Action Type 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Translation Data 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ Measurement Parameters 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ Action Array 
+ [img] 
+ Action Cluster 
+ [img] 
+ Action Type 
+ [img] 
+ Action 
+ [img] 
+ Move To 
+ [img] 
+ Axis 
+ [img] 
+ DAQ Type 
+ [img] 
+ # DAQs 
+ [img] 
+ Amplitude 
+ [img] 
+ Temp 
+ [img] 
+ Queue Index 
+ [img] 
+ Furnace Action 
+ [img] 
+ Current Tray # 
+ [img] 
+ Action Cluster OUT 
+ [img] 
+ Action Type 
+ [img] 
+ Action 
+ [img] 
+ Move To 
+ [img] 
+ Axis 
+ [img] 
+ DAQ Type 
+ [img] 
+ # DAQs 
+ [img] 
+ Amplitude 
+ [img] 
+ Temp 
+ [img] 
+ Queue Index 
+ [img] 
+ Furnace Action 
+ [img] 
+ Current Tray # 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Treatment Array.vi History&quot; 
+ Current Revision: 105 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Random Axis Selection.vi 
+ [img] 
+ [img] 
+ [img] 
+ Treatment? 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ Axis 1 
+ [img] 
+ Axis 2 
+ [img] 
+ Axis 3 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Random Axis Selection.vi History&quot; 
+ Current Revision: 7 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Action Cluster.ctl 
+ [img] 
+ [img] 
+ [img] 
+ Action Cluster 
+ [img] 
+ Action Type 
+ [img] 
+ Action 
+ [img] 
+ Move To 
+ [img] 
+ Axis 
+ [img] 
+ DAQ Type 
+ [img] 
+ # DAQs 
+ [img] 
+ Amplitude 
+ [img] 
+ Temp 
+ [img] 
+ Queue Index 
+ [img] 
+ Furnace Action 
+ [img] 
+ Current Tray # 
+ &quot;Action Cluster.ctl History&quot; 
+ Current Revision: 25 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Measurement Data.ctl 
+ [img] 
+ [img] 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ &quot;Measurement Data.ctl History&quot; 
+ Current Revision: 29 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Translation Subsystem.ctl 
+ [img] 
+ [img] 
+ [img] 
+ Translation Data 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ &quot;Translation Subsystem.ctl History&quot; 
+ Current Revision: 28 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Measurement Parameters.ctl 
+ [img] 
+ [img] 
+ [img] 
+ Measurement Parameters 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ &quot;Measurement Parameters.ctl History&quot; 
+ Current Revision: 11 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Build Measurement Array.vi 
+ [img] 
+ [img] 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Measurement Parameters 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Action Cluster IN 
+ [img] 
+ Action Type 
+ [img] 
+ Action 
+ [img] 
+ Move To 
+ [img] 
+ Axis 
+ [img] 
+ DAQ Type 
+ [img] 
+ # DAQs 
+ [img] 
+ Amplitude 
+ [img] 
+ Temp 
+ [img] 
+ Queue Index 
+ [img] 
+ Furnace Action 
+ [img] 
+ Current Tray # 
+ [img] 
+ Action Type 
+ [img] 
+ Translation Data 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ Current Tray # 
+ [img] 
+ Measurement? 
+ [img] 
+ Action Array Out 
+ [img] 
+ Action Cluster 
+ [img] 
+ Action Type 
+ [img] 
+ Action 
+ [img] 
+ Move To 
+ [img] 
+ Axis 
+ [img] 
+ DAQ Type 
+ [img] 
+ # DAQs 
+ [img] 
+ Amplitude 
+ [img] 
+ Temp 
+ [img] 
+ Queue Index 
+ [img] 
+ Furnace Action 
+ [img] 
+ Current Tray # 
+ [img] 
+ Action Cluster OUT 
+ [img] 
+ Action Type 
+ [img] 
+ Action 
+ [img] 
+ Move To 
+ [img] 
+ Axis 
+ [img] 
+ DAQ Type 
+ [img] 
+ # DAQs 
+ [img] 
+ Amplitude 
+ [img] 
+ Temp 
+ [img] 
+ Queue Index 
+ [img] 
+ Furnace Action 
+ [img] 
+ Current Tray # 
+ [img] 
+ Data Array Size 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Build Measurement Array.vi History&quot; 
+ Current Revision: 75 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Build Position Array.vi 
+ [img] 
+ [img] 
+ [img] 
+ Measurement Parameters 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ Measurement Data 
+ [img] 
+ Sample Time Stamp 
+ [img] 
+ Tray Time Stamp 
+ [img] 
+ Continuous Sample ID 
+ [img] 
+ Run # 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Orientation 
+ [img] 
+ Area 
+ [img] 
+ Core Length 
+ [img] 
+ Missing Top 
+ [img] 
+ Depth 
+ [img] 
+ Tray #1 Max 
+ [img] 
+ Tray #2 Max 
+ [img] 
+ Tray #3 Max 
+ [img] 
+ Tray #1 
+ [img] 
+ [img] 
+ Tray #2 
+ [img] 
+ [img] 
+ Tray #3 
+ [img] 
+ [img] 
+ Core Offset 
+ [img] 
+ Ignore Leader/Trailer (T) 
+ [img] 
+ Translation Data 
+ [img] 
+ Track Length 
+ [img] 
+ Track Scale 
+ [img] 
+ SQUID Pos 
+ [img] 
+ Mag Susc Pos 
+ [img] 
+ Degauss stage #1 Pos 
+ [img] 
+ Degauss stage #2 Pos 
+ [img] 
+ AF Coil Pos 
+ [img] 
+ IRM Stage Pos 
+ [img] 
+ IRM Coil Pos 
+ [img] 
+ Unload Pos 
+ [img] 
+ Full Tray Length 
+ [img] 
+ Tray Offset 
+ [img] 
+ Home Offset 
+ [img] 
+ Center Offset 
+ [img] 
+ Center Separation 
+ [img] 
+ Max # of Discrete Samples 
+ [img] 
+ Bkgnd #1 Pos 
+ [img] 
+ Bkgnd #2 Pos 
+ [img] 
+ 1 Pos 
+ [img] 
+ 2 Pos 
+ [img] 
+ 3 Pos 
+ [img] 
+ 4 Pos 
+ [img] 
+ Sensor Velocity 
+ [img] 
+ Degauss Velocity 
+ [img] 
+ Background Velocity 
+ [img] 
+ Load/Unload Velocity 
+ [img] 
+ Track Icon 
+ [img] 
+ Position 
+ [img] 
+ Current Tray # 
+ [img] 
+ Position 
+ [img] 
+ [img] 
+ DAQ Type 
+ [img] 
+ DAQ Type 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Build Position Array.vi History&quot; 
+ Current Revision: 81 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ TRAY.CTL 
+ [img] 
+ [img] 
+ [img] 
+ Current Tray # 
+ &quot;TRAY.CTL History&quot; 
+ Current Revision: 3 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Sample Handler Globals.vi 
+ [img] 
+ [img] 
+ [img] 
+ Home &amp; Tray Ref 
+ [img] 
+ Home Switch Type 
+ [img] 
+ Homimg (T) 
+ [img] 
+ Next Position (step) 
+ [img] 
+ Pos/Neg 
+ [img] 
+ Home Initialized(T) 
+ [img] 
+ Furnace Home Init(T) 
+ [img] 
+ Furnace Location 
+ &quot;Sample Handler Globals.vi History&quot; 
+ Current Revision: 27 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Clean Tray.vi 
+ [img] 
+ [img] 
+ [img] 
+ Tray Cleaning (T) 
+ [img] 
+ Deaguss Levell 
+ &quot;Clean Tray.vi History&quot; 
+ Current Revision: 2 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Measurement Queue.vi 
+ [img] 
+ [img] 
+ [img] 
+ AF Demag Field 
+ [img] 
+ ARM Gauss 
+ [img] 
+ IRM Gauss 
+ [img] 
+ Temperature 
+ [img] 
+ Measurement Mode 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Measurement Queue 
+ [img] 
+ Add 
+ [img] 
+ Delete 
+ [img] 
+ Load File 
+ [img] 
+ Ok 
+ [img] 
+ Measurement Queue IN 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ Number of Measurements per sample 
+ [img] 
+ Measurement Parameters IN 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ Don't Save 
+ [img] 
+ Revert 
+ [img] 
+ Measurement? 
+ [img] 
+ Treatment? 
+ [img] 
+ MS Data IN 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Random AF Axis 
+ [img] 
+ Homing Mode 
+ [img] 
+ Hold Time 
+ [img] 
+ Safe to Measure Temp 
+ [img] 
+ Start Fan Temp 
+ [img] 
+ Degauss Data 
+ [img] 
+ Ramp Rate 
+ [img] 
+ Delay Parameter 
+ [img] 
+ Status 
+ [img] 
+ Amplitude 
+ [img] 
+ Active Coil 
+ [img] 
+ Min 
+ [img] 
+ Max 
+ [img] 
+ X Cal 
+ [img] 
+ Y Cal 
+ [img] 
+ Z Cal 
+ [img] 
+ Measurement Series 
+ [img] 
+ Measurement Queue OUT 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ Measurement Parameters OUT 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ Revert(T) 
+ [img] 
+ Unit 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Measurement Queue.vi History&quot; 
+ Current Revision: 225 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Enable-Disable.vi 
+ [img] 
+ [img] 
+ [img] 
+ Boolean (in) 
+ [img] 
+ Enable/Disable 
+ [img] 
+ [img] 
+ &quot;Enable-Disable.vi History&quot; 
+ Current Revision: 4 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Read Measurement Queue.vi 
+ [img] 
+ [img] 
+ [img] 
+ Measurement Parameters IN 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ Measurement Parameters Out 
+ [img] 
+ Measurement Type 
+ [img] 
+ Sample interval 
+ [img] 
+ Leader length 
+ [img] 
+ Trailer length 
+ [img] 
+ Delay after move (sec) 
+ [img] 
+ Drift Corrected 
+ [img] 
+ Tray Corrected 
+ [img] 
+ Homing 
+ [img] 
+ Measurement Queue 
+ [img] 
+ Measurement Queue Line 
+ [img] 
+ Measurement? 
+ [img] 
+ # DAQs to Average 
+ [img] 
+ Range 
+ [img] 
+ Units 
+ [img] 
+ Treatment? 
+ [img] 
+ DG Amplitude 
+ [img] 
+ ARM Amplitude 
+ [img] 
+ IRM Amplitude 
+ [img] 
+ Temperature 
+ [img] 
+ Randomize DG Axis 
+ [img] 
+ TRM Amplitude 
+ [img] 
+ Field Dec 
+ [img] 
+ Field Inc 
+ [img] 
+ Meas. Series. 
+ [img] 
+ Error(T) 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Read Measurement Queue.vi History&quot; 
+ Current Revision: 128 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Event List Handler.vi 
+ [img] 
+ [img] 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Mode 
+ [img] 
+ Event 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Event List Handler.vi History&quot; 
+ Current Revision: 8 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Error Status IN.ctl 
+ [img] 
+ [img] 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ &quot;Error Status IN.ctl History&quot; 
+ Current Revision: 6 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Error Status OUT.ctl 
+ [img] 
+ [img] 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ &quot;Error Status OUT.ctl History&quot; 
+ Current Revision: 8 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Error Handler.vi 
+ [img] 
+ [img] 
+ [img] 
+ Error Indicator IN 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Mode 
+ [img] 
+ Error List 
+ [img] 
+ Error Indicator OUT 
+ [img] 
+ error error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next. 
+ [img] 
+ status status is TRUE if an error occurred before this VI was called, or FALSE if not. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. 
+ [img] 
+ code code is the number identifying an error or warning. If status is TRUE, code is a non-zero error code. If status is FALSE, code can be zero or a warning code. Use the error handler VIs to look up the meaning of this code and to display the corresponding error message. 
+ [img] 
+ source source is a string that indicates the origin of the error, if any. Usually source is the name of the VI in which the error occurred. 
+ [img] 
+ Event List 
+ [img] 
+ [img] 
+ Error(T) 
+ [img] 
+ message 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ [img] 
+ &quot;Error Handler.vi History&quot; 
+ Current Revision: 24 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Sound.vi 
+ [img] 
+ [img] 
+ [img] 
+ Wave file name 
+ [img] 
+ &quot;Sound.vi History&quot; 
+ Current Revision: 14 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 
+ Play Sound.vi 
+ This VI plays a sound using the sndPlaySound Windows API. This demonstrates how to use the Call Library Function to call a DLL. 
+ [img] 
+ [img] 
+ [img] 
+ Sound Name This is the sound name. It usually is a .wav file that contains the sound to be played. It can also be the name of a sound defined in the registry. 
+ [img] 
+ Asynchronous? (F) If you set this Boolean control to true (asynchronous), the VI will return immediately after starting the sound. If you set it to false (synchronous), the VI will not return until the sound ends. 
+ If this control is true, then the return value is always success (true). If not, the return value is failure (false) if an error occurs. 
+ [img] 
+ Play Default Sound if Error? (F) Set this Boolean control to true to play the default sound if an error occurs. The default sound is defined in the Windows control panel. 
+ If this control is true, then the return value is always success (true). If not, the return value is failure (false) if an error occurs. 
+ [img] 
+ Success? This is the return value from the DLL. Success (TRUE) means that the sound played successfully. Failure (FALSE) means that an error occurred. 
+ [img] 
+ [img] 
+ &quot;Play Sound.vi History&quot; 
+ Current Revision: 20 
+ rev. 20 Wed, Nov 2, 1994 7:10:25 PM Apostolos K 
+ VI was converted from LabVIEW version 3.1b17 to LabVIEW version 3.1. 
+ rev. 11 Thu, Sep 22, 1994 4:00:53 PM Apostolos K 
+ The name of the VI changed to &quot;c:\lv31\TEST\playsnd.llb\Play Sound.vi&quot; from &quot;c:\lv31\TEST\PLAYSND.VI&quot;. 
+ Position in Hierarchy 
+ [img] 
+ Iconified Cluster Constants 

@@ -1,0 +1,7 @@
+2G 1 4 V
+
+ARM
+
+Off
+
+fi
