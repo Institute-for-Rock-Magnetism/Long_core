@@ -7,7 +7,10 @@ name = "long-core-control"
 version = "0.2.0"
 description = "Simulation-first PySide6 migration of the 2G Long Core LabVIEW application"
 requires-python = ">=3.11"
-dependencies = ["PySide6>=6.7,<7", "pyserial>=3.5,<4"]
+# PySide6-Essentials (not the PySide6 metapackage): the app uses only
+# QtCore, QtGui, and QtWidgets; the metapackage drags in ~1GB of
+# QtWebEngine/QML/3D modules that nothing in this project imports.
+dependencies = ["PySide6-Essentials>=6.7,<7", "pyserial>=3.5,<4"]
 
 [project.optional-dependencies]
 # Reverse-engineering extraction pipeline (tools/extract_vi.py).
