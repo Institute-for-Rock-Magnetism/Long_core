@@ -34,12 +34,12 @@ class CommissioningPage(QWidget):
         root = QVBoxLayout(self)
         heading, caption = page_title(
             "Commissioning",
-            "Probe each instrument with read-only ID/status commands. "
-            "Nothing moves, heats, or magnetizes; every byte is captured for parser verification.",
+            "Probe instruments with allowlisted ID/status commands and capture every byte. "
+            "Expert raw commands bypass the allowlist and always require explicit confirmation.",
         )
         root.addWidget(heading); root.addWidget(caption); root.addSpacing(10)
 
-        self.gate = QFrame(); self.gate.setObjectName("metricCard")
+        self.gate = QFrame(); self.gate.setObjectName("safetyCard")
         gate_layout = QHBoxLayout(self.gate)
         self.gate_label = QLabel()
         self.gate_label.setWordWrap(True)
@@ -57,6 +57,8 @@ class CommissioningPage(QWidget):
         self.table.setSelectionBehavior(QAbstractItemView.SelectionBehavior.SelectRows)
         self.table.setSelectionMode(QAbstractItemView.SelectionMode.SingleSelection)
         self.table.setEditTriggers(QAbstractItemView.EditTrigger.NoEditTriggers)
+        self.table.setAlternatingRowColors(True)
+        self.table.verticalHeader().setDefaultSectionSize(42)
         self._ports = ["COM1", "COM2", "COM3", "COM4", "COM5", "COM6", "COM7", "COM8", "COM9"]
         self._port_controls: dict[Subsystem, QComboBox] = {}
         self._baud_controls: dict[Subsystem, QComboBox] = {}
@@ -98,6 +100,8 @@ class CommissioningPage(QWidget):
         root.addLayout(controls)
 
         self.log = QPlainTextEdit(); self.log.setReadOnly(True)
+        self.log.setProperty("console", True)
+        self.log.setPlaceholderText("Select a subsystem and run a probe to inspect transmitted and received bytes.")
         root.addWidget(self.log, 1)
         self.refresh()
 

@@ -21,10 +21,13 @@ def button(text: str, kind: str = "secondary") -> QPushButton:
 
 
 class MetricCard(QFrame):
-    def __init__(self, label: str, value: str = "0") -> None:
+    def __init__(self, label: str, value: str = "0", tone: str = "teal") -> None:
         super().__init__()
         self.setObjectName("metricCard")
+        self.setProperty("tone", tone)
         layout = QVBoxLayout(self)
+        layout.setContentsMargins(18, 16, 18, 17)
+        layout.setSpacing(6)
         eyebrow = QLabel(label.upper())
         eyebrow.setObjectName("eyebrow")
         self.value = QLabel(value)

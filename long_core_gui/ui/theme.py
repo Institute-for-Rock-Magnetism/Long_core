@@ -1,8 +1,7 @@
 """Visual system for the desktop application.
 
-Modern macOS-style light theme: soft warm neutrals, rounded controls,
-custom chevron indicators for combo/spin boxes, and WCAG AA contrast
-(>= 4.5:1) for body text. Asset URLs are resolved from this file so the
+Warm, instrument-inspired light theme with deep mineral teal, oxidized orange,
+and paper-like surfaces. Asset URLs are resolved from this file so the
 stylesheet works regardless of the working directory.
 """
 
@@ -27,22 +26,33 @@ APP_STYLE = r"""
    selection        #d7e8e6
 */
 
-QWidget { color: #1b2a2e; background: #f5f4f1; }
-QMainWindow, QStackedWidget { background: #f5f4f1; }
+QWidget { color: #1b2a2e; background: transparent; font: 13px "Avenir Next"; }
+QMainWindow, QStackedWidget, QFrame#contentBody { background: #efede7; }
+QLabel, QFrame { background: transparent; }
+QScrollArea, QScrollArea > QWidget > QWidget { background: transparent; border: none; }
 QWidget:disabled { color: #79817f; }
 
 /* ---------- sidebar ---------- */
-QFrame#sidebar { background: #0e3a41; border: none; }
-QFrame#topbar { background: #ffffff; border-bottom: 1px solid #e2e0da; }
-QLabel#brand { color: #ffffff; font: 700 21px "Avenir Next"; }
-QLabel#brandCaption { color: #b9d5d0; font-size: 11px; }
-QLabel#pageTitle { color: #1b2a2e; font: 700 30px "Avenir Next"; }
-QLabel#pageSubtitle { color: #4e5f63; font-size: 13px; }
+QFrame#sidebar { background: #103b42; border: none; }
+QFrame#topbar { background: #fbfaf7; border-bottom: 1px solid #dcd8ce; }
+QLabel#brandMark { color: #103b42; background: #e8b35f; border-radius: 12px; font: 800 14px "Avenir Next"; min-width: 42px; min-height: 42px; max-width: 42px; max-height: 42px; }
+QLabel#brand { color: #ffffff; font: 750 18px "Avenir Next"; letter-spacing: 1px; }
+QLabel#brandCaption { color: #a9cbc6; font: 650 9px "Avenir Next"; letter-spacing: 1px; }
+QLabel#navSection { color: #78a39e; font: 700 9px "Avenir Next"; letter-spacing: 1px; padding: 0 12px 5px 12px; }
+QLabel#sidebarSafetyTitle { color: #f0c47e; font: 750 9px "Avenir Next"; letter-spacing: 1px; }
+QLabel#sidebarSafetyCopy { color: #d8e7e4; font-size: 11px; }
+QFrame#sidebarSafety { background: #174951; border: 1px solid #286069; border-radius: 11px; padding: 9px 10px; }
+QLabel#topEyebrow { color: #6a7977; font: 700 9px "Avenir Next"; letter-spacing: 1px; }
+QLabel#topLocation { color: #193b40; font: 700 16px "Avenir Next"; }
+QLabel#pageTitle { color: #173c43; font: 750 31px "Avenir Next"; }
+QLabel#pageSubtitle { color: #4d605d; font-size: 13px; padding-bottom: 2px; }
 QLabel#eyebrow { color: #4e5f63; font: 700 10px "Avenir Next"; letter-spacing: 1px; }
 QLabel#metricValue { color: #143940; font: 700 27px "Avenir Next"; }
+QLabel#sectionTitle { color: #173c43; font: 700 18px "Avenir Next"; padding-top: 8px; }
 
 /* ---------- badges ---------- */
 QLabel#modeBadge { color: #5c4100; background: #f6d98a; border-radius: 12px; padding: 4px 12px; font-weight: 700; font-size: 11px; }
+QLabel#modeBadgeLive { color: #ffffff; background: #b3422f; border-radius: 12px; padding: 4px 12px; font-weight: 700; font-size: 11px; }
 QLabel#statusGood { color: #174d40; background: #d9efe6; border-radius: 10px; padding: 3px 10px; font-weight: 700; }
 QLabel#statusOff { color: #525d5c; background: #e9e8e3; border-radius: 10px; padding: 3px 10px; font-weight: 700; }
 
@@ -62,11 +72,11 @@ QPushButton[kind="danger"] { color: #ffffff; background: #b3422f; border-color: 
 QPushButton[kind="danger"]:hover { background: #a03727; }
 QPushButton[kind="danger"]:pressed { background: #8d2d1f; }
 QPushButton[kind="nav"] {
-    color: #cfe0dc; background: transparent; border: none; text-align: left;
-    padding: 0 14px; min-height: 38px; border-radius: 9px; font-weight: 600;
+    color: #cfe0dc; background: transparent; border: 1px solid transparent; text-align: left;
+    padding: 0 14px; min-height: 39px; border-radius: 9px; font-weight: 600;
 }
 QPushButton[kind="nav"]:hover { background: #17454c; }
-QPushButton[kind="nav"]:checked { color: #ffffff; background: #1f535a; }
+QPushButton[kind="nav"]:checked { color: #ffffff; background: #215760; border-color: #326a72; }
 QPushButton:disabled { color: #79817f; background: #ecebe6; border-color: #dedcd5; }
 QPushButton[kind="primary"]:disabled, QPushButton[kind="danger"]:disabled {
     color: #f3e9e4; background: #dfb3a3; border-color: #dfb3a3;
@@ -78,6 +88,13 @@ QLineEdit, QComboBox, QSpinBox, QDoubleSpinBox, QPlainTextEdit {
     padding: 6px 10px; selection-background-color: #2d6970;
     selection-color: #ffffff;
 }
+QLineEdit, QComboBox, QSpinBox, QDoubleSpinBox { color: #1b2a2e; }
+QLineEdit, QComboBox, QSpinBox, QDoubleSpinBox { min-height: 23px; }
+QPlainTextEdit[console="true"] {
+    color: #edf5f2; background: #17383e; border-color: #3d777b;
+    font: 12px "Menlo"; padding: 11px; selection-background-color: #c0521e;
+}
+QPlainTextEdit[console="true"]:focus { border: 2px solid #4a8588; padding: 10px; }
 QLineEdit:hover, QComboBox:hover, QSpinBox:hover, QDoubleSpinBox:hover,
 QPlainTextEdit:hover { border-color: #b9b5ab; }
 QLineEdit:focus, QComboBox:focus, QSpinBox:focus, QDoubleSpinBox:focus,
@@ -120,23 +137,28 @@ QSpinBox::down-arrow:disabled, QDoubleSpinBox::down-arrow:disabled { image: none
 
 /* ---------- cards and groups ---------- */
 QFrame#metricCard {
-    background: #ffffff; border: 1px solid #e2e0da; border-radius: 13px; padding: 14px 16px;
+    background: #fbfaf7; border: 1px solid #ddd9cf; border-top: 3px solid #247078; border-radius: 13px;
 }
+QFrame#metricCard[tone="rust"] { border-top-color: #c0521e; }
+QFrame#metricCard[tone="gold"] { border-top-color: #c38b20; }
+QFrame#metricCard[tone="slate"] { border-top-color: #637673; }
+QFrame#safetyCard { background: #fff8ea; border: 1px solid #e8cf9f; border-left: 4px solid #c38b20; border-radius: 12px; }
+QLabel#safetyTitle { color: #8a5314; font: 750 11px "Avenir Next"; letter-spacing: 1px; }
 QGroupBox {
-    background: #ffffff; border: 1px solid #e2e0da; border-radius: 13px;
+    background: #fbfaf7; border: 1px solid #ddd9cf; border-radius: 13px;
     margin-top: 12px; padding: 18px 14px 14px 14px; font-weight: 700; font-size: 13px;
 }
-QGroupBox::title { subcontrol-origin: margin; left: 14px; padding: 0 6px; color: #3a4c50; }
+QGroupBox::title { subcontrol-origin: margin; left: 14px; padding: 0 6px; color: #30484c; background: #fbfaf7; }
 
 /* ---------- tables ---------- */
 QTableWidget {
-    background: #ffffff; border: 1px solid #e2e0da; border-radius: 11px;
-    gridline-color: #edeae4; alternate-background-color: #faf9f6;
+    background: #fbfaf7; border: 1px solid #ddd9cf; border-radius: 11px;
+    gridline-color: #ebe7de; alternate-background-color: #f5f3ed;
     selection-background-color: #d7e8e6; selection-color: #143940;
 }
 QTableWidget::item { padding: 4px 8px; }
 QHeaderView::section {
-    background: #f2f0eb; color: #3f5659; border: none;
+    background: #e9e6de; color: #3f5659; border: none;
     border-right: 1px solid #e5e2db; border-bottom: 1px solid #e2e0da;
     padding: 9px 8px; font-weight: 700; font-size: 12px;
 }
@@ -145,10 +167,10 @@ QTableWidget QTableCornerButton::section { border-top-left-radius: 10px; }
 
 /* ---------- progress ---------- */
 QProgressBar {
-    background: #e8e6e0; border: none; border-radius: 6px; height: 12px;
+    background: #dedbd3; border: none; border-radius: 7px; height: 14px;
     text-align: center; color: #1b2a2e; font-size: 10px; font-weight: 700;
 }
-QProgressBar::chunk { background: #c0521e; border-radius: 6px; }
+QProgressBar::chunk { background: #c0521e; border-radius: 7px; }
 
 /* ---------- scrollbars ---------- */
 QScrollBar:vertical { background: transparent; width: 10px; margin: 2px; }
@@ -174,6 +196,7 @@ QToolTip {
 
 /* ---------- misc ---------- */
 QMessageBox { background: #f5f4f1; }
+QMessageBox QLabel { color: #1b2a2e; background: transparent; }
 QStatusBar { background: #f5f4f1; color: #4e5f63; }
 QListWidget, QListView { background: #ffffff; border: 1px solid #e2e0da; border-radius: 11px; }
 """

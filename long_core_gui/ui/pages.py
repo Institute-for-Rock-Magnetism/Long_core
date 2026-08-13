@@ -42,10 +42,10 @@ class OverviewPage(QWidget):
         _heading(root, "Control center", "A calm view of the queue, run state, instruments, and recent events.")
         row = QHBoxLayout()
         self.cards = {
-            "queued": MetricCard("Queued"),
-            "results": MetricCard("Measurements"),
-            "state": MetricCard("Run state", "Idle"),
-            "mode": MetricCard("Operating mode", "SIM"),
+            "queued": MetricCard("Queued", tone="rust"),
+            "results": MetricCard("Measurements", tone="gold"),
+            "state": MetricCard("Run state", "Idle", tone="teal"),
+            "mode": MetricCard("Operating mode", "SIM", tone="slate"),
         }
         for card in self.cards.values():
             row.addWidget(card)
@@ -65,6 +65,8 @@ class OverviewPage(QWidget):
         box = QVBoxLayout(group)
         self.activity = QPlainTextEdit()
         self.activity.setReadOnly(True)
+        self.activity.setProperty("console", True)
+        self.activity.setPlaceholderText("Operator activity will appear here.")
         box.addWidget(self.activity)
         root.addWidget(group, 1)
 
@@ -116,8 +118,10 @@ class QueuePage(QWidget):
         self.table.setHorizontalHeaderLabels(["#", "Sample", "Measurement", "Mode", "Treatment", "Order", "Value"])
         self.table.horizontalHeader().setSectionResizeMode(QHeaderView.ResizeMode.Stretch)
         self.table.setSelectionBehavior(QAbstractItemView.SelectionBehavior.SelectRows)
+        self.table.setSelectionMode(QAbstractItemView.SelectionMode.ExtendedSelection)
         self.table.setEditTriggers(QAbstractItemView.EditTrigger.NoEditTriggers)
         self.table.setAlternatingRowColors(True)
+        self.table.verticalHeader().setDefaultSectionSize(38)
         root.addWidget(self.table, 1)
 
     def add_step(self) -> None:
@@ -215,7 +219,10 @@ class RunPage(QWidget):
         self.detail = QLabel("Ready to build a plan"); self.detail.setWordWrap(True)
         state_layout.addWidget(self.state); state_layout.addWidget(self.detail); state_layout.addStretch()
         action_box = QGroupBox("Auditable action plan"); action_layout = QVBoxLayout(action_box)
-        self.actions = QPlainTextEdit(); self.actions.setReadOnly(True); action_layout.addWidget(self.actions)
+        self.actions = QPlainTextEdit(); self.actions.setReadOnly(True)
+        self.actions.setProperty("console", True)
+        self.actions.setPlaceholderText("The validated action sequence will appear here before execution.")
+        action_layout.addWidget(self.actions)
         split.addWidget(state_box, 1); split.addWidget(action_box, 3); root.addLayout(split, 1)
 
     def refresh(self) -> None:
@@ -247,8 +254,9 @@ class InstrumentsPage(QWidget):
         content = QWidget(); root = QVBoxLayout(content)
         shell.addWidget(scroll); scroll.setWidget(content)
         _heading(root, "Instruments", "Recovered serial topology with intentionally unassigned physical ports.")
-        warning = QFrame(); warning.setObjectName("metricCard"); warning_layout = QVBoxLayout(warning)
-        title = QLabel("Hardware commissioning lock"); title.setObjectName("metricValue")
+        warning = QFrame(); warning.setObjectName("safetyCard"); warning_layout = QVBoxLayout(warning)
+        warning_layout.setContentsMargins(20, 18, 20, 18)
+        title = QLabel("HARDWARE COMMISSIONING LOCK"); title.setObjectName("safetyTitle")
         copy = QLabel("Real I/O is disabled until exact ports, framing, calibration, limits, interlocks, and expected replies are independently verified. Simulation never opens a serial port.")
         copy.setWordWrap(True); warning_layout.addWidget(title); warning_layout.addWidget(copy); root.addWidget(warning)
 
@@ -262,8 +270,8 @@ class InstrumentsPage(QWidget):
             for column, value in enumerate(values): self.table.setItem(row, column, QTableWidgetItem(str(value)))
         root.addWidget(self.table)
 
-        recovered = QLabel("Recovered LabVIEW defaults (historical software values — not commissioned)")
-        recovered.setObjectName("metricValue"); root.addWidget(recovered)
+        recovered = QLabel("Recovered LabVIEW defaults (historical software values - not commissioned)")
+        recovered.setObjectName("sectionTitle"); root.addWidget(recovered)
         settings = LegacySettings()
         self.recovered_table = QTableWidget(8, 4)
         self.recovered_table.setHorizontalHeaderLabels(["Subsystem", "Recovered port", "Baud", "Recovered source"])
@@ -285,7 +293,7 @@ class InstrumentsPage(QWidget):
         root.addWidget(self.recovered_table)
 
         errors_label = QLabel("Recovered legacy error catalog")
-        errors_label.setObjectName("metricValue"); root.addWidget(errors_label)
+        errors_label.setObjectName("sectionTitle"); root.addWidget(errors_label)
         catalog = LegacyErrorCatalog.all()
         self.errors_table = QTableWidget(len(catalog), 3)
         self.errors_table.setHorizontalHeaderLabels(["Code", "Subsystem", "Description"])
@@ -305,7 +313,10 @@ class LogsPage(QWidget):
         super().__init__(); self.window = window
         root = QVBoxLayout(self)
         _heading(root, "Diagnostics", "Operator-visible events are mirrored to rotating structured JSON logs.")
-        self.text = QPlainTextEdit(); self.text.setReadOnly(True); root.addWidget(self.text, 1)
+        self.text = QPlainTextEdit(); self.text.setReadOnly(True)
+        self.text.setProperty("console", True)
+        self.text.setPlaceholderText("Application diagnostics will appear here.")
+        root.addWidget(self.text, 1)
 
     def refresh(self) -> None:
         self.text.setPlainText("\n".join(self.window.events))
