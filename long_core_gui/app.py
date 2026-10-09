@@ -13,7 +13,7 @@ import sys
 if __package__ in {None, ""}:
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from PySide6.QtCore import QStandardPaths, Qt
+from PySide6.QtCore import QStandardPaths, Qt, QTimer
 from PySide6.QtGui import QFont
 from PySide6.QtWidgets import QApplication, QMessageBox
 
@@ -43,9 +43,9 @@ def create_application(argv: list[str] | None = None) -> tuple[QApplication, Mai
     app = QApplication(argv if argv is not None else sys.argv)
     app.setApplicationName("Long Core Control")
     app.setOrganizationName("Institute for Rock Magnetism")
-    app.setApplicationVersion("0.2.0")
+    app.setApplicationVersion("0.3.0")
     app.setAttribute(Qt.ApplicationAttribute.AA_DontUseNativeMenuBar, False)
-    app.setFont(QFont("Avenir Next", 11))
+    app.setFont(QFont("Segoe UI", 10))
     app.setStyleSheet(APP_STYLE)
 
     home = _application_home()
@@ -70,6 +70,7 @@ def create_application(argv: list[str] | None = None) -> tuple[QApplication, Mai
     )
     repository = WorkspaceRepository(home / config.data_directory)
     window = MainWindow(config=config, repository=repository, logger=logger)
+    window.config_path = config_path
     if startup_warning:
         QMessageBox.warning(
             window,
@@ -89,6 +90,8 @@ def main() -> int:
 
     sys.excepthook = report_uncaught
     window.show()
+    if "--smoke-test" in sys.argv:
+        QTimer.singleShot(500, app.quit)
     return app.exec()
 
 

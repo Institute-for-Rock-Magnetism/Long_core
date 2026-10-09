@@ -1,10 +1,11 @@
 # -*- mode: python ; coding: utf-8 -*-
 
 from pathlib import Path
+import sys
 
 
 ROOT = Path(SPECPATH)
-ICON = ROOT / "long_core_gui" / "ui" / "assets" / "LongCoreControl.icns"
+ICON = ROOT / "long_core_gui" / "ui" / "assets" / ("LongCoreControl.icns" if sys.platform == "darwin" else "long-core-control.ico")
 
 a = Analysis(
     [str(ROOT / "long_core_gui" / "__main__.py")],
@@ -24,6 +25,17 @@ a = Analysis(
     noarchive=False,
     optimize=1,
 )
+
+# Qt on Windows uses the OS ICU ABI. A Poppler/Conda ICU found on PATH
+# has versioned exports and breaks QtCore at startup. Keep Qt-owned ICU
+# libraries, but let Windows resolve the system ICU instead of bundling an
+# unrelated library with the same filename.
+if sys.platform == "win32":
+    import PySide6
+    qt_directory = Path(PySide6.__file__).resolve().parent
+    a.binaries = [entry for entry in a.binaries
+                  if Path(entry[0]).name.lower() != "icuuc.dll"
+                  or Path(entry[1]).resolve().is_relative_to(qt_directory)]
 
 pyz = PYZ(a.pure)
 
@@ -55,15 +67,16 @@ coll = COLLECT(
     name="Long Core Control",
 )
 
-app = BUNDLE(
-    coll,
-    name="Long Core Control.app",
-    icon=str(ICON),
-    bundle_identifier="org.longcore.control",
-    info_plist={
-        "CFBundleDisplayName": "Long Core Control",
-        "CFBundleName": "Long Core Control",
-        "NSHighResolutionCapable": True,
-        "NSHumanReadableCopyright": "Long Core paleomagnetic control software",
-    },
-)
+if sys.platform == "darwin":
+    app = BUNDLE(
+        coll,
+        name="Long Core Control.app",
+        icon=str(ICON),
+        bundle_identifier="org.longcore.control",
+        info_plist={
+            "CFBundleDisplayName": "Long Core Control",
+            "CFBundleName": "Long Core Control",
+            "NSHighResolutionCapable": True,
+            "NSHumanReadableCopyright": "Long Core paleomagnetic control software",
+        },
+    )

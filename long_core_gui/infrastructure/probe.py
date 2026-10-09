@@ -251,7 +251,7 @@ class ProbeSession:
         if step.expected_marker and step.expected_marker not in reply:
             ok = False
             problems.append(f"expected marker {step.expected_marker!r} not found in reply")
-        note = "; ".join(problems)
+        note = "; ".join(([note] if note else []) + problems)
         return ProbeStepResult(
             name=step.name,
             command=step.command,

@@ -6,7 +6,7 @@ from typing import TYPE_CHECKING
 
 from PySide6.QtCore import Qt
 from PySide6.QtWidgets import (
-    QAbstractItemView, QComboBox, QDoubleSpinBox, QFileDialog, QFormLayout,
+    QAbstractItemView, QDialog, QComboBox, QDoubleSpinBox, QFileDialog, QFormLayout,
     QFrame, QGridLayout, QGroupBox, QHBoxLayout, QHeaderView, QLabel, QLineEdit,
     QMessageBox, QPlainTextEdit, QProgressBar, QPushButton, QScrollArea,
     QSpinBox, QTableWidget, QTableWidgetItem, QVBoxLayout, QWidget,
@@ -20,6 +20,7 @@ from ..domain import (
 from ..infrastructure import Subsystem
 from ..infrastructure.error_codes import LegacyErrorCatalog
 from ..infrastructure.legacy_settings import LegacySettings
+from .recipe_dialog import RecipeDialog
 from .plot_widget import MeasurementPlots
 from .widgets import MetricCard, button, page_title
 
@@ -86,6 +87,7 @@ class QueuePage(QWidget):
         _heading(root, "Measurement queue", "Build validated recipes from the recovered LabVIEW queue and action clusters.")
         form_box = QGroupBox("Add queue step")
         form = QGridLayout(form_box)
+        for column in range(3): form.setColumnStretch(column, 1)
         self.sample_id = QLineEdit(); self.sample_id.setPlaceholderText("Sample ID")
         self.measurement = QComboBox(); self.measurement.addItems([item.value for item in MeasurementType])
         self.mode = QComboBox(); self.mode.addItems([item.value for item in MeasurementMode])
@@ -107,13 +109,15 @@ class QueuePage(QWidget):
         add = button("Add step", "primary"); add.clicked.connect(self.add_step)
         form.addWidget(add, 5, 2)
         root.addWidget(form_box)
-        toolbar = QHBoxLayout()
-        for label, callback in (
+        toolbar = QGridLayout()
+        for index, (label, callback) in enumerate((
+            ("Edit recipe", self.edit_selected), ("Duplicate", self.duplicate_selected),
+            ("Move up", lambda: self.move_selected(-1)), ("Move down", lambda: self.move_selected(1)),
             ("Remove selected", self.remove_selected), ("Clear", self.clear),
             ("Import queue", self.import_plan), ("Export queue", self.export_plan),
-        ):
-            control = button(label); control.clicked.connect(callback); toolbar.addWidget(control)
-        toolbar.addStretch(); root.addLayout(toolbar)
+        )):
+            control = button(label); control.clicked.connect(callback); toolbar.addWidget(control, index // 4, index % 4)
+        root.addLayout(toolbar)
         self.table = QTableWidget(0, 7)
         self.table.setHorizontalHeaderLabels(["#", "Sample", "Measurement", "Mode", "Treatment", "Order", "Value"])
         self.table.horizontalHeader().setSectionResizeMode(QHeaderView.ResizeMode.Stretch)
@@ -123,8 +127,20 @@ class QueuePage(QWidget):
         self.table.setAlternatingRowColors(True)
         self.table.verticalHeader().setDefaultSectionSize(38)
         root.addWidget(self.table, 1)
+        self.table.doubleClicked.connect(self.edit_selected)
+        self.mode.currentTextChanged.connect(self.update_fields)
+        self.measurement.currentTextChanged.connect(self.update_fields)
+        self.treatment.currentTextChanged.connect(self.update_fields)
+        self.update_fields()
+
+    def update_fields(self) -> None:
+        has_measurement = self.measurement.currentText() != MeasurementType.NONE.value
+        self.mode.setEnabled(has_measurement)
+        self.positions.setEnabled(has_measurement and self.mode.currentText() == MeasurementMode.DISCRETE.value)
+        self.value.setEnabled(self.treatment.currentText() != TreatmentType.NONE.value)
 
     def add_step(self) -> None:
+        if self.window.engine.active: return
         try:
             measurement = MeasurementType(self.measurement.currentText())
             treatment = TreatmentType(self.treatment.currentText())
@@ -159,6 +175,7 @@ class QueuePage(QWidget):
         self.window.changed(f"Added {step.sample.sample_id} to the queue")
 
     def remove_selected(self) -> None:
+        if self.window.engine.active: return
         rows = sorted({index.row() for index in self.table.selectedIndexes()}, reverse=True)
         for row in rows:
             del self.window.queue_steps[row]
@@ -166,10 +183,12 @@ class QueuePage(QWidget):
             self.window.changed(f"Removed {len(rows)} queue step(s)")
 
     def clear(self) -> None:
+        if self.window.engine.active: return
         if self.window.queue_steps and QMessageBox.question(self, "Clear queue", "Remove all queue steps?") == QMessageBox.StandardButton.Yes:
             self.window.queue_steps.clear(); self.window.changed("Cleared the queue")
 
     def import_plan(self) -> None:
+        if self.window.engine.active: return
         path, _ = QFileDialog.getOpenFileName(self, "Import queue", "", "JSON (*.json)")
         if not path: return
         try:
@@ -188,7 +207,35 @@ class QueuePage(QWidget):
             self.window.repository.export_plan(path, QueuePlan(tuple(self.window.queue_steps), self.window.homing))
             self.window.log_event(f"Exported queue to {path}")
 
+    def edit_selected(self, *args) -> None:
+        if self.window.engine.active: return
+        row = self.table.currentRow()
+        if row < 0: return
+        dialog = RecipeDialog(self.window.queue_steps[row], self)
+        if dialog.exec() == QDialog.DialogCode.Accepted:
+            self.window.queue_steps[row] = dialog.step
+            self.window.changed(f"Updated recipe for {dialog.step.sample.sample_id}")
+            self.table.selectRow(row)
+
+    def duplicate_selected(self) -> None:
+        if self.window.engine.active: return
+        row = self.table.currentRow()
+        if row < 0: return
+        self.window.queue_steps.insert(row+1, self.window.queue_steps[row])
+        self.window.changed("Duplicated queue step")
+        self.table.selectRow(row+1)
+
+    def move_selected(self, direction: int) -> None:
+        if self.window.engine.active: return
+        row = self.table.currentRow(); target = row + direction
+        if row < 0 or not 0 <= target < len(self.window.queue_steps): return
+        steps = self.window.queue_steps
+        steps[row], steps[target] = steps[target], steps[row]
+        self.window.changed("Reordered queue")
+        self.table.selectRow(target)
+
     def refresh(self) -> None:
+        self.setEnabled(not self.window.engine.active)
         self.table.setRowCount(len(self.window.queue_steps))
         for row, step in enumerate(self.window.queue_steps):
             values = [row + 1, step.sample.sample_id, step.measurement_type.value,
@@ -206,6 +253,7 @@ class RunPage(QWidget):
         _heading(root, "Run console", "Review the generated action sequence before any execution begins.")
         controls = QHBoxLayout()
         self.homing = QComboBox(); self.homing.addItems([item.value for item in HomingPolicy])
+        self.homing.currentTextChanged.connect(self.set_homing)
         self.start = button("Start simulation", "primary"); self.start.clicked.connect(window.start_run)
         self.pause = button("Pause"); self.pause.clicked.connect(window.toggle_pause)
         self.abort = button("Abort", "danger"); self.abort.clicked.connect(window.abort_run)
@@ -225,10 +273,28 @@ class RunPage(QWidget):
         action_layout.addWidget(self.actions)
         split.addWidget(state_box, 1); split.addWidget(action_box, 3); root.addLayout(split, 1)
 
+    def set_homing(self, value: str) -> None:
+        if self.window.engine.active: return
+        self.window.homing = HomingPolicy(value)
+        self.window._persist()
+        self.preview()
+
+    def preview(self) -> None:
+        if self.window.engine.active: return
+        from ..domain import ActionBuilder
+        if not self.window.queue_steps:
+            self.actions.clear(); return
+        actions = ActionBuilder().build(QueuePlan(tuple(self.window.queue_steps), self.window.homing))
+        self.actions.setPlainText("\n".join(self.window._format_action(i, a) for i, a in enumerate(actions, 1)))
+
     def refresh(self) -> None:
+        self.homing.blockSignals(True)
         self.homing.setCurrentText(self.window.homing.value)
-        self.start.setEnabled(bool(self.window.queue_steps) and not self.window.engine.active)
-        self.pause.setEnabled(self.window.engine.active)
+        self.homing.blockSignals(False)
+        self.homing.setEnabled(not self.window.engine.active)
+        self.preview()
+        self.start.setEnabled(bool(self.window.queue_steps) and not self.window.engine.active and self.window.config.simulation_mode)
+        self.pause.setEnabled(self.window.engine.state in {"Running", "Paused"})
         self.abort.setEnabled(self.window.engine.active)
 
 
@@ -236,11 +302,31 @@ class PlotsPage(QWidget):
     def __init__(self, window: "MainWindow") -> None:
         super().__init__(); self.window = window
         root = QVBoxLayout(self)
-        _heading(root, "Measurement plots", "Raw XYZ moment, intensity, inclination, and declination in the original four-plot arrangement.")
+        _heading(root, "Measurement plots", "Sample readings only: simulated XYZ and intensity in arbitrary units; inclination and declination in degrees.")
+        controls = QHBoxLayout()
+        self.instrument = QComboBox(); self.instrument.addItems(["SQUID", "MS"])
+        self.sample_filter = QComboBox(); self.sample_filter.addItem("All samples", None)
+        controls.addWidget(QLabel("Instrument")); controls.addWidget(self.instrument)
+        controls.addWidget(QLabel("Sample")); controls.addWidget(self.sample_filter)
+        controls.addStretch(); controls.addWidget(QLabel("Latest 400 sample readings in acquisition order"))
+        root.addLayout(controls)
         self.plots = MeasurementPlots(); root.addWidget(self.plots, 1)
+        self.instrument.currentIndexChanged.connect(self.filter_records)
+        self.sample_filter.currentIndexChanged.connect(self.filter_records)
 
     def refresh(self) -> None:
-        self.plots.set_records(self.window.results)
+        current = self.sample_filter.currentData()
+        self.sample_filter.blockSignals(True)
+        self.sample_filter.clear(); self.sample_filter.addItem("All samples", None)
+        for sample in sorted({str(r.get("sample_id", "")) for r in self.window.results}):
+            self.sample_filter.addItem(sample, sample)
+        self.sample_filter.setCurrentIndex(max(0, self.sample_filter.findData(current)))
+        self.sample_filter.blockSignals(False)
+        self.filter_records()
+
+    def filter_records(self, *args) -> None:
+        sample = self.sample_filter.currentData()
+        self.plots.set_records([r for r in self.window.results if r.get("instrument") == self.instrument.currentText() and (sample is None or r.get("sample_id") == sample)])
 
 
 class InstrumentsPage(QWidget):
@@ -306,6 +392,14 @@ class InstrumentsPage(QWidget):
             self.errors_table.setItem(row, 2, QTableWidgetItem(entry.short))
         root.addWidget(self.errors_table)
         root.addStretch()
+
+
+    def refresh(self) -> None:
+        for row, subsystem in enumerate(Subsystem):
+            profile = self.window.config.instruments.profile(subsystem)
+            values = [subsystem.value, profile.port or "UNASSIGNED", profile.baudrate, profile.bytesize, profile.parity, repr(profile.write_terminator)]
+            for column, value in enumerate(values):
+                self.table.setItem(row, column, QTableWidgetItem(str(value)))
 
 
 class LogsPage(QWidget):

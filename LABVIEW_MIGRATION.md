@@ -68,3 +68,19 @@ probe workflow: with `LONG_CORE_HARDWARE=1` it opens real serial ports only
 for strictly read-only ID/status/poll commands from the recovered command
 tables, and records raw hex/text captures for verifying parsers and framing.
 No motion, treatment, or high-power command is ever sent by a probe.
+
+## Rewrite validation (0.3)
+
+The desktop workflow covers queue recipe/metadata editing, action preview,
+continuous reading counts, discrete positions/readings, timed pauses,
+pause/resume/abort, checkpoints, run history, coordinate transforms, filtered
+plots, CSV export, backup recovery, and durable configuration. Regression tests
+exercise the worker lifecycle and complete desktop simulation workflow. UI
+previews cover every page at two window sizes. Windows packaging uses an ICO;
+macOS packaging retains the ICNS.
+
+This is a complete operator workflow for simulation and serial commissioning,
+not a commissioned hardware replacement. Simulation does not model acquisition
+integration/traverse timing or treatment physics. The eight hardware evidence
+requirements above still apply to physical execution. Expert raw probes bypass
+the allowlist after explicit operator confirmation, as stated in the UI.

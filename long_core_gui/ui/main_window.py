@@ -16,6 +16,8 @@ from PySide6.QtWidgets import (
 from ..domain import Action, ActionBuilder, HomingPolicy, QueuePlan, QueueStep
 from ..infrastructure import ApplicationConfig
 from ..services import RunEngine, WorkspaceRepository
+from .data_page import DataPage
+from .widgets import GlassCanvas
 from .commissioning import CommissioningPage
 from .pages import InstrumentsPage, LogsPage, OverviewPage, PlotsPage, QueuePage, RunPage
 
@@ -28,6 +30,8 @@ class MainWindow(QMainWindow):
         self.results: list[dict[str, object]] = []
         self.homing = HomingPolicy.EVERY_QUEUE
         self.events: list[str] = []
+        self._close_pending = False
+        self._run_record = None
         self.engine = RunEngine(self)
         self.engine.action_started.connect(self._on_action)
         self.engine.measurement_ready.connect(self._on_measurement)
@@ -35,6 +39,7 @@ class MainWindow(QMainWindow):
         self.engine.state_changed.connect(self._on_state)
         self.engine.failed.connect(self._on_failure)
         self.engine.finished.connect(self._on_finished)
+        self.engine.checkpoint.connect(self._checkpoint)
         self.setWindowTitle("Long Core Control")
         icon_path = Path(__file__).resolve().parent / "assets" / "long-core-control.png"
         if icon_path.exists():
@@ -46,7 +51,7 @@ class MainWindow(QMainWindow):
         self.show_page("Overview")
 
     def _build_ui(self) -> None:
-        central = QWidget(); shell = QHBoxLayout(central); shell.setContentsMargins(0, 0, 0, 0); shell.setSpacing(0)
+        central = GlassCanvas(); shell = QHBoxLayout(central); shell.setContentsMargins(14, 14, 14, 14); shell.setSpacing(14)
         sidebar = QFrame(); sidebar.setObjectName("sidebar"); sidebar.setFixedWidth(248)
         nav = QVBoxLayout(sidebar); nav.setContentsMargins(18, 24, 18, 20); nav.setSpacing(7)
 
@@ -62,13 +67,13 @@ class MainWindow(QMainWindow):
         self.stack = QStackedWidget()
         self.pages = {
             "Overview": OverviewPage(self), "Queue": QueuePage(self), "Run": RunPage(self),
-            "Plots": PlotsPage(self), "Instruments": InstrumentsPage(self),
+            "Plots": PlotsPage(self), "Run data": DataPage(self), "Instruments": InstrumentsPage(self),
             "Commissioning": CommissioningPage(self), "Logs": LogsPage(self),
         }
         self.nav_buttons: dict[str, QPushButton] = {}
         workspace_label = QLabel("WORKSPACE"); workspace_label.setObjectName("navSection")
         nav.addWidget(workspace_label)
-        for name in ("Overview", "Queue", "Run", "Plots"):
+        for name in ("Overview", "Queue", "Run", "Plots", "Run data"):
             page = self.pages[name]
             control = QPushButton(name); control.setCheckable(True); control.setProperty("kind", "nav")
             control.clicked.connect(lambda checked=False, target=name: self.show_page(target))
@@ -94,18 +99,18 @@ class MainWindow(QMainWindow):
         safety_layout.addWidget(safety_title); safety_layout.addWidget(safety)
         nav.addWidget(safety_card)
 
-        content = QVBoxLayout(); content.setContentsMargins(0, 0, 0, 0); content.setSpacing(0)
+        content = QVBoxLayout(); content.setContentsMargins(0, 0, 0, 0); content.setSpacing(12)
         top = QFrame(); top.setObjectName("topbar"); top_layout = QHBoxLayout(top); top_layout.setContentsMargins(34, 14, 34, 14)
         location = QVBoxLayout(); location.setSpacing(0)
         app_label = QLabel("2G U-CHANNEL LONG CORE"); app_label.setObjectName("topEyebrow")
         self.page_location = QLabel("Control center"); self.page_location.setObjectName("topLocation")
         location.addWidget(app_label); location.addWidget(self.page_location)
         top_layout.addLayout(location); top_layout.addStretch()
-        self.mode_badge = QLabel("PORT ACCESS ENABLED" if self.config.hardware_enabled else "SIMULATION MODE")
+        self.mode_badge = QLabel("SIMULATION · PROBES ENABLED" if self.config.hardware_enabled else "SIMULATION MODE")
         self.mode_badge.setObjectName("modeBadgeLive" if self.config.hardware_enabled else "modeBadge")
         top_layout.addWidget(self.mode_badge)
         body = QFrame(); body.setObjectName("contentBody")
-        body_layout = QVBoxLayout(body); body_layout.setContentsMargins(34, 28, 34, 32); body_layout.addWidget(self.stack)
+        body_layout = QVBoxLayout(body); body_layout.setContentsMargins(20, 16, 20, 20); body_layout.addWidget(self.stack)
         content.addWidget(top); content.addWidget(body, 1)
         content_widget = QWidget(); content_widget.setLayout(content)
         shell.addWidget(sidebar); shell.addWidget(content_widget, 1); self.setCentralWidget(central)
@@ -117,6 +122,11 @@ class MainWindow(QMainWindow):
         except RuntimeError as exc:
             self.log_event(str(exc), level=logging.ERROR)
             QMessageBox.warning(self, "Workspace recovery", str(exc))
+        for record in self.repository.list_runs():
+            if record.get("state") in {"Running", "Paused", "Stopping"}:
+                record["state"] = "Interrupted"
+                self.repository.save_run(record, record.get("results", []))
+                self.log_event(f"Recovered interrupted run {record['run_id'][:8]}")
         self.refresh_all()
 
     def show_page(self, name: str) -> None:
@@ -142,14 +152,25 @@ class MainWindow(QMainWindow):
             page = self.pages.get(name)
             if page and hasattr(page, "refresh"): page.refresh()
 
+    def _checkpoint(self) -> None:
+        self._persist()
+        if self._run_record:
+            self.repository.save_run(self._run_record, self.results)
+
     def _persist(self) -> None:
         try:
             self.repository.save(self.queue_steps, self.homing, self.results)
+            if getattr(self, "config_path", None):
+                from ..infrastructure import save_application_config
+                save_application_config(self.config_path, self.config)
         except Exception as exc:
             self.log_event(f"Could not save workspace: {exc}", logging.ERROR)
 
     def start_run(self) -> None:
-        if not self.queue_steps: return
+        if not self.queue_steps or self.engine.active: return
+        if not self.config.simulation_mode:
+            QMessageBox.warning(self, "Hardware execution unavailable", "Live execution requires verified instrument adapters. Enable simulation to run a queue.")
+            return
         run_page: RunPage = self.pages["Run"]
         self.homing = HomingPolicy(run_page.homing.currentText())
         try:
@@ -158,7 +179,15 @@ class MainWindow(QMainWindow):
             QMessageBox.warning(self, "Cannot build run", str(exc)); return
         run_page.actions.setPlainText("\n".join(self._format_action(index, action) for index, action in enumerate(actions, 1)))
         self.log_event(f"Built {len(actions)} actions for {len(self.queue_steps)} queue step(s)")
-        self.engine.start(actions); self.refresh_all()
+        run_page.progress.setValue(0)
+        self.engine.start(actions)
+        self._run_record = {"run_id": self.engine.run_id, "state": "Running", "started_at": datetime.now().astimezone().isoformat(), "plan": QueuePlan(tuple(self.queue_steps), self.homing).to_dict(), "actions": len(actions), "mode": "simulation"}
+        try:
+            self.repository.save_run(self._run_record, self.results)
+        except OSError as exc:
+            self.log_event(f"Cannot create run record: {exc}", logging.ERROR)
+            self.engine.abort()
+        self.refresh_all()
 
     @staticmethod
     def _format_action(index: int, action: Action) -> str:
@@ -184,6 +213,7 @@ class MainWindow(QMainWindow):
     def _on_measurement(self, record: dict[str, object]) -> None:
         self.results.append(record)
         self.pages["Plots"].refresh()
+        self.pages["Overview"].refresh()
 
     def _on_progress(self, current: int, total: int) -> None:
         self.pages["Run"].progress.setValue(round(current * 100 / total))
@@ -197,12 +227,30 @@ class MainWindow(QMainWindow):
         self.log_event(message, logging.ERROR); QMessageBox.critical(self, "Run failed", message)
 
     def _on_finished(self, state: str) -> None:
-        self.pages["Run"].state.setText(state); self.log_event(f"Run {state.lower()}"); self._persist(); self.refresh_all()
+        self.pages["Run"].state.setText(state)
+        self.pages["Run"].detail.setText(f"Simulation {state.lower()}")
+        if self._run_record:
+            self._run_record.update(state=state, finished_at=datetime.now().astimezone().isoformat())
+            try:
+                self.repository.save_run(self._run_record, self.results)
+            except OSError as exc:
+                self.log_event(f"Could not save run record: {exc}", logging.ERROR)
+            self._run_record = None
+        self.log_event(f"Run {state.lower()}")
+        self._persist(); self.refresh_all()
+        if self._close_pending:
+            self.close()
 
     def closeEvent(self, event: QCloseEvent) -> None:
+        if self.pages["Commissioning"].busy:
+            QMessageBox.information(self, "Probe in progress", "Wait for the serial probe to finish before closing.")
+            event.ignore(); return
         if self.engine.active:
             answer = QMessageBox.question(self, "Run active", "Abort the active simulation and close?")
             if answer != QMessageBox.StandardButton.Yes:
                 event.ignore(); return
+            self._close_pending = True
             self.engine.abort()
+            event.ignore()
+            return
         self._persist(); event.accept()

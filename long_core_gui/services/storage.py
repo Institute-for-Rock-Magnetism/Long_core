@@ -4,6 +4,8 @@ from __future__ import annotations
 
 import csv
 import json
+import shutil
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -22,24 +24,52 @@ class WorkspaceRepository:
         self.results_path = self.directory / "measurements.csv"
 
     def load(self) -> tuple[list[QueueStep], HomingPolicy, list[dict[str, Any]]]:
-        if not self.state_path.exists():
-            return [], HomingPolicy.EVERY_QUEUE, []
-        try:
-            data = json.loads(self.state_path.read_text(encoding="utf-8"))
-            if data.get("schema_version") != self.SCHEMA_VERSION:
-                raise ValueError("unsupported workspace schema")
-            plan_data = data.get("plan")
-            if plan_data:
-                plan = QueuePlan.from_dict(plan_data)
-                steps, homing = list(plan.steps), plan.homing
-            else:
-                steps, homing = [], HomingPolicy.EVERY_QUEUE
-            results = data.get("results", [])
-            if not isinstance(results, list):
-                raise ValueError("results must be a list")
-            return steps, homing, results
-        except (OSError, UnicodeError, json.JSONDecodeError, ValueError, TypeError) as exc:
-            raise RuntimeError(f"could not load workspace: {exc}") from exc
+        backup = self.state_path.with_suffix(".json.bak")
+        errors = []
+        for source in (self.state_path, backup):
+            if not source.exists():
+                continue
+            try:
+                data = json.loads(source.read_text(encoding="utf-8"))
+                if not isinstance(data, dict) or data.get("schema_version") != self.SCHEMA_VERSION:
+                    raise ValueError("unsupported workspace schema")
+                plan = QueuePlan.from_dict(data["plan"]) if data.get("plan") else None
+                results = data.get("results", [])
+                if not isinstance(results, list) or any(not isinstance(row, dict) for row in results):
+                    raise ValueError("results must be a list of measurement objects")
+                if source == backup:
+                    if self.state_path.exists():
+                        stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%f")
+                        shutil.copy2(self.state_path, self.state_path.with_name(f"workspace.corrupt-{stamp}.json"))
+                    atomic_write_json(self.state_path, data, create_backup=False)
+                return (list(plan.steps), plan.homing, results) if plan else ([], HomingPolicy.EVERY_QUEUE, results)
+            except (OSError, UnicodeError, ValueError, TypeError, KeyError) as exc:
+                errors.append(str(exc))
+        if errors:
+            raise RuntimeError("could not load workspace or backup: " + "; ".join(errors))
+        return [], HomingPolicy.EVERY_QUEUE, []
+
+    def save_run(self, record: dict[str, Any], results: list[dict[str, Any]] | None = None) -> None:
+        run_id = record["run_id"]
+        if not isinstance(run_id, str) or not run_id.isalnum():
+            raise ValueError("invalid run ID")
+        snapshot = dict(record)
+        snapshot["results"] = [r for r in (results if results is not None else self.load()[2]) if r.get("run_id") == run_id]
+        atomic_write_json(self.directory / "runs" / f"{run_id}.json", snapshot)
+
+    def list_runs(self) -> list[dict[str, Any]]:
+        records = []
+        for path in (self.directory / "runs").glob("*.json"):
+            try:
+                record = json.loads(path.read_text(encoding="utf-8"))
+                if isinstance(record, dict) and "run_id" in record:
+                    records.append(record)
+            except (OSError, ValueError):
+                continue
+        return sorted(records, key=lambda r: r.get("started_at", ""), reverse=True)
+
+    def export_results(self, path: str | Path, results: list[dict[str, Any]]) -> None:
+        self._write_results(results, Path(path))
 
     def save(
         self,
@@ -63,19 +93,19 @@ class WorkspaceRepository:
         except (OSError, UnicodeError, json.JSONDecodeError, ValueError, TypeError) as exc:
             raise RuntimeError(f"could not import queue: {exc}") from exc
 
-    def _write_results(self, results: list[dict[str, Any]]) -> None:
-        if not results:
-            return
+    def _write_results(self, results: list[dict[str, Any]], path: Path | None = None) -> None:
         fields = [
             "sample_id", "daq_type", "instrument", "x", "y", "z",
-            "intensity", "inclination", "declination", "sequence",
+            "intensity", "inclination", "declination", "sequence", "position_mm", "reading", "run_id", "timestamp",
+            "geographic_inclination", "geographic_declination", "tilt_corrected_inclination", "tilt_corrected_declination",
         ]
-        temporary = self.results_path.with_suffix(".csv.tmp")
+        target = path or self.results_path
+        temporary = target.with_suffix(".csv.tmp")
         with temporary.open("w", encoding="utf-8", newline="") as handle:
             writer = csv.DictWriter(handle, fieldnames=fields, extrasaction="ignore")
             writer.writeheader()
             writer.writerows(results)
-        temporary.replace(self.results_path)
+        temporary.replace(target)
 
     def save_probe_capture(self, capture: ProbeCapture) -> Path:
         """Persist one probe capture as JSON under ``probes/`` in the workspace."""

@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from typing import TYPE_CHECKING
 
-from PySide6.QtCore import Qt
+from PySide6.QtCore import Qt, QThread, Signal
 from PySide6.QtWidgets import (
     QAbstractItemView, QComboBox, QFrame, QHBoxLayout, QHeaderView, QLabel,
     QLineEdit, QMessageBox, QPlainTextEdit, QPushButton, QTableWidget,
@@ -13,16 +13,33 @@ from PySide6.QtWidgets import (
 
 from ..infrastructure.config import ConfigValidationError, Subsystem
 from ..infrastructure.probe import (
-    PROBE_PLANS, ProbeError, ProbeSession,
+    ProbeSession,
     allowed_commands, iter_available_ports,
 )
 from ..infrastructure.serial_transport import (
-    DisconnectedTransport, PySerialTransport,
+    PySerialTransport,
 )
 from .widgets import button, page_title
 
 if TYPE_CHECKING:
     from .main_window import MainWindow
+
+
+class _ProbeWorker(QThread):
+    captured = Signal(object)
+    failed = Signal(str)
+
+    def __init__(self, subsystem, profile, command, parent=None):
+        super().__init__(parent)
+        self.subsystem, self.profile, self.command = subsystem, profile, command
+
+    def run(self):
+        try:
+            transport = PySerialTransport(self.profile)
+            session = ProbeSession(self.subsystem, transport)
+            self.captured.emit(session.run_custom(self.command) if self.command is not None else session.run())
+        except Exception as exc:
+            self.failed.emit(str(exc))
 
 
 class CommissioningPage(QWidget):
@@ -31,6 +48,7 @@ class CommissioningPage(QWidget):
     def __init__(self, window: "MainWindow") -> None:
         super().__init__()
         self.window = window
+        self._probe_worker = None
         root = QVBoxLayout(self)
         heading, caption = page_title(
             "Commissioning",
@@ -59,7 +77,7 @@ class CommissioningPage(QWidget):
         self.table.setEditTriggers(QAbstractItemView.EditTrigger.NoEditTriggers)
         self.table.setAlternatingRowColors(True)
         self.table.verticalHeader().setDefaultSectionSize(42)
-        self._ports = ["COM1", "COM2", "COM3", "COM4", "COM5", "COM6", "COM7", "COM8", "COM9"]
+        self._ports = ["UNASSIGNED", "COM1", "COM2", "COM3", "COM4", "COM5", "COM6", "COM7", "COM8", "COM9"]
         self._port_controls: dict[Subsystem, QComboBox] = {}
         self._baud_controls: dict[Subsystem, QComboBox] = {}
         for row, subsystem in enumerate(Subsystem):
@@ -67,9 +85,8 @@ class CommissioningPage(QWidget):
             name_item = QTableWidgetItem(subsystem.value)
             name_item.setFlags(name_item.flags() & ~Qt.ItemFlag.ItemIsEditable)
             self.table.setItem(row, 0, name_item)
-            port_box = QComboBox(); port_box.addItems(self._ports)
-            if profile.port in self._ports:
-                port_box.setCurrentText(profile.port)
+            port_box = QComboBox(); port_box.setEditable(True); port_box.addItems(self._ports)
+            port_box.setCurrentText(profile.port or "UNASSIGNED")
             self._port_controls[subsystem] = port_box
             self.table.setCellWidget(row, 1, port_box)
             baud_choices = ["9600", "19200", "38400", "57600", "115200"]
@@ -122,8 +139,11 @@ class CommissioningPage(QWidget):
                 "hardware_enabled=true in the application config), then confirm "
                 "each probe session."
             )
-        self.probe_button.setEnabled(enabled)
-        self.custom_button.setEnabled(enabled)
+        self.probe_button.setEnabled(enabled and not self.busy)
+        self.custom_button.setEnabled(enabled and not self.busy)
+        self.table.setEnabled(not self.busy)
+        self.save_button.setEnabled(not self.busy)
+        self.detect_button.setEnabled(not self.busy)
 
     def detect_ports(self) -> None:
         found = sorted(iter_available_ports())
@@ -144,18 +164,20 @@ class CommissioningPage(QWidget):
         return Subsystem(self.table.item(rows[0].row(), 0).text())
 
     def _profile_for(self, subsystem: Subsystem):
-        from ..infrastructure.config import SerialProfile
-        port = self._port_controls[subsystem].currentText()
-        return SerialProfile(
-            port=port,
-            baudrate=int(self._baud_controls[subsystem].currentText()),
-        )
+        from dataclasses import replace
+        port = self._port_controls[subsystem].currentText().strip()
+        return replace(self.window.config.instruments.profile(subsystem),
+                       port=None if port == "UNASSIGNED" or not port else port,
+                       baudrate=int(self._baud_controls[subsystem].currentText()))
 
     def run_probe(self) -> None:
         subsystem = self._selected_subsystem()
         if subsystem is None:
             return
         profile = self._profile_for(subsystem)
+        if profile.port is None:
+            QMessageBox.warning(self, "Port required", "Assign a verified serial port first.")
+            return
         commands = sorted(allowed_commands(subsystem))
         detail = ", ".join(commands) if commands else "no recovered commands — use raw"
         answer = QMessageBox.question(
@@ -167,20 +189,7 @@ class CommissioningPage(QWidget):
         )
         if answer != QMessageBox.StandardButton.Yes:
             return
-        transport = self._make_transport(profile)
-        session = ProbeSession(subsystem, transport)
-        try:
-            capture = session.run()
-        except (ProbeError, ValueError) as exc:
-            QMessageBox.critical(self, "Probe failed", str(exc))
-            return
-        saved = self.window.repository.save_probe_capture(capture)
-        self.window.log_event(f"Probed {subsystem.value} on {profile.port} ({len(capture.steps)} step(s))")
-        self._render_capture(capture)
-        self.table.item(self._subsystem_row(subsystem), 4).setText(
-            "OK" if capture.ok else "mismatch/timeout"
-        )
-        self.window.changed(f"Probe capture saved: {saved.name}")
+        self._start_probe(subsystem, profile)
 
     def send_raw(self) -> None:
         subsystem = self._selected_subsystem()
@@ -201,16 +210,42 @@ class CommissioningPage(QWidget):
         )
         if answer != QMessageBox.StandardButton.Yes:
             return
-        session = ProbeSession(subsystem, self._make_transport(profile))
-        try:
-            capture = session.run_custom(command)
-        except (ProbeError, ValueError) as exc:
-            QMessageBox.critical(self, "Raw probe failed", str(exc))
+        self._start_probe(subsystem, profile, command)
+
+    @property
+    def busy(self):
+        return self._probe_worker is not None
+
+    def _start_probe(self, subsystem, profile, command=None):
+        if self.busy or not self.window.config.hardware_enabled:
             return
-        self.window.repository.save_probe_capture(capture)
-        result = capture.custom[-1]
-        self.window.log_event(f"Raw {command!r} -> {result.rx_text!r}")
+        if profile.port is None:
+            QMessageBox.warning(self, "Port required", "Assign a verified serial port first.")
+            return
+        worker = _ProbeWorker(subsystem, profile, command, self)
+        self._probe_worker = worker
+        worker.captured.connect(self._capture_ready)
+        worker.failed.connect(lambda message: QMessageBox.critical(self, "Probe failed", message))
+        worker.finished.connect(self._probe_finished)
+        worker.finished.connect(worker.deleteLater)
+        self.refresh()
+        self.log.appendPlainText(f"Probing {subsystem.value} on {profile.port}...")
+        worker.start()
+
+    def _capture_ready(self, capture):
+        try:
+            saved = self.window.repository.save_probe_capture(capture)
+        except OSError as exc:
+            QMessageBox.critical(self, "Capture save failed", str(exc))
+            self._render_capture(capture)
+            return
         self._render_capture(capture)
+        self.table.item(self._subsystem_row(Subsystem(capture.subsystem)), 4).setText("OK" if capture.ok else "mismatch/timeout")
+        self.window.log_event(f"Probe capture saved: {saved.name}")
+
+    def _probe_finished(self):
+        self._probe_worker = None
+        self.refresh()
 
     def save_configuration(self) -> None:
         from dataclasses import replace
@@ -228,16 +263,6 @@ class CommissioningPage(QWidget):
         self.window.changed("Saved instrument configuration")
 
     # ------------------------------------------------------------------
-
-    def _make_transport(self, profile):
-        if not self.window.config.hardware_enabled:
-            return DisconnectedTransport(profile)
-        if profile.port is None:
-            return DisconnectedTransport(profile)
-        try:
-            return PySerialTransport(profile)
-        except ValueError:
-            return DisconnectedTransport(profile)
 
     def _subsystem_row(self, subsystem: Subsystem) -> int:
         return list(Subsystem).index(subsystem)

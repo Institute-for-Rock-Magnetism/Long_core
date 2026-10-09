@@ -14,27 +14,27 @@ class MeasurementPlots(QWidget):
         self.setMinimumHeight(480)
 
     def set_records(self, records: list[dict[str, object]]) -> None:
-        self.records = records[-400:]
+        self.records = [r for r in records if r.get("daq_type") == "Sample"][-400:]
         self.update()
 
     def paintEvent(self, event) -> None:
         painter = QPainter(self)
         painter.setRenderHint(QPainter.RenderHint.Antialiasing)
-        painter.fillRect(self.rect(), QColor("#efede7"))
+
         margin, gap = 14.0, 12.0
         row_height = (self.height() - margin * 2 - gap * 3) / 4
         plots = [
-            ("RAW MOMENT", ("x", "y", "z"), ("#c0521e", "#247078", "#c38b20")),
-            ("INTENSITY", ("intensity",), ("#153f47",)),
-            ("INCLINATION", ("inclination",), ("#c0521e",)),
+            ("RAW MOMENT", ("x", "y", "z"), ("#C76532", "#247078", "#c38b20")),
+            ("INTENSITY", ("intensity",), ("#102A36",)),
+            ("INCLINATION", ("inclination",), ("#C76532",)),
             ("DECLINATION", ("declination",), ("#247078",)),
         ]
         for row, (title, keys, colors) in enumerate(plots):
             area = QRectF(margin, margin + row * (row_height + gap), self.width() - 2 * margin, row_height)
             painter.setPen(QPen(QColor("#d8d4ca"), 1))
-            painter.setBrush(QColor("#ffffff"))
+            painter.setBrush(QColor(255, 254, 250, 190))
             painter.drawRoundedRect(area, 13, 13)
-            painter.setFont(QFont("Avenir Next", 9, QFont.Weight.DemiBold))
+            painter.setFont(QFont("Segoe UI", 9, QFont.Weight.DemiBold))
             painter.setPen(QColor("#3b5054"))
             painter.drawText(area.adjusted(14, 9, -14, 0), Qt.AlignmentFlag.AlignTop, title)
             graph = area.adjusted(14, 32, -14, -12)
@@ -43,7 +43,7 @@ class MeasurementPlots(QWidget):
                 painter.setPen(QPen(QColor("#ebe8e1"), 1, Qt.PenStyle.DotLine))
                 painter.drawLine(graph.left(), y, graph.right(), y)
             if not self.records:
-                painter.setFont(QFont("Avenir Next", 10))
+                painter.setFont(QFont("Segoe UI", 10))
                 painter.setPen(QColor("#8b9492"))
                 painter.drawText(graph, Qt.AlignmentFlag.AlignCenter, "No measurements yet")
                 continue
@@ -61,12 +61,12 @@ class MeasurementPlots(QWidget):
             padding = max((high - low) * 0.08, 1e-9)
             low -= padding; high += padding
 
-            painter.setFont(QFont("Avenir Next", 8))
+            painter.setFont(QFont("Segoe UI", 8))
             painter.setPen(QColor("#7b8583"))
             painter.drawText(area.adjusted(0, 9, -14, 0), Qt.AlignmentFlag.AlignTop | Qt.AlignmentFlag.AlignRight, f"{low:.3g} to {high:.3g}")
 
             legend_x = area.left() + 118
-            for key, color in zip(keys, colors):
+            for key, color in zip(keys if len(keys) > 1 else (), colors):
                 painter.setBrush(QColor(color)); painter.setPen(Qt.PenStyle.NoPen)
                 painter.drawEllipse(QPointF(legend_x, area.top() + 15), 3, 3)
                 painter.setPen(QColor("#657370"))
@@ -87,5 +87,5 @@ class MeasurementPlots(QWidget):
                 painter.drawPath(path)
                 last_x = graph.left() + graph.width() * (len(values) - 1) / max(1, len(values) - 1)
                 last_y = graph.bottom() - graph.height() * (values[-1] - low) / (high - low)
-                painter.setPen(QPen(QColor("#ffffff"), 1.5)); painter.setBrush(QColor(color))
+                painter.setPen(QPen(QColor(255, 254, 250, 190), 1.5)); painter.setBrush(QColor(color))
                 painter.drawEllipse(QPointF(last_x, last_y), 3.5, 3.5)

@@ -64,7 +64,7 @@ def atomic_write_json(
             os.close(backup_descriptor)
             try:
                 shutil.copy2(target, backup_temp_name)
-                with open(backup_temp_name, "rb") as backup_handle:
+                with open(backup_temp_name, "r+b") as backup_handle:
                     os.fsync(backup_handle.fileno())
                 os.replace(backup_temp_name, backup)
             finally:

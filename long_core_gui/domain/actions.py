@@ -208,7 +208,7 @@ class ActionBuilder:
 
     @staticmethod
     def _measurement_parameters(step: QueueStep) -> dict[str, Any]:
-        parameters: dict[str, Any] = {"mode": step.measurement_mode.value}
+        parameters: dict[str, Any] = {"mode": step.measurement_mode.value, "sample_metadata": step.sample.to_dict()}
         if step.measurement_mode is MeasurementMode.CONTINUOUS:
             parameters.update(step.continuous.to_dict())
         else:

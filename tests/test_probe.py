@@ -136,3 +136,12 @@ class TestLegacySetup:
         machine = MachineConfig.empty().with_port(Subsystem.TRACK, 0, baudrate=19200)
         restored = MachineConfig.from_dict(machine.to_dict())
         assert restored == machine
+
+
+def test_read_error_remains_visible_in_capture():
+    class BrokenRead(SimulatedSerialTransport):
+        def read_until(self):
+            raise TransportError("read timeout")
+    capture = ProbeSession(Subsystem.MS, BrokenRead(_profile())).run()
+    assert not capture.ok
+    assert "read timeout" in capture.steps[0].note
